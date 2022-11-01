@@ -4,31 +4,33 @@
 
 In diesem Kapitel finden Sie ...
 
-- ... Zielformulierungen im Lernfeld 2.
-- ... Bewertungshinweise sowie Organisatorisches.
+- ... Zielformulierungen im Lernfeld 2,
+- ... Bewertungshinweise sowie
+- ... Organisatorisches zum Unterricht.
 
 ---
 
 ## Zielformulierung und Inhalte
 
-Sie verfügen über die Kompetenz, die Ausstattung eines Arbeitsplatzes nach Kundenwunsch zu dimensionieren, anzubieten, zu beschaffen und den Arbeitsplatz an die Kunden zu übergeben.
-
-In diesem Moodle-Kurs werden die eher technischen Anteile des LF2 - "Arbeitsplätze nach Kundenwunsch ausstatten" aufgegriffen.
-
-- Lernsituation LS 2.6 - "IT-Systeme unterscheiden"
-- Lernsituation LS 2.7 - "Netzwerkspeicher dimensionieren"
-- Lernsituation LS 2.8 - "IT-Systeme in Betrieb nehmen"
-- Lernsituation LS 2.9 - "Sensoren und Aktoren nutzen"
-
----
-
 ### Didaktischer Wizard
 
-Sie finden den didaktischen Wizard der MMBbS unter folgendem Link: [https://didakt.mm-bbs.de](https://didakt.mm-bbs.de)
+- Sie finden die didaktische Planung der MMBbS im [Didaktischen Wizard](https://didakt.mm-bbs.de).
+- Die Lernsituationen sind auch direkt unter [GitHub - (Herr-NM)](https://herr-nm.github.io/MMBbS_KIT_Curriculum) abrufbar.
+- Dieser Moodle-Kurs ist als MkDocs-Seite unter [GitHub.io - (Herr-NM)](https://herr-nm.github.io/MMBbS_KIT_LF02) frei einsehbar.
 
-![Tabelle didaktischer Wizard](bilder/kap_00_didaktischerWizard.png)
+<br>
 
-Der rot markierte Bereich stellt in der Jahresplanung die Lernsituationen LS 2.6-2.9 dar. Auf der Webseite sind die Lernsituationen als PDF zum Download bereitgestellt.
+### Inhalt der Lernsituationen
+
+Die Lernsituationen der Lernfelder werden aus den Lernfeldbeschreibungen des jeweiligen Rahmenlehrplans abgeleitet. Dazu dient in diesem Bildungsgang der Rahmenlehrplan der Kaufleute für Digitalisierungsmanagement (KDM).
+
+Im Lernfeld 12 haben die KDM auf das Berufsbild spezialisierte Inhalte.
+
+| Nr. | Lernsituation | Unterrichtsstunden |
+| :--- | :--- | :--- |
+| LS 2.6 | IT-Systeme unterscheiden | 12 |
+| LS 2.7 | Netzwerkspeicher dimensionieren | 12 |
+| LS 2.8 | | |
 
 ---
 
