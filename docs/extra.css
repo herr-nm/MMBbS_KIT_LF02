@@ -1,0 +1,24 @@
+.wy-side-nav-search {
+    background-color: #265186;
+}
+h1 {
+    color: #265186
+}
+a {
+    color: #C5A981
+}
+:root {
+    /* Primäres Farbschema */
+    --md-primary-fg-color: #265186 ;
+    --md-primary-fg-color--light: ...;
+    --md-primary-fg-color--dark: ...;
+    --md-primary-bg-color: #C5A981;
+    --md-primary-bg-color--light: #C5A981;
+  
+      /* Akzent Farbschema */
+   --md-accent-fg-color:                ... ;
+   --md-accent-fg-color--transparent:   ...;
+   --md-accent-bg-color:                ...;
+   --md-accent-bg-color--light:         ...;
+  
+  }

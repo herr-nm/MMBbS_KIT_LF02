@@ -1,0 +1,39 @@
+site_name: Lernfeld 2 - technisch
+
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: bilder/favicon.png
+  logo: bilder/logo.png
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
+#theme:
+#    name: readthedocs
+#    highlightjs: true
+#    hljs_languages:
+#        - yaml
+#        - rust
+
+extra_css:
+    - 'extra.css'
+
+use_directory_urls: false
+
+repo_url: https://dev.mm-bbs.de/Neumann/lf2-technisch
+
+nav:
+    - Einleitung zum LF2: 'index.md'
+    - Kapitel 00 - Organisatorisches: 'kapitel_00.md'
+    - Kapitel 01 - Modellunternehmen: 'kapitel_01.md'
+    - Kapitel 02 - IT-Systeme auswählen: 'kapitel_02.md'
+    - Kapitel 03 - Netzwerkspeicher dimensionieren: 'kapitel_03.md'
+    - Kapitel 04 - IT-Systeme in Betrieb nehmen: 'kapitel_04.md'
+    - Kapitel 05 - Sensoren auslesen: 'kapitel_05.md'
+    - Kapitel 06 - Aktoren ansteuern: 'kapitel_06.md'
+    - Kapitel 07 - Klassenarbeit: 'kapitel_07.md'
+    - Kapitel 08 - Weiteres Lernmaterial: 'kapitel_08.md'
