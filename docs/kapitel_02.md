@@ -64,24 +64,29 @@ Da Sie neu in der Vertriebsabteilung sind, empfiehlt Ihr Ausbilder Ihnen, sich v
 
 ### Informationsmaterial M|2.1: Methodeninformation "Mind Map"
 
-#### In vier Schritten erstellen Sie eine Mind Map
+#### Was ist eine Mindmap?
+Das Wort "Mindmap" kommt aus dem Englischen und setzt sich aus den Wörtern "mind" und "map" zusammen. "Mind" kann mit "Geist", "Gedanke" oder "Kopf" übersetzt werden. "Map" bedeutet "Karte" – im Sinn von Landkarte oder Stadtplan. Zusammengesetzt ist eine Mindmap also eine Gedankenkarte oder ein Gedankenplan.
 
-1. Schritt: Schreiben Sie das zentrale Thema in die Mitte der zu erstellenden Mind Map.
-2. Schritt: Sammeln Sie Hauptpunkte, die den Beginn von Ästen in der Mind Map bilden.
-3. Schritt: Sammeln Sie anschließend zu den Hauptpunkten zugehörige Unterpunkte, die in der Mind Map zu einer Verästelung führen.
-4. Schritt: Verfeinern Sie die Mind Map, sodass diese auch später noch für Sie verständlich bleibt.
-5. Schritt (optional): Fügen Sie Querverbindungen oder Hinweise ein.
-6. Schritt (optional): Grafische Darstellungen an den Ästen vereinfachen die Orientierung und sorgen für eine bessere Erinnerung an Aspekte der Mind Map.
+So viel zum Wort – viel wichtiger ist natürlich, was eine Mindmap wirklich ist. Das interessiert dich eh viel mehr.
 
-#### Anmeldung am Terminalserver
+Eine Mindmap ist eine grafische Darstellung zu einem Thema, Vorgang oder einer Assoziation. Meist gibt es ein Wort (Thema), das im Zentrum steht. Von diesem Zentrum gehen mehrere Verbindungen zu anderen Themen ab, von denen wiederum weitere Verbindungen abgehen.
 
-![QR-Code-Videotutorial](bilder/kap_02_videotutorialTerminalserver.png)  
-[Videotutorial: MMBbS Terminalserver aufrufen](https://web.microsoftstream.com/video/6f9513ac-e70b-459b-8469-34b7b22a5325)
+#### Zusammengefasst die Vorteile einer Mindmap
 
-#### Grundlagen der Bedienung des Mindmanagers
+- Themen übersichtlich strukturieren
+- Ordnen von komplexen Aufgaben
+- Problemlos erweiterbar
+- Legt Wissenslücken offen
 
-![QR-Code-Videotutorial](bilder/kap_02_videotutorialMindmanager.png)  
-[Videotutorial: Mindmanager - Mindmaps erstellen](https://web.microsoftstream.com/video/cc5f9c9e-a96e-48cb-8604-888c8cfb372f)
+#### Wie erstellt man eine Mindmap? 5 Schritte zur Mindmap
+
+1. Schreib das Hauptthema zentral auf ein Blatt.
+2. Überleg dir, welche Unterthemen zu dem Hauptthema gehören, und ordne die Unterthemen um das Hauptthema an.
+3. Zeichne farbige Verbindungen von dem Hauptthema zu den Unterthemen. Beachte, dass jedes Unterthema eine eigene Farbe erhält.
+4. Ergänze Begriffe, die zu dem Unterthema gehören, und verbinde sie mit dem Unterthema. Benutze hierfür die gleiche Farbe wie für die Verbindung vom Hauptthema zu diesem Unterthema.
+5. Wiederhole die Schritte, bis du alle wichtigen Aspekte eines Themas vollständig auf deiner Mindmap erfasst hast.
+
+*Quelle: Learn Attack - Karmen (o.J.). Mindmap erstellen: In 5 einfachen Schritten zur Mindmap. Link [Stand: 04.10.2022].*
 
 ---
 
