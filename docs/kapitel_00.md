@@ -125,7 +125,33 @@ In dieser Rubrik werden in den Kapiteln Lernmethoden und Tools vorgestellt, die 
 
 ### Obsidian Notes
 
-### Obsi
+Obsidian Notes ist eine Software für die Erstellung von zusammenhängenden Notizen. Diese werden in Markdown angelegt und bilden Seiten, ähnlich zur Struktur in Wikipedia, die schließlich untereinander verlinkt werden können. Als Ergebnis bildet sich hieraus automatisch zusätzlich ein interaktives Begriffsnetzwerk:
+
+![Obsidian Graph](bilder/kap_00_obsidian_graph.png)
+
+*Bildquelle: [https://obsidian.md](https://obsidian.md)*
+
+### Obsidian Tutorial-Kurs
+
+Auf YouTube finden Sie einen [Obsidian Tutorial-Kurs](https://youtube.com/playlist?list=PLzp2ZLXTBP0uMYXsnxVjJMrtWJ9JIncPC), falls Sie das Tool einsetzen oder sich einen Überblick verschaffen möchten.
+
+![YouTube Obsidian](bilder/kap_00_obsidian_tutorial.png)
+
+*Bildquelle: [https://www.youtube.com/playlist?list=PLzp2ZLXTBP0uMYXsnxVjJMrtWJ9JIncPC](https://www.youtube.com/playlist?list=PLzp2ZLXTBP0uMYXsnxVjJMrtWJ9JIncPC)*
+
+---
+
+## GitHub
+
+Dieser Kurs wird bei Erstellung und Überarbeitung mittels Markdown-Dateien verwaltet, in MkDocs zusammengeführt und parallel mit Git verwaltet. Dabei erfolgt die Versionierung über ein öffentliches Git-Repository, welches auch mittels GitHub Pages veröffentlicht ist. Kurzum, über die beiden Links s.u. finden Sie diesen Moodle-Kurs und auch die Lernsituationen als öffentliche Webseite.
+
+### GitHub.io - LF2-Kurs als MkDocs-Variante
+
+[https://herr-nm.github.io/MMBbS_KIT_LF02/](https://herr-nm.github.io/MMBbS_KIT_LF02/)
+
+### GitHub.io - Curriculum der kaufmännischen IT-Berufe
+
+[https://herr-nm.github.io/MMBbS_KIT_Curriculum/](https://herr-nm.github.io/MMBbS_KIT_Curriculum/)
 
 ---
 
