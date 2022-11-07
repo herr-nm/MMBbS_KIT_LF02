@@ -24,7 +24,7 @@ Sicherlich haben Sie schon einmal für eine private Anschaffung aus verschiedene
 
 ---
 
-## Kompetenz 2.1: IT-Systeme (Hardware) unterscheiden
+## Kompetenz 2.1: IT-Systeme unterscheiden
 
 Die ersten Kundenanfragen werden Ihnen zugewiesen. Dazu haben die Kolleginnen und Kollegen der Abteilung eine Vorauswahl der Anfragen getroffen, um komplexere Systemzusammenstellungen herauszufiltern. Sie nehmen sich nun den Aufträgen der Bestandskunden an, Ihr Ausbilder möchte hierfür Ihre Vorschläge zur Abstimmung vorab erhalten. Als erstes erscheint Ihnen im System die folgende Anfrage der Kaeks OHG.
 
@@ -94,7 +94,7 @@ Eine Mindmap ist eine grafische Darstellung zu einem Thema, Vorgang oder einer A
 
 #### Tablet-PC
 
-Ein Tablet (englisch tablet ‚Schreibtafel‘, US-engl. tablet „Notizblock“) oder Tabletcomputer, Tablet-PC, selten auch Flachrechner, ist ein tragbarer, flacher Computer in besonders leichter Ausführung mit einem Touchscreen, aber, anders als bei Notebooks, ohne ausklappbare mechanische Tastatur. Ein Tablet ist eine spezielle Bauform eines Personal Computers, die zu den Handheld-Geräten zählt.
+Ein Tablet (englisch tablet "Schreibtafel", US-engl. tablet "Notizblock") oder Tabletcomputer, Tablet-PC, selten auch Flachrechner, ist ein tragbarer, flacher Computer in besonders leichter Ausführung mit einem Touchscreen, aber, anders als bei Notebooks, ohne ausklappbare mechanische Tastatur. Ein Tablet ist eine spezielle Bauform eines Personal Computers, die zu den Handheld-Geräten zählt.
 
 Aufgrund der leichten Bauart und des berührungsempfindlichen Bildschirms zeichnen sich Tablets durch eine einfache Handhabung aus. Die Geräte ähneln in Leistungsumfang, Bedienung und Design modernen Smartphones und verwenden meist ursprünglich für Smartphones entwickelte Betriebssysteme. Wegen der Bildschirmtastatur, die nur bei Bedarf eingeblendet wird, eignen sich Tablets weniger gut für das Schreiben größerer Textmengen.
 
@@ -224,6 +224,56 @@ Soll ein Festplattenspeicher mit den darauf abgelegten Dateien netzweit zur Verf
 - *[https://de.wikipedia.org/wiki/Network_Attached_Storage](https://de.wikipedia.org/wiki/Network_Attached_Storage)*  
 - *[Bildquelle NAS](https://www.onlinepc.ch/img/9/7/6/1/0/0/Bild-01---Synology_NAS_w915_h915.jpg)*
 
+#### Thin- und Zero-Clients
+
+Als Reaktion auf die zunehmende Komplexität von Thin Clients riefen Hersteller wie Pano Logic oder NComputing die Rückkehr zum absolut schlanken Endgerät aus, dem Zero Client. Um den Begriff hat sich mittlerweile ein Hype gebildet, und deshalb benutzen ihn mehrere Hersteller, um sehr unterschiedliche Konzepte zu benennen. Was kennzeichnet also den Zero Client und ist er wirklich das einzig wahre Endgerät für virtuelle Desktops?
+
+##### Thin Clients: Kompromiss zwischen schlank und leistungsfähig
+
+Die im Lauf der Jahre gewachsene Ausstattung von Thin Clients mit immer mehr Funktionen spiegelt die widersprüchlichen Anforderungen an diese Geräte wider. Einerseits sollen sie wartungsarm sein und wenig Strom verbrauchen, andererseits ein ähnliches Benutzererlebnis bieten wie ein ausgewachsener PC. Da jedoch remote ausgeführte Audio- oder Video-Anwendungen oft nicht den Erwartungen der User entsprechen, springen in solchen Fällen ein lokaler Desktop inklusive Web-Browser oder Media Player ein.
+
+##### Lokale Software erfordert Management
+
+Mit der Zahl lokal installierter Softwarekomponenten steigt der Wartungsaufwand, weil etwa im Fall von XP Embedded auch jedes Security Update des Internet Explorer eingespielt werden muss.
+
+Bedingt durch den Wettbewerb bei der Desktop-Virtualisierung kommen neue Remote-Display-Protokolle hinzu, so dass es mit Unterstützung für RDP und ICA nicht mehr getan ist. Die Geräte sollen also zumindest noch PCoIP sprechen, neuerdings wird auch RemoteFX erwartet.
+
+##### Zero Clients schließen potenzielle Nutzergruppen aus
+
+Wenn nun bestimmte Hersteller weniger Komplexität fordern, dann müssen sie trotzdem den Spagat zwischen einfachem Management und ansprechendem Benutzererlebnis meistern. Dabei kommen ihnen allerdings die Fortschritte bei den Remote-Display-Protokollen ebenso zugute wie jene bei der Desktop-Virtualisierung insgesamt.
+
+Wenn jedoch Mechanismen wie Multimedia Redirection oder Reverse Seamless ausscheiden, dann verringert dies die potenziellen Einsatzgebiete für die Geräte. Das betrifft primär anspruchsvolle Software für Wissensarbeiter und Power-User, die man mit Hilfe virtueller Desktops für Thin Clients gewinnen wollte. Sie bleiben beim traditionellen Server Based Computing (Terminal-Server, Citrix) weitgehend außen vor, der Schwerpunkt liegt hier auf aufgabenbezogenen Tätigkeiten.
+
+##### Was darf rein in einen Zero Client?
+
+Neben Pano haben auch Dell, Fujitsu, Sun/Oracle oder Wyse Geräte im Angebot, die sie als Zero Clients bezeichnen. Pano vertritt die reine Lehre und möchte nur das "absolute Minimum" am Arbeitsplatz sehen. Es installiert dort keine Software oder Treiber. Dagegen halten die Teradici-Lizenznehmer wie Fujitsu oder Dell lokal Code als Firmware vor, die bei Bedarf auch aktualisiert werden muss.
+
+Wyse schließlich lädt mit mit seinem Xenith-Gerät die Konfiguration und die so genannte Engine für bestimmte Protokolle beim Start aus dem Netz. Weil der Code nicht lokal vorgehalten wird, reklamiert auch Wyse einen konfigurationsfreien Zero Client für sich.
+
+##### Kriterien für Zero Clients
+
+Während sich das Marketing der Hersteller vor allem mit der Frage beschäftigt, ob die Zero Clients der Konkurrenz diese Bezeichnung verdienen, möchte der potenzielle Käufer wissen, welche Kriterien solche Geräte tatsächlich erfüllen sollten. Der Ex-Gartner-Analyst Simon Bramfitt stellte eine solche Liste zusammen, die gleichzeitig die wesentlichen Vorteile dieses Konzepts repräsentiert:
+
+- **Plug and Play:** ein Zero Client muss aus der Box ohne Eingriff des Administrators einsatzfähig sein. Ein neues Gerät muss sich außerdem genauso verhalten wie alle anderen des gleichen Modells, ohne dass es vor der Auslieferung individuell angepasst wurde. Wenn mehr zu tun ist als das Gerät mit dem Netz zu verbinden, sowie Tastatur, Maus und Monitor anzuschließen, dann hat der Gerät ein wesentliches Kriterium nicht erfüllt.
+- **Keine Konfiguration:** ein eingeschalteter Zero Client muss in der Lage sein, eine Netzverbindung aufzubauen, virtuelle Desktop-Umgebungen bzw. Terminal-Server zu finden und sich dort anzumelden, ohne dafür konfiguriert zu werden.
+- **Seltene und zentrale Updates:** Wenn überhaupt Updates erforderlich sind, dann sollten sie selten sein (keine "Patch Tuesdays") und sich zentral verteilen lassen, ohne dass IT-Mitarbeiter physisch auf die Zero Clients zugreifen müssen. Lokale Peripherie sollte sich nutzen lassen, ohne dass dafür Treiber installiert werden.
+
+Unter diesen Kriterien können Geräte als Zero Client durchgehen, die etwa aus der Sicht von Pano Logic keine sind, weil sie eine CPU besitzen und Software ausführen. Andererseits gehen die Geräte auf Basis von Teradici-Technik vom Konzept her zwar als Zero Clients durch, die praktische Implementierung verstößt bei häufigen Firmware-Updates jedoch gegen das dritte Kriterium.
+
+##### Geringe Flexibilität und die Folgekosten
+
+Die Ausrichtung von Zero Clients auf Einfachheit und geringen Management-Aufwand helfen dabei, Kosten zu sparen, sowohl beim Erwerb der Geräte als auch bei ihrem Unterhalt. Dazu werfen sie viele der Erweiterungen über Bord, die Hersteller von Thin Clients entwickelt haben, um die Defizite der zentralen Ausführung von Anwendungen zu kompensieren. Das Ergebnis kann je nach Konzept zu geringerer Flexibilität führen und die Kostenvorteile zunichte machen.
+
+Bei radikalen Zero-Client-Konzepten bietet die Hardware nur wenige und fest verdrahtete Funktionen, lokale Software gibt es nicht. Nachdem die ganze Intelligenz und Arbeitslast auf den Server verlagert wird, besteht keine Gefahr, dass der Zero Client aufgrund höherer Anforderungen seine Aufgabe nicht mehr erfüllen könnte. Einzelne Hersteller reklamieren deshalb eine Nutzungsdauer ihrer Geräte von bis zu 10 Jahren.
+
+##### Kürzere Lebensdauer bei fehlenden Update-Möglichkeiten
+
+Andererseits können Zero Clients je nach Update-Fähigkeit nicht von technischen Fortschritten profitieren, etwa bei Remoting-Protokollen. Wenn Anwender jedoch in den Genuss dieser Errungenschaften kommen möchten, dann geht das möglicherweise nur über den vorzeitigen Austausch der Hardware. Das gilt auch dann, wenn Hersteller heute proprietäre Protokolle verwenden, aber sich Technologien wie RemoteFX im Lauf der Zeit als De-facto-Standard etablieren sollten.
+
+Die geringere Flexibilität zeigt sich auch bei solchen Geräten, die Puristen nicht als Zero Clients durchgehen lassen, weil sie CPUs sowie RAM besitzen und Software lokal ausführen. Beispielsweise beruht das Xenith-Modell von Wyse auf der gleichen Hardware wie die Class-C-Geräte (also traditionelle Thin Clients, die auch Windows Embedded ausführen können). Im Gegensatz zu universellen Thin Clients sind sie aber dauerhaft auf eine bestimmte Technologie festgelegt, sei es Citrix/HDX oder VMware View/PCoIP (siehe dazu die umfangreiche Analyse von Brian Madden).
+
+*Quelle: Sommergut (2011): [https://www.windowspro.de/wolfgang-sommergut/zero-clients-definition-varianten-vorteile-und-nachteile](https://www.windowspro.de/wolfgang-sommergut/zero-clients-definition-varianten-vorteile-und-nachteile) [Stand: 07.11.2022].*
+
 #### Peripherie
 
 In der Informatik wird der Ausdruck Peripherie verwendet, wenn von Peripheriegeräten die Rede ist, das sind z. B. alle Geräte, die an die Zentraleinheit angeschlossen sind/werden. Diese Geräte bedürfen der Steuerung durch die Zentraleinheit und gegebenenfalls einer vorherigen Initialisierung. Dies sind zum Beispiel Drucker, Scanner, Tastatur und Maus, aber auch interne Geräte wie Anschlüsse, Laufwerke und Erweiterungskarten.
@@ -237,17 +287,13 @@ Peripheriegeräte sind unterteilt in Eingabe- und Ausgabegeräte. Auch Multifunk
 
 ---
 
-Nachdem Sie sich über die unterschiedlichen IT-Systeme informiert haben und deren Charakteristika, Stärken und Schwächen kennen, fühlen Sie sich sicher genug, eine Auswahl für den Kunden Kaeks OHG zu treffen.
-
----
-
 ### Arbeitsauftrag A|2.2: Auswahl eines IT-Systems für die Kaeks OHG
 
 Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten erfüllt. Bereiten Sie außerdem entsprechend Ihrer angestellten Überlegungen zur verbalen Begründung einer Auswahl eine kurze Stellungnahme zur Überzeugung des Ausbilders und des Kunden vor. Verschriftlichen Sie diese in einem Text.
 
 ---
 
-## Kompetenz 2.2: IT-Systeme (Software) unterscheiden
+## Kompetenz 2.2: Software unterscheiden
 
 Bei der Auswahl des IT-Systems haben Sie zwar eine Kategorie an Geräten als Ergebnis erzielt, allerdings unterscheiden sich die Systeme hinsichtlich ihrer Software. Während von der Kaeks OHG diesbezüglich keine Vorgaben vorlagen, werden in der nächsten Kundenanfrage Wünsche hierzu geäußert.
 
@@ -263,15 +309,17 @@ Heute melde ich mich bei Ihnen in anderer Sache. Leider löst sich so langsam un
 
 Ich habe mit unserem Video-Spezialisten gesprochen und er hat folgende Wünsche:
 
-- der PC soll leistungsstarke Komponenten im High-End-Bereich haben.
+- Der PC soll leistungsstarke Komponenten im High-End-Bereich haben.
 - Die Videoschnittsoftware, die wir einsetzen läuft auf MacOS und Windows 10 gut und stabil, wir wollen wenn möglich bei MacOS bleiben.
 - Es soll vielfältige Peripherie angeschlossen werden können, daher also moderne Anschlüsse berücksichtigen.
 
-Da wir in der Agentur verschiedenste Geräte einsetzen, haben wir uns für den Client *MS Teams* als Groupware entschieden, ich bin Apple-User, daher meine Frage: Hat der Kollege das korrekt eingeschätzt? Auf welchen Systemen funktioniert die Anwendung? Kann ich außerdem auch die Apps von meinem iPad Pro auf dem System nutzen?
+Ferner habe ich allgemein noch Fragen, die bei der Auswahl eines PCs aufgekommen sind:
 
-Ach ja und bevor ich es vergesse: Wir brauchen dann auch entsprechende Software-Lizenzen für das Windows und auch für andere Anwendungen. Wie sieht es da bei der Streaming-Software OBS, dem Adobe-CC-Paket und den Microsoft-Anwendungen aus?
+- Da wir in der Agentur verschiedenste Geräte einsetzen, haben wir uns für den Client *MS Teams* als Groupware entschieden. Auf welchen Betriebssystemen funktioniert diese Anwendung?
+- Ich bin Nutzer eines Apple iPad Pro und würde einige Apps gerne auf dem PC installieren, damit ich mich nicht umgewöhnen muss, geht das?
+- Mein Kollege nutzt ein Samsung Smartphone für viele Apps, kann er diese auf dem PC installieren?
 
-Viele Grüße,
+Viele Grüße und Dank im Voraus,
 
 Volker Fuchs  
 Schneidefuchs Werbeagentur GmbH
@@ -280,81 +328,22 @@ Schneidefuchs Werbeagentur GmbH
 
 ### Arbeitsauftrag A|2.3: Software- und Systemarten unterscheiden
 
-1. In der Kundenanfrage der Schneidefuchs Werbeagentur GmbH stecken verschiedene Anforderungen. Notieren Sie sich diese übersichtlich.
-2. Welche Aspekte muss die Werbeagentur bei der Auswahl eines Betriebssystem bzw. eines Schnittcomputers hinsichtlich der Rechnerarchitektur berücksichtigen?
+1. In der Kundenanfrage der Schneidefuchs Werbeagentur GmbH stecken verschiedene Anforderungen und Fragestellungen. Notieren Sie sich diese übersichtlich.
+2. Welche Aspekte muss die Werbeagentur bei der Auswahl eines Betriebssystem bzw. eines Schnittcomputers hinsichtlich der Rechnerarchitektur (CPU) berücksichtigen?
 3. Welche Rechnerarchitekturen gibt es aktuell im Praxis-Einsatz und welche Betriebssysteme können auf diesen jeweils eingesetzt werden?
-4. Wie verhält sich der Betrieb von Anwendungssoftware zu einem Betriebssystem bzw. zu einer Rechnerarchitektur? Welche Zusammenhänge gibt es?
+4. Wie verhält sich der Betrieb von Anwendungssoftware oder Apps zu einem Betriebssystem bzw. zu einer Rechnerarchitektur? Welche Zusammenhänge gibt es?
 
 ---
 
 ### Informationsmaterial M|2.4: Rechnerarchitekturen
 
-#### Prozessor-Einsatz bei Apple
+#### Der Rechner als System
 
-##### Von Motorola zu IBM
+![Studyflix Recher als System](bilder/kap_02_studyflix_rechnerarchitektur.png)
 
-Ursprünglich setzte Apple auf Prozessoren von Motorola – so kamen Motorola-CPUs des Typs 68000 zum Einsatz. Mit dem PowerMac wechselte der Hersteller im Jahr 1994 auf IBM-Prozessoren mit PowerPC-Architektur. Während die Prozessoren von Motorola einen CISC-Befehlssatz (Complex Instruction Set Computer) verwendeten, kam bei den PowerPC-Modellen ein RISC-Befehlssatz (Reduced Instruction Set Computer) zum Einsatz.
+Hier geht es zum Video: [https://studyflix.de/informatik/der-rechner-als-system-770](https://studyflix.de/informatik/der-rechner-als-system-770)
 
-Aufgrund der unterschiedlichen Befehlssätze waren Programme, die für Motorola-CPUs kompiliert wurden nicht mit den neuen PowerPC-Prozessoren kompatibel. Trotzdem konnten unter Apples damaligem Betriebssystem CPUs mit beiden Befehlssätzen verwendet werden. Dafür wurden zum einen viele Programme auf RISC angepasst, zum anderen beherbergte das Betriebssystem einen Emulator von Motorola, auf dem nicht angepasste Programme ausgeführt wurden.
 
-##### Der Sprung zu x86
-
-Der im Jahr 2005 durchgeführte Sprung von PowerPC auf x86 lief analog ab. Apples neues Betriebssystem Mac OS X 10.4 Tiger hatte mit Rosetta einen Emulator an Bord, der es erlaubte, alten PowerPC-Code auszuführen. Die damals verbreiteten Java-Applikationen liefen aufgrund der Java Virtual Machine ohnehin auf beiden Architekturen – wobei es vereinzelte Ausnahmen gab.
-
-Steve Jobs nannte bei der WWDC 2005 gleich mehrere Gründe, wieso Apple zu Intel wechselte. Zum einen sollten die neuen CPUs eine deutlich höhere Leistung pro Watt liefern. Zudem sei es unmöglich gewesen, Frequenzen von über 3 GHz mit PowerPC-Prozessoren zu erreichen. Auch die geplanten – und niemals produzierten – G5 PowerBooks seien nicht umsetzbar gewesen. Von Jobs unerwähnt blieb die neue Möglichkeit, Microsofts Windows, das x86-Prozessoren voraussetzte, als zweites Betriebssystem installieren zu können.
-
-##### MacOS lief schon 5 Jahre auf Intel
-
-Noch mehr als mit der Ankündigung des Wechsels schaffte es Steve Jobs die Zuschauer zur WWDC 2005 mit einer anderen Offenbarung zu überraschen: Schon seit 2001 hatte Apple jede Version von MacOS nicht nur für PowerPC, sondern auch für Intels x86-Architektur kompiliert. Und der iMac, den Jobs für seine Keynote zuvor genutzt hatte, verfügte ebenfalls über einen Pentium 4.
-
-Obwohl Apple viel unternommen hatte, um die Kompatibilität alter Software zu gewährleisten, gab es einige Probleme. Programme, die für PowerPC-Prozessoren unter Mac OS (nicht X) geschrieben wurden, konnten nur mit Hilfe eines Drittanbieter-Emulators, die von Stabilitätsproblemen geplagt waren, ausgeführt werden.
-
-##### Apple wechselt zu ARM
-
-Apple hat auf seiner Entwicklerkonferenz WWDC 2020 den Wechsel von Intel- auf ARM-Prozessoren bei seinen Macs angekündigt. Laut Tim Cook sollen innerhalb von zwei Jahren alle Mac-Modelle auf die ARM-Architektur umgestellt werden. Entwickler haben nun Zeit, ihre macOS-Programme auf die neue Architektur anzupassen, denn der x86-Code für Intel-CPUs wird nicht einfach nativ auf ARM-Hardware laufen.
-
-Für Apps, die auf allen Hardware-Plattformen (Apple Silicon und Intel) laufen, gibt es einen neuen Standard namens Universal 2. Um den Übergang für die Anwender komplikationslos zu gestalten, hat Apple ähnlich wie seinerzeit beim Wechsel von PowerPC zu x86 wieder eine Laufzeitumgebung geschaffen, genannt Rosetta 2. Sie soll bestehende Apps emulieren, bis sie portiert sind. Wie stark das Performance und Kompatibilität beeinflusst, muss sich zeigen. Portiert sind laut Apple bereits Microsoft Office, Photoshop und Final Cut Pro.
-
-Doch was treibt Apple zu diesem Schritt? Waren noch vor einigen Jahren ARM-Prozessoren für Notebooks oder gar Desktops und Server ungeeignet, so hat sich hier einiges getan. Der schnellste Supercomputer der Welt ist zurzeit ein ARM-Rechner.
-
-Eine Datenbreite von 64 Bit erreichen ARM-CPUs schon lange, nunmehr stellen auch die Anbindung von sehr viel Arbeitsspeicher, sehr vielen Rechenkernen und PCI Express kein Problem mehr dar. Thunderbolt 3 könnten die ARM-Macs gleich überspringen und mit USB 4 starten, dessen Spezifikationen Thunderbolt 3 umfassen.
-
-*Quellen:*
-
-- *[https://www.computerbase.de/2020-06/apple-mac-intel-x86-cpu-rueckblick/](https://www.computerbase.de/2020-06/apple-mac-intel-x86-cpu-rueckblick/)*  
-- *[https://www.heise.de/news/Apple-wechselt-in-seinen-Mac-von-Intel-auf-ARM-Prozessoren-4791764.html](https://www.heise.de/news/Apple-wechselt-in-seinen-Mac-von-Intel-auf-ARM-Prozessoren-4791764.html)*
-
-#### Unterscheidung von Mikroprozessoren
-
-Man unterscheidet im Wesentlichen zwei Gruppen von Mikroprozessoren:
-
-- CISC-Prozessoren (Complex Instruction Set Computer) - besitzen einen umfangreichen Befehlssatz.
-- RISC-Prozessoren (Reduced Instruction Set Computer) - besitzen eine stark reduzierte Anzahl an sehr effizienten Maschinenbefehlen.
-
-Die Anzahl der Hersteller für Mikroprozessoren hat sich im Laufe der Jahre durch Übernahmen, Insolvenzen oder Rückzug aus dem Geschäft verringert. Der Markt wird umkämpft in einem Wettbewerb um ...
-
-- die höchste Taktfrequenz.
-- die höchste Verarbeitungsbreite
-- die beste Technologie
-- den geringsten Energieverbrauch (=Wärmeentwicklung)
-
-des Mikroprozessors.
-
-Die Taktfrequenz in GHz eines Mikroprozessors gibt an, mit welcher Frequenz ein Prozessor maximal getaktet werden kann, und ist ein Maß dafür, wie schnell er die Anweisungen eines Programms abarbeiten kann. Die durchschnittliche Anzahl der pro Sekunde verarbeiteten Anweisungen wird in MIPS (Millions of Instructions per Second) angegeben.
-
-#### Prozessorfamilien
-
-##### 680xx-Familie
-
-Diese Familie ist namentlich mit den Prozessoren der Firma Motorola verbunden und fand hauptsächlich in den Geräten der Firmen Apple, Atari und Commodore Verwendung. Trotz der damals beachtlichen Reichenleitsung fanden diese Rechner - mit Ausnahme der Apple-Computer - im kommerziellen Bereich kaum Verbreitung. Heute hat diese Prozessorenfamilie für Computer keine Bedeutung mehr. Motorola fertigt jedoch noch Mikrocontroller, die vom 68000 abstammen.
-
-##### 80x86-Familie
-
-Diese Familie ist namentlich mit den Prozessoren der Firmel Intel und AMD verbunden, die heute den Markt dominieren. In der Vergangenheit fanden die Prozessoren hauptsächlich in den Computern von IBM und den sogenannten IBM-kompatiblen Geräten Verwendung. Der Begriff "IBM-kompatibel" ist heute kein Werbeattribut mehr.
-
-##### RISC-Prozessoren
-
-Diese Prozessoren wurden durch den PowerPC der Firma Apple oder durch die Archimedes-Reihe der Firma Acorn bekannt. Nach Weiterentwicklung dieses Prozessortyps entstand die Advanced RISC Maschine (ARM), einer der heute in Embedded-Systemen am meisten eingesetzte Mikroprozessor.
 
 ---
 
