@@ -900,5 +900,8 @@ Im Videoportal "Studyflix" stehen ebenfalls verschiedene Videos und Kurse zur Ve
 
 ---
 
-***Multi Media Berufsbildende Schulen***  
-*Ansprechpartner zum Kurs: neumann@mmbbs.de*
+{%
+   include-markdown "inhalte/lizenzhinweis.md"
+   start="<!--Lizenzhinweis-->"
+   end="<!--Lizenzhinweis-->"
+%}

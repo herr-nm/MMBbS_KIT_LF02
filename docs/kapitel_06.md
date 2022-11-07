@@ -21,3 +21,11 @@ In diesem Kapitel finden Sie ...
 ---
 
 ### Informationsmaterial M|10.2: Podcasts und Podcastfolgen
+
+---
+
+{%
+   include-markdown "inhalte/lizenzhinweis.md"
+   start="<!--Lizenzhinweis-->"
+   end="<!--Lizenzhinweis-->"
+%}

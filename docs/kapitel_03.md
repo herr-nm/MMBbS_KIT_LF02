@@ -994,5 +994,8 @@ Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstell
 
 ---
 
-***Multi Media Berufsbildende Schulen***  
-*Ansprechpartner zum Kurs: neumann@mmbbs.de*
+{%
+   include-markdown "inhalte/lizenzhinweis.md"
+   start="<!--Lizenzhinweis-->"
+   end="<!--Lizenzhinweis-->"
+%}
