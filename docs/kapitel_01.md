@@ -20,11 +20,11 @@ Das IT-Systemhaus ChangeIT GmbH ist seit mehreren Jahren auf dem IT-Markt etabli
 
 ## Zusatzmaterial
 
-| HERDT Campus AYCR | Adobe Creative Cloud | Buchempfehlung 5 |
+| HERDT Campus AYCR | Adobe Creative Cloud | Tool-Sammlung kits |
 | :--- | :--- | :--- |
-| ![Grundstufe Schulbuch](bilder/kap_01_herdt.png) | ![Adobe CC](bilder/kap_01_adobecc.png) | ![IT-Handbuch KIT](bilder/kap_00_zusatzmaterial_buch3.png) |
-| Im HERDT Campus AYCR finden Sie viele PDF-Skripte zu Unterrichtsthemen. Der Zugriff auf den Service ist für Schüler:innen an den MMBbS inklusive. Sie können die Verlagsseite über Ihre Landingpage erreichen. | Wenn Sie Handlungsergebnisse grafisch darstellen oder eine visuelle Übersicht anlegen wollen, greifen Sie gerne auf das Adobe CC zurück, welches Ihnen an den MMBbS angeboten wird. Zur Ersteinrichtung haben Sie eine E-Mail erhalten. Der Blick für Anfänger in Adobe Express lohnt sich. | IT-Handbuch (KIT), Westermann Verlag: Das IT-Handbuch enthält kurze Erläuterungen und Definitionen sowie Schaubilder zu den Themen aller Lernfelder. Das Handbuch dient als schnelles Nachschlagewerk und um einen Überblick zu Themen zu erhalten. |
-| [zur Landingpage](https://www.mm-bbs.de) | [zu Adobe Express](https://www.adobe.com/de/express/) | [Link zum Buch](https://www.westermann.de/artikel/978-3-14-235088-2/IT-Handbuch-IT-Systemkaufmann-frau-Informatikkaufmann-Informatikkauffrau) |
+| ![Grundstufe Schulbuch](bilder/kap_01_herdt.png) | ![Adobe CC](bilder/kap_01_adobecc.png) | ![IT-Handbuch KIT](bilder/kap_01_kits.png) |
+| Im HERDT Campus AYCR finden Sie viele PDF-Skripte zu Unterrichtsthemen. Der Zugriff auf den Service ist für Schüler:innen an den MMBbS inklusive. Sie können die Verlagsseite über Ihre Landingpage erreichen. | Wenn Sie Handlungsergebnisse grafisch darstellen oder eine visuelle Übersicht anlegen wollen, greifen Sie gerne auf das Adobe CC zurück, welches Ihnen an den MMBbS angeboten wird. Zur Ersteinrichtung haben Sie eine E-Mail erhalten. Der Blick für Anfänger in Adobe Express lohnt sich. | Auf der Webseite von kits (Kompetent in Technik und Sprache) gibt es eine Zusammenstellung diverser Tools wie dem QR-Code-Generator, einem kollaborativen Mindmap-Tool (TeamMapper), einem Etherpad und einigen mehr. |
+| [zur Landingpage](https://www.mm-bbs.de) | [zu Adobe Express](https://www.adobe.com/de/express/) | [zur Sammlung](https://kits.blog/tools/) |
 
 ## Lernstrategien & Werkzeuge
 
