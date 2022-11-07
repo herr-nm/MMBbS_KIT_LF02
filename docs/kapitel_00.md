@@ -151,8 +151,6 @@ Dieser Kurs wird bei Erstellung und Überarbeitung mittels Markdown-Dateien verw
 
 [https://herr-nm.github.io/MMBbS_KIT_Curriculum/](https://herr-nm.github.io/MMBbS_KIT_Curriculum/)
 
----
-
 {%
    include-markdown "inhalte/lizenzhinweis.md"
    start="<!--Lizenzhinweis-->"

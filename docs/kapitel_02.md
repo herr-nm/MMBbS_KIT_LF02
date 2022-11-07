@@ -90,7 +90,13 @@ Eine Mindmap ist eine grafische Darstellung zu einem Thema, Vorgang oder einer A
 
 ---
 
-### Informationsmaterial M|2.2: IT-Systeme
+### Informationsmaterial M|2.2: Tool-Tipp - TeamMapper
+
+Über [TeamMapper](https://map.kits.blog/) können Sie Mindmaps kollaborativ erstellen.
+
+---
+
+### Informationsmaterial M|2.3: IT-Systeme
 
 #### Tablet-PC
 
@@ -299,7 +305,7 @@ Bei der Auswahl des IT-Systems haben Sie zwar eine Kategorie an Geräten als Erg
 
 ---
 
-### Informationsmaterial M|2.3: Kundenanfrage - Schneidefuchs Werbeagentur GmbH
+### Informationsmaterial M|2.4: Kundenanfrage - Schneidefuchs Werbeagentur GmbH
 
 Sehr geehrte Damen und Herren,
 
@@ -326,28 +332,36 @@ Schneidefuchs Werbeagentur GmbH
 
 ---
 
-### Arbeitsauftrag A|2.3: Software- und Systemarten unterscheiden
+### Arbeitsauftrag A|2.3: Systemarten und Software unterscheiden
 
 1. In der Kundenanfrage der Schneidefuchs Werbeagentur GmbH stecken verschiedene Anforderungen und Fragestellungen. Notieren Sie sich diese übersichtlich.
-2. Welche Aspekte muss die Werbeagentur bei der Auswahl eines Betriebssystem bzw. eines Schnittcomputers hinsichtlich der Rechnerarchitektur (CPU) berücksichtigen?
-3. Welche Rechnerarchitekturen gibt es aktuell im Praxis-Einsatz und welche Betriebssysteme können auf diesen jeweils eingesetzt werden?
-4. Wie verhält sich der Betrieb von Anwendungssoftware oder Apps zu einem Betriebssystem bzw. zu einer Rechnerarchitektur? Welche Zusammenhänge gibt es?
+2. Ihre Kolleg:innen haben bereits eine Vorrecherche erledigt und zum System Fragen notiert, die Sie im Rahmen einer Produktpräsentation beim Kunden beantworten sollen.
+   1. Welche Merkmale können bei Prozessoren unterschieden werden (nennen und beschreiben)?
+   2. Recherchieren Sie kurz im Internet Vertreter der x86/x64-CPUs sowie Vertreter der ARM-Prozessoren, damit sich der Kunde hierunter konkrete Modelle vorstellen kann.
+   3. Warum ist der Unterschied zwischen RISC und CISC heutzutage unbedeutend?
+   4. Wie steigern Multi-Core-Prozessoren gegenüber Single-Core-Prozessoren ihre Leistung und was ist Hyper Threading?
+   5. Welchen Einfluss hat die Taktfrequenz einer CPU auf die Geschwindigkeit?
+   6. Welche Rolle spielt der Cache bei der Verarbeitung von Daten, was bedeuten dabei L1, L2 und L3?
+   7. Was ist Virtualisierung von Prozessoren und wie werden Typ 1 und Typ 2 voneinander unterschieden?
+   8. Was ist das Pipelining einer CPU?
+   9. Wie können CPUs hinsichtlich ihrer Leistungsfähigkeit miteinander verglichen werden und was haben MIPS und GFLOPS damit zu tun?
+   10. Wie kann eine CPU gekühlt werden (beschreiben Sie Luftkühlung, Wasserkühlung & Lüfterlose Kühlung)?
+3. Welche Aspekte muss die Werbeagentur bei der Auswahl eines Betriebssystem bzw. eines Schnittcomputers hinsichtlich der Rechnerarchitektur (CPU) berücksichtigen, wenn die geplante Software funktionieren soll?
+4. Wie verhält sich der Betrieb von Anwendungssoftware oder Apps zu einem Betriebssystem bzw. zu  einer Rechnerarchitektur? Welche Zusammenhänge gibt es? Nehmen Sie Bezug auf die Software aus der Kundenanfrage von Schneidefuchs.
 
 ---
 
-### Informationsmaterial M|2.4: Rechnerarchitekturen
+### Informationsmaterial M|2.5: Prozessor (CPU)
 
-#### Der Rechner als System
+Rufen Sie sich über die [Landingpage](https://mm-bbs.de) das Script *PC-Technik Grundlagen (Stand 2020)* auf. Sie finden dieses unter: 
 
-![Studyflix Recher als System](bilder/kap_02_studyflix_rechnerarchitektur.png)
+Home > HERDT-Themenkatalog > IT-Technik / Netzwerke / Systeme > IT-Technik > PC-Technik Grundlagen (Stand 2020)
 
-Hier geht es zum Video: [https://studyflix.de/informatik/der-rechner-als-system-770](https://studyflix.de/informatik/der-rechner-als-system-770)
-
-
+Im Kapitel 3 (Prozessor (CPU)) finden Sie die notwendigen Informationen zur Lösung der Aufgaben.
 
 ---
 
-### Informationsmaterial M|2.5: Betriebssysteme
+### Informationsmaterial M|2.6: Betriebssysteme
 
 #### Was ist ein Betriebssystem?
 
@@ -380,7 +394,7 @@ Eine Plattform ist eine bestimmte Kombination aus Hardware und Betriebssystem, a
 
 ---
 
-### Informationsmaterial M|2.6: Anwendungssoftware
+### Informationsmaterial M|2.7: Anwendungssoftware
 
 #### Was sind Anwendungen?
 
@@ -407,412 +421,48 @@ Es gibt verschiedene Methoden, eine Anwendung plattformunabhängig zu gestalten.
 
 ---
 
-### Arbeitsauftrag A|2.4: Lizenzmodelle unterscheiden
+### Informationsmaterial M|2.8: EVA Prinzip
 
-Im Kundenauftrag der Schneidefuchs Werbeagentur werden Ihnen verschiedene Anforderungen benannt. Mit dem Fokus auf die Softwarelizenzen sollen weitere Fragen geklärt werden:
+#### E V A
 
-1. Wonach werden Softwarelizenzen unterschieden?
-2. Welche Lizenzen sind für Adobe Audition verfügbar?
-3. Wie ist die Lizenz von Audacity einzuordnen?
-4. Inwiefern unterscheiden sich Adobe Audition sowie Audacity mit Blick auf die Softwarelizenzen?
+Geht es um elektronische Datenverarbeitung, ist oft vom EVA-Prinzip die Rede - Eingabe, Verarbeitung, Ausgabe. Aber was genau steckt eigentlich dahinter?
 
----
+Die Grundstruktur jedes Computers ist das EVA-Prinzip. EVA ist eine simple Abkürzung und steht für Eingabe, Verarbeitung und Ausgabe: Zuerst werden Daten eingegeben, danach verarbeitet und schließlich erfolgt eine Ausgabe. Für jeden dieser Schritte werden verschiedene Hardware-Komponenten verwendet.
 
-### Informationsmaterial M|2.7: Softwarelizenzen
+#### 1. Die Eingabe bei EVA
 
-#### Softwarelizenzen nach Offenheit des Quellcodes
+Im ersten Schritt des EVA-Prinzips erfolgt die Eingabe der Daten.
 
-##### Public Domain
+- Die Eingabe erfolgt über sogenannte Eingabegeräte. Dazu gehören beispielsweise Maus, Trackpad, Tastatur, Scanner, Webcam, Joystick oder ein Mikrofon.
+- Beispiel: Tippen Sie ein Dokument, geben Sie Buchstaben ein. Diese Buchstaben sind die Daten.
 
-Public Domain oder auch „gemeinfrei“ bedeutet einen völligen Verzicht des Urhebers auf sein Urheberrecht und somit eine kostenlose und uneingeschränkte Nutzung und Weiterverwendung der Software. Da in Deutschland, ein Verzicht auf das Urheberrecht nicht möglich ist, kann hier keine Public Domain Software entstehen. Public Domain Software aus anderen Ländern kann jedoch entsprechend genutzt werden.
+#### 2. Die Verarbeitung
 
-##### Freie Software
+Nachdem Sie die Daten eingegeben haben, werden diese vom Computer berechnet.
 
-Bei freier Software kann nicht nur die Software kostenlos genutzt und weiterverbreitet werden, sondern der Urheber ist verpflichtet den Quellcode offenzulegen. Der Lizenznehmer darf diesen Quellcode dann nicht nur einsehen, sondern auch verändern und den geänderten Quellcode und die daraus resultierende Software weiterverbreiten.
+- Die Verarbeitung geschieht durch Prozessor, Arbeitsspeicher, Grafikkarte, usw. Der Prozessor verfügt über ein Steuer- und Rechenwerk. Zusammen mit dem Arbeitsspeicher bildet er die Zentraleinheit für die Verarbeitung. Während der Verarbeitung greift die Zentraleinheit auch auf die Festplatte zu.
+- Beispiel: Tippen Sie einen Text ein, sieht der Prozessor die Buchstaben und verarbeitet diese Informationen: Es ist ein Buchstabe, er steht am Anfang der Seite, er hat die Farbe Schwarz, usw.
 
-##### Open Source
+#### 3. Die Ausgabe beim EVA-Prinzip
 
-Der Begriff Open Source wird oft mit freier Software gleichgesetzt, er beschreibt allerdings nur die Offenheit des Quellcodes und garantiert keine kostenlose Nutzung. Weitere Einzelheiten zu Open Source Lizenzen siehe Open Source.
+Nachdem die Zentraleinheit alle Berechnungen durchgeführt hat, werden die Daten für den Anwender ausgegeben.
 
-##### Freeware
+- Auch zu den Ausgabegeräten wird bestimmte Hardware zugeordnet. Das Hauptausgabegerät ist der Monitor. Aber auch Hardware wie Drucker und Lautsprecher sind Ausgabegeräte.
+- Beispiel: Tippen Sie einen Buchstaben ein, wird die Eingabe verarbeitet und der Buchstabe erscheint auf dem Monitor. Er wird in der Form ausgegeben, wie der Prozessor ihn verarbeitet hat: Größe, Position auf der Seite, Farbe, usw.
 
-Der Begriff Freeware sollte nicht mit freier Software verwechselt werden, denn es handelt sich hierbei um Software, die kostenlos genutzt werden darf, deren Quellcode meist jedoch nicht öffentlich ist.
-
-##### Donationware
-
-Donationware ist eine Unterart der Freeware. Die Nutzung der Software ist grundsätzlich kostenlos, es wird jedoch um eine Spende gebeten, um die Urheber finanziell zu unterstützen und somit die Entwicklung der Software zu erleichtern.
-
-##### Shareware
-
-Bei Shareware handelt es sich um Software, die kostenlos getestet und weiterverbreitet werden darf. Die Testphase ist entweder zeitlich begrenzt, oder die Testversion ermöglicht nur die Nutzung eines Teils der Funktionalität der Software. Zur uneingeschränkten Nutzung einer solchen Software ist der Erwerb einer kommerziellen Lizenz nötig.
-
-#### Kommerzielle Software
-
-Bei Software unter einer kommerziellen Lizenz erwirbt der Lizenznehmer nur das Recht der Nutzung der Software. Der Erwerb einer solchen Lizenz ist meist entgeltlich, kann jedoch auch kostenlos erfolgen. Ein Beispiel für den kostenlosen Erwerb von kommerzieller Software sind akademische Allianzen wie MSDNAA von Microsoft. Diese Akademischen Allianzen ermöglichen Lehrenden und Lernenden im Bereich Informatik eine kostenlose Nutzung ihrer Software, um diese daran zu binden.
-
-##### Kommerzielle Lizenzmodelle
-
-Alle Software-Produkte unterliegen bestimmten Lizenzbedingungen. Dabei gibt es reine Nutzungslizenzen, die im Wesentlichen aus „einem Stück Papier“ bestehen, sowie Lizenzen, die zur Überprüfung der Einhaltung der Lizenzbedingungen technische Methoden einsetzen.
-
-Bei reinen Nutzungslizenzen erkennt der Lizenznehmer durch Unterzeichnen des Vertrages bzw. einfach durch Nutzung der Software die Vertragsbedingungen an und verpflichtet sich, diese einzuhalten. Eine technische Kontrolle zur Einhaltung der Lizenzbestimmungen besteht nicht. Nutzungslizenzen können in unterschiedlicher Ausprägung angeboten werden. Einige der weit verbreiteten Lizenzformen in diesem Bereich sind:
-
-##### Freie Software
-
-Die Software darf – in der Regel unentgeltlich - von jedem genutzt werden, der die Vertragsbedingungen anerkennt.
-
-##### Einzelplatzlizenz
-
-Viele Softwareprodukte müssen für jeden Rechner, auf dem sie zum Einsatz kommen, extra lizenziert werden. Eine Lizenz darf nicht auf mehreren Rechnern genutzt werden.
-
-##### "Concurrent use"-Lizenz
-
-Sie berechtigen zum Einsatz der Software auf beliebigen Dienstrechnern, solange nicht mehr als die gekaufte Anzahl Lizenzen gleichzeitig in Benutzung ist .
-
-##### Campus-, Fakultäts- oder Institutslizenz
-
-Die Software darf auf beliebigen und beliebig vielen Rechnern der vertragsunterzeichnenden Institution (z.B. Universität) eingesetzt werden.
-
-Viele kommerzielle Softwarehersteller setzen Mechanismen ein, welche die vertragsmäßig korrekte Nutzung der Software kontrollieren. Dabei unterscheidet man im Wesentlichen die folgenden Möglichkeiten:
-
-##### Rechnergebundene Lizenz (nodelocked license)
-
-Die Software wird für einen bestimmten Rechner lizenziert und ist an diesen mittels einer Hardware-ID gebunden.
-
-##### Benutzergebundene Lizenz (named user license)
-
-Die Software ist an einen bestimmten Benutzernamen gebunden und kann von jedem beliebigen Dienstrechner von genau diesem Benutzer genutzt werden.
-
-##### Netzwerklizenz (floating license, concurrent use license)
-
-Die Software wird für eine bestimmte Anzahl gleichzeitiger Aufrufe lizenziert. Die Art des Rechners/Betriebssystems ist dabei in der Regel nicht festgelegt.
-
-*Quellen:*
-
-- *[http://www.informatik.uni-oldenburg.de/~iug09/igr/koenigssee.informatik.uni-oldenburg.de_1211/index.php/software/23-lizenzen/78-formen-von-softwarelizenzen.html](http://www.informatik.uni-oldenburg.de/~iug09/igr/koenigssee.informatik.uni-oldenburg.de_1211/index.php/software/23-lizenzen/78-formen-von-softwarelizenzen.html)*  
-- *[https://doc.itc.rwth-aachen.de/display/SW/Lizenzmodelle](https://doc.itc.rwth-aachen.de/display/SW/Lizenzmodelle)*
+*Quelle: [https://praxistipps.chip.de/eva-prinzip-erklaerung-von-eingabe-verarbeitung-ausgabe_3572](https://praxistipps.chip.de/eva-prinzip-erklaerung-von-eingabe-verarbeitung-ausgabe_3572) [Stand 07.11.2022]*
 
 ---
 
-### Arbeitsauftrag A|2.5: Auswahl eines IT-Systems für die Schneidefuchs Werbeagentur GmbH
+### Arbeitsauftrag A|2.4: Auswahl eines IT-Systems für die Schneidefuchs Werbeagentur GmbH
 
 Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten erfüllt. Bereiten Sie außerdem entsprechend Ihrer angestellten Überlegungen zur verbalen Begründung einer Auswahl eine kurze Stellungnahme zur Überzeugung des Ausbilders und des Kunden vor. Verschriftlichen Sie diese in einem Text.
 
----
+!!! note "Zusätzliches Material, weitere Übungen & Tipps"
 
-## Kompetenz 2.4: Auswahl eines IT-Systems
+    Die folgenden Übungen und Tipps & Tricks dienen Ihrer persönlichen Wiederholung und Vorbereitung auf Klassenarbeiten, Prüfungen etc. Die Übungen werden im Rahmen des Unterrichts nicht besprochen, es sei denn Sie haben konkrete Fragen hierzu.<br><br>*Sei loyal zu denen, die nicht anwesend sind. Damit baust du Vertrauen auf unter denen, die anwesend sind. (Stephen Covey, 1932-2012)*
 
-Nachdem Sie bereits gemeinsam mit Ihrem Ausbilder Gespräche mit zwei Kunden geführt und diesen Ihre Empfehlungen erläutert haben, wurde schon eine Anfrage in eine Bestellung weitergeführt.
-
-![Laptop](bilder/kap_02_busy.jpg)
-
-Der Betriebsrat der Change-IT GmbH, den Sie auch am Kennlerntag gesprochen haben, kommt nun auf die Abteilung als interner Kunde zu. Ihr Ausbilder findet, es sei eine gute Möglichkeit im nächsten Schritt etwas freier zu Arbeiten und überträgt Ihnen die Verantwortung für die Anfrage und auch die folgenden Gespräche dazu.
-
----
-
-### Informationsmaterial M|2.10: Interne Anfrage - Gesprächsprotokoll
-
-| Gesprächspartner | Inhalt |
-| :--- | :--- |
-| **Heiner Paßmann** | Hallo, schön dass Sie mich aufsuchen. Ihr Ausbilder hat schon mit mir gesprochen und mitgeteilt, dass Sie sich um meine Anfrage kümmern werden.|
-| **Sie** | Ganz genau, ich bin gespannt, worum es geht. |
-| **Heiner Paßmann** | Wie Sie wissen, bin ich als Betriebsrat auch für den Gesundheitsschutz der Belegschaft verantwortlich. Zu diesem Punkt sind nun drei Kollegen auf mich zugekommen und haben sich über die hohen Raumtemperaturen an den Arbeitsplätzen beschwert. Ich kann dazu wenig sagen, da ich noch nie einen Schreibtisch in dem Gebäudeteil hatte. Nun war meine Überlegung, ob wir nicht eine Art Sensor-Box an den Arbeitsplätzen installieren könnten. |
-| **Sie** | Das klingt interessant, wie genau stellen Sie sich das denn vor? |
-| **Heiner Paßmann** | Nun, erstmal würde ich gerne die Temperatur messen können und der Mitarbeiter soll sehen, ob die Werte ggf. Grenzwerte über- oder unterschreiten. Wir haben da klare interne aber auch rechtliche Rahmenbedingungen, welche hinsichtlich der Raumtemperatur eingehalten werden müssen. Ich stelle mir das mit einer LED-Anzeige an der Box vor, sodass man mit einem Blick sieht, ob der Normalbereich über- oder unterschritten wird. | 
-| **Sie** | Ja ok, das sollte machbar sein. | 
-| **Heiner Paßmann** | Außerdem kann ich ja schlecht meinen Tag bei den drei Kollegen verbringen, also müsste ich aus meinem Büro oder über mein Smartphone jederzeit die Temperaturwerte ablesen können. |
-| **Sie** | Ok, also eine Art Webanzeige der aktuellen Werte. |
-| **Heiner Paßmann** | Genau, wenn mich dann einer der Kollegen anspricht oder ich zwischendurch mal schauen will, kann ich das direkt ablesen. Letztendlich sollte die Box nicht so groß sein und der Umwelt zuliebe auch recht energiesparend. |
-| **Sie** | Das denke ich auch, die Box soll ja auch auf den Schreibtisch stehen. |
-| **Heiner Paßmann** | Ich kann mir das zukünftig auch als größeres Projekt vorstellen. Im Sinne von Smart Home können wir auch Smart Office anstreben. Wenn die Kollegen recht haben, müssten wir ja darauf entsprechend reagieren. Mir schweben da noch weitere Projekte mit der Box vor, suchen Sie erstmal etwas möglichst flexibles aus. Wenn Sie dann eine Zusammenstellung haben, sprechen Sie mich noch einmal an, damit ich eine ungefähre Kostenabschätzung für die interne Kostenstelle habe. Übertreiben Sie es nicht! |
-| **Sie** | Nein nein, ich habe die Kosten im Blick. Gut, dann mache ich mich mal an die Suche. Bis bald. |
-| **Heiner Paßmann** | Danke, ja bis bald. Nun bin ich gespannt. |
-
----
-
-### Arbeitsauftrag A|2.6: Auswahl eines IT-Systems für die ChangeIT GmbH
-
-Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten erfüllt. Nutzen Sie hierfür das im Kurs aufgeführte Informationsmaterial mit den Steckbriefen von vier IT-Systemen. Bereiten Sie außerdem entsprechend Ihrer angestellten Überlegungen zur verbalen Begründung einer Auswahl eine kurze Stellungnahme zur Überzeugung des Betriebsrates (als internen Kunden) vor. Verschriftlichen Sie diese in einem Text.
-
----
-
-### Informationsmaterial M|2.11: IT-Systeme Datenblätter
-
-#### IT-Sytsem A: Desktop PC mit Windows 10
-
-![IT-System A: Desktop PC mit Windows 10](bilder/kap_02_ITSysA.PNG)
-
-| Bezeichnung | Beschreibung |
-| :--- | :--- |
-| Hersteller und Produktbezeichnung | Dell OptiPlex 5040 Small Form Factor |
-| Maße HxBxT | 29 cm x 9,26 cm x 29,2 cm |
-| Prozessor | Intel Core i3-6100 Prozessor |
-| Anzahl Prozessorkerne | 2 |
-| Taktfrequenz | 3,7 GHz |
-| Arbeitsspeicher | 4 GB DDR3L |
-| Arbeitsspeicher erweiterbar | ja |
-| Festspeicher | 3,5 Zoll, 500 GB (7.200 1/min) |
-| Schnittstelle Bildschirm | 2x Display-Port-Anschluss, 1x HDMI-Anschluss |
-| USB-Schnittstellen | 6x USB 3.0 (2x vorne, 4x hinten), 5x USB 2.0 (2x vorne, 2x hinten, 1x intern) |
-| Netzwerk | LAN: Gigabit-Ethernet (1000 MBit/s, RJ-45-Anschluss), WLAN: keine integrierte Wireless-Funktion |
-| Anschlüsse für LEDs und Temperatursensor | indirekt über USB-Adapter möglich |
-| sonstige Anschlüsse | 2x PS/2-Anschluss, 1x Universal-Audiobuchse |
-| Betriebssystem (Lieferumfang) | Windows 10 |
-| Leistung in Watt | 65 W |
-| Preis | 500,00 € |
-
-#### IT-System B: Thin Client mit Windows Embedded
-
-![IT-System B: Thin Client mit Windows Embedded](bilder/kap_02_ITSysB.PNG)
-
-| Bezeichnung | Beschreibung |
-| :--- | :--- |
-| Hersteller und Produktbezeichnung | HP t620 WES8 64 Bit |
-| Maße HxBxT | 20,01 cm x 4,51 cm x 20 cm |
-| Prozessor | AMD GX-415GA |
-| Anzahl Prozessorkerne | 2 |
-| Taktfrequenz | 1,5 GHz |
-| Arbeitsspeicher | 4 GB |
-| Arbeitsspeicher erweiterbar | keine Information |
-| Festspeicher | 32 GB (Flash Speicher) |
-| Schnittstelle Bildschirm | 2x Display-Port-Anschluss, 1x VGA-Anschluss |
-| USB-Schnittstellen | 2x USB 3.0, 6x USB 2.0 (4x außen, 2x intern) |
-| Netzwerk | LAN: Gigabit-Ethernet (1000 MBit/s, RJ-45-Anschluss), WLAN: keine integrierte Wireless-Funktion |
-| Anschlüsse für LEDs und Temperatursensor | indirekt über USB-Adapter möglich |
-| sonstige Anschlüsse | 1 x Mikrofonbuchse (3,5 mm), 1 x Audio Out (3,5 mm) |
-| Betriebssystem (Lieferumfang) | Windows Embedded Standard 8 |
-| Leistung in Watt | 65 W |
-| Preis | 280,00 € |
-
-#### IT-System C: Mikrocontrollerboard Arduino Uno ohne Betriebssystem (OS)
-
-![IT-System C: Arduino Uno](bilder/kap_02_ITSysC.PNG)
-
-| Bezeichnung | Beschreibung |
-| :--- | :--- |
-| Hersteller und Produktbezeichnung | Arduino Uno Rev.3 |
-| Maße HxBxT | 2,5 cm x 5,5 cm x 8 cm |
-| Prozessor | ATmega328 |
-| Anzahl Prozessorkerne | 1 |
-| Taktfrequenz | 16 MHz |
-| Arbeitsspeicher | 8 KB SRAM |
-| Arbeitsspeicher erweiterbar | nein |
-| Festspeicher | 32 KB Flash |
-| Schnittstelle Bildschirm | nicht vorhanden |
-| USB-Schnittstellen | eine USB Schnittstelle zur Programmierung des Mikrocontrollers |
-| Netzwerk | nicht vorhanden |
-| Anschlüsse für LEDs und Temperatursensor | Anschluss über die Buchsenleiste (GPIO und serielle Schnittstellen) auf der Platine möglich, diese können direkt programmiert werden |
-| sonstige Anschlüsse | Hohlbuchse zur alternativen Spannungsversorgung |
-| Betriebssystem (Lieferumfang) | nicht vorhanden / Bootloader auf dem Mikrocontroller |
-| Leistung in Watt | kleiner 5 W |
-| Preis | 25,00 € |
-
-#### IT-System D: Einplatinencomputer Raspberry Pi 4 mit Raspbian (Linux)
-
-![IT-System D: Raspberry Pi](bilder/kap_02_ITSysD.PNG)
-
-| Bezeichnung | Beschreibung |
-| :--- | :--- |
-| Hersteller und Produktbezeichnung | Raspberry Pi 4 |
-| Maße HxBxT | 2,5 cm x 5,5 cm x 8 cm |
-| Prozessor | Broadcom BCM2711 |
-| Anzahl Prozessorkerne | 4 |
-| Taktfrequenz | 1,5 GHz |
-| Arbeitsspeicher | je nach Modell 1, 2, 4 oder 8 GB |
-| Arbeitsspeicher erweiterbar | nein |
-| Festspeicher | SD-Karte, verschiedene Größen möglich |
-| Schnittstelle Bildschirm | 2x Micro HDMI, DSI-Flachband, 4-Poliger 3,5 mm Klinke |
-| USB-Schnittstellen | 2x USB 3.0, 2x USB 2.0 |
-| Netzwerk | WLAN (2,4 GHz & 5 GHz), Bluetooth (5.0 BLE), RJ-45 Gigabit Ethernet |
-| Anschlüsse für LEDs und Temperatursensor | Anschluss über die Buchsenleiste (GPIO und serielle Schnittstellen) auf der Platine möglich, diese können direkt programmiert werden |
-| sonstige Anschlüsse | CSI (Camera Flachband), USB-C zur Spannungsversorgung |
-| Betriebssystem (Lieferumfang) | Linux Raspbian Buster |
-| Leistung in Watt | kleiner 12 W |
-| Preis | 38,00 € (mit 2 GB RAM) |
-
----
-
-## Kompetenz 2.5: Auswahl von verschiedenen IT-Systemen
-
-Neben dem internen Projekt betreuen Sie weiterhin auch externe Kundenanfragen. Als Sie in Ihr Postfach schauen, sehen Sie schon einige Ihnen zugeordnete Aufgaben.
-
----
-
-### Arbeitsauftrag A|2.7: Auswahl verschiedener IT-Systeme für Kundenanfragen (10% lernprozessbegleitend)
-
-Die nachfolgenden Informationsmaterialien stellen Kundenanfragen für IT-Systeme dar. Dabei sollen Sie auf Basis Ihrer in diesem Kapitel gewonnenen Erfahrungen IT-Systeme auswählen. Ggf. sind kleinere Recherchen notwendig, um eine endgültige Entscheidung zu treffen. Dazu steht Ihnen das Informationsmaterial im Kurs unter den Anfragen zur Verfügung.
-
-Fassen Sie für jeden Fall separat Ihre Entscheidung in einer kurzen verbalen Begründung zusammen.
-
-Bauen Sie diese auf, als wäre es eine E-Mail an den Kunden. Benennen Sie die Datei nach dem Schema "klasse_nachname.pdf" und geben Sie die PDF-Datei innerhalb der Zeitvorgabe in dieser Aufgabe ab.
-
----
-
-### Informationsmaterial M|2.12: Kundenanfrage - Region Pomburg - Museum für Kunstgeschichte
-
-Sehr geehrte Damen und Herren,
-
-ich bin im Museum für Kunstgeschichte für die IT-Ausstattung verschiedener Arbeitsplätze verantwortlich. Für unseren Empfangstresen benötigen wir eine neue IT-Ausstattung für einen neuen Mitarbeiter. Der Arbeitsplatz ist räumlich (wie unser gesamtes Museum) nicht sehr groß. Daher benötigen wir ein platzsparendes System. Die Anwendungen, die auf dem System laufen sind einerseits das MS Office-Paket und unsere Informations- und Auskunftssysteme, die browserbasiert aufgerufen werden. Ferner werden E-Mails von dem System aus beantwortet.
-
-Wir stellen uns ein Gerät vor, welches in unseren bestehenden Windows-basierten Gerätepark einbinden lässt. Außerdem wünscht sich der Mitarbeiter eine Touch-Eingabemöglichkeit an dem Gerät. Zuletzt sollte noch darauf geachtet werden, dass der Bildschirm der Gerätes eine Diagonale von mindestens 20 Zoll aber maximal 32 Zoll aufweisen darf.
-
-Bitte bieten Sie mir ein System an.
-
-Mit freundlichen Grüßen
-Peter Haller
-
-Museum für Kunstgeschichte
-der Region Pomburg
-
----
-
-### Informationsmaterial M|2.13: Kundenanfrage - Hackerspace Stendal e.V.
-
-Guten Tag,
-
-vielen Dank für die Einrichtung des Netzwerkswitches vergangenen Monat, unser Durchsatz hat sich hierdurch wirklich merklich verbessert. Die Mitglieder des Hackerspaces sind vollkommen zufrieden. Nun haben wir aber auch schon das nächste Projekt vor: Bisher lassen wir unsere Webseite über einen Raspberry Pi laufen. Da dieser aber an seine Grenzen stößt und wir auch noch weitere Dienste auf einem neuen Gerät einrichten wollen, benötigen wir eine neue Hardware.
-
-Wir würden auf dem System gerne die Webseite, ein Ticketsystem, ein Benutzermanagement und ggf. zukünftig noch weitere Dienste in unser Netzwerk einbinden. Welche Art von System würden Sie hierfür vorschlagen? Ich freue mich auf eine Antwort Ihrerseits.
-
-Viele Grüße
-
-@HaHase23 aka Jan Pahler
-Hackerspace Stendal e.V.
-
----
-
-### Informationsmaterial M|2.14: Kundenanfrage - ProgIT GmbH
-
-Sehr geehrte Damen und Herren der ChangeIT,
-
-wir, die ProgIT sind seit etwa zwei Jahren Kunde bei Ihnen. Da wir in diesem Jahr zum ersten Mal Fachinformatiker Anwendungsentwicklung ausbilden, benötigen wir Ihre Unterstützung. Wir haben zwar noch eine ausreichende Anzahl an Notebooks für die neuen Azubis, diese müssten aber softwareseitig eingerichtet werden. Da wir aktuell noch unterbesetzt sind und die Auftragslage boomt, würden wir diese Tätigkeit gerne bei Ihnen in Auftrag geben. Welche Option sehen Sie, um die Notebooks für folgende Anwendungszwecke vorzubereiten?
-
-- Einfacher Wechsel zwischen Windows-System und Linux-System
-- Übergreifende Entwicklungsumgebung für beide Betriebssysteme
-- Möglichkeit, eine Sandbox für das Testen von Software einzurichten
-
-Bitte melden Sie sich bei uns, damit wir uns Abstimmen und wir die Notebooks zu Ihnen bringen können.
-
-Mit freundlichen Grüßen
-
-Saher Mekac
-ProgIT GmbH
-
----
-
-### Informationsmaterial M|2.15: Kundenanfrage - Terminus Automobile GmbH
-
-Sehr geehrte Damen und Herren,
-
-wir sind im Internet auf Ihre Webseite gestoßen und haben von ihrem breiten Service-Angebot gelesen. Die Terminus Automobile GmbH arbeitet aktuell mit klassischen Anwendungen auf Fatclients. Durch den Homeoffice-Druck wollen wir unserer Mitarbeiter zukünftig gerne mit Notebooks ausstatten. Die Hardwareauswahl ist unsererseits eigentlich schon getroffen, allderdings würden wir uns mit Ihnen gerne über die Software austauschen. Wir haben in einer Rubrik Ihrer Webseite vom Everything as a Service gelesen. Würden Sie uns einmal kurz zusammenfassen, was dies bei Ihnen konkret beinhaltet und inwiefern wir dieses Potenzial für uns nutzen können?
-
-Freundliche Grüße
-
-Thomas Hannes
-Terminus Automobile GmbH
-
----
-
-### Informationsmaterial M|2.16: Weitere Informationen zu IT-Systemen
-
-#### Virtualisierung an Einzeplatzsystemen
-
-Der Begriff Virtualisierung ist mehrdeutig. In der Regel verwendet man den Begriff Virtualisierung in der Computertechnik. Typischerweise versteht man unter Virtualisierung die Prozessor-Virtualisierung. Neben der Prozessor-Virtualisierung gibt es auch noch andere Möglichkeiten. Dazu zählt zum Beispiel das Partitionieren von Festplatten oder die Netzwerk-Virtualisierung durch VLAN.
-
-![Schema Virtualisierung](bilder/kap_02_virtualisierung1.gif)
-
-Virtualisierung ist eine Hardware-Unterstützung, die den Betrieb virtueller Computer auf einem echten Computer erleichtert oder beschleunigt. Mit der Virtualisierung kann man mehrere Software-Systeme auf einer Hardware laufen lassen. Das können zum Beispiel unterschiedliche Betriebssysteme sein. Virtualisierung macht dann Sinn, wenn ein Hardware-System nicht ausgelastet ist und die Ressourcen parallel für weitere Systeme genutzt werden sollen.
-
-Da eine steigende Taktfrequenz bei Prozessoren so einfach nicht möglich ist, sind die Prozessorhersteller, insbesondere Intel und AMD, auf alternative leistungssteigernde Techniken für Prozessoren angewiesen. Neben Mehrkern-Prozessoren, Multimedia-Erweiterungen und 64-Bit gelten Virtualisierungs-Funktionen als die bahnbrechende Entwicklung.
-
-##### Gründe für Virtualisierung
-
-- Erhöhung der Ausfallsicherheit
-- bessere Auslastung der IT-Systeme durch Konsolidierung der Hardware
-- niedrigere IT-Kosten
-- geringerer Stromverbrauch
-
-Wichtigstes Merkmal der Virtualisierung ist die Ausfallsicherheit. Wenn eine Applikation sich selbst oder sogar das gesamte Betriebssystem zum Absturz bringt, laufen die anderen virtuellen Maschinen weiter.
-
-Der Betrieb unterschiedlicher Applikationen in mehreren Umgebungen ist die häufigste Anwendung. Zum Beispiel um Applikationen aus Sicherheitsgründen und wegen des Datenschutzes getrennt zu halten. Um aber nicht für jede Applikation eine eigene Hardware bereitstellen zu müssen, werden virtuelle Maschinen geschaffen, auf denen dann die Applikationen getrennt voneinander arbeiten können.
-
-Auf den ersten Blick scheint Virtualisierung nur etwas für Server zu sein. Doch auch normale Anwender können davon profitieren. Zum Beispiel zwei Umgebungen für das Arbeiten mit dem Computer. Die eine ganz normal und die andere bei Verbindung mit dem Internet. Hat sich das Internet-System Würmer oder Viren eingefangen, wird sie gelöscht und neu aufgesetzt. So etwas lässt sich zum Beispiel bei jedem Systemstart automatisieren. So hat man immer ein sauberes System. Das könnte auch soweit gehen, dass unsichere Programme in einer eigenen Umgebung laufen, damit das Betriebssystem von außen nicht angreifbar ist.
-
-##### Virtuelle Maschine
-
-Eine virtuelle Maschine ist ein Software-Container, der einem darin installierten Betriebssystem eine Scheinwelt vorgaukelt, in dem gängige Hardware-Komponenten emuliert werden. Üblicherweise verfügen Betriebssystem über Standard-Treiber mit denen sie die emulierte Hardware ansprechen können.
-
-Virtuelle Maschinen verfügen nur über eine eingeschränkte Grafikleistung. 3D-Software und die Wiedergabe und Bearbeitung von Videos ist in einer virtuellen Maschine nicht ausreichend schnell machbar.
-
-![Virtuelle Maschinen Schema](bilder/kap_02_virtualisierung2.gif)
-
-Mit virtuell ist die Hardware gemeint, die dem Betriebssystem in der virtuellen Maschine zur Verfügung steht. Denn CPU, Arbeitsspeicher, Grafikkarte, Laufwerke und Schnittstellen stehen den parallel arbeitenden Betriebssystemen nicht direkt zur Verfügung. Eine im Hintergrund laufende Virtualisierungssoftware überwacht die Zugriffe auf die Hardware. Sie organisiert und verwaltet die virtuellen Maschinen (VM).
-
-Diese Aufgabe kann zum Beispiel ein Hypervisor übernehmen. Er benötigt einen kleinen Teil der Hardware-Leistung, insbesondere von Prozessor und Arbeitsspeicher, um seine Arbeit erledigen zu können.
-
-##### Anwendungen
-
-Virtuelle Computer sind eher selten im Einsatz. Es werden aber schon konkrete Anwendungen diskutiert. Einiges davon ist jetzt schon möglich. Mit einem neuen Software-Zweig ist zu rechnen.
-
-- Software-Entwickler nutzen virtuelle Computer, um ihre Produkte unter verschiedenen Betriebssystemen zu testen.
-- Auf Arbeitsplatz-Rechnern könnte man verschiedene Arbeitsumgebungen schaffen. Eine normale Arbeitsoberfläche, eine Oberfläche für den Internet-Zugang und eine für spezielle Hardware-Ressourcen. So lassen sich die verschiedenen Oberflächen gegen Hardware- und Software-Fehler, Viren und Würmern schützen.
-- Bestimmte Anwendungen für ältere Betriebssysteme können in einem virtuellen Computer ausgeführt werden. Parallel dazu kann ein aktuelles Betriebssystem mit vollem Leistungsumfang arbeiten.
-- Wenn zwei Applikationen sich nicht vertragen, kann man sie unter eigenen virtuellen Umgebungen installieren und ausführen.
-
-##### Virtualisierung in der Server-Umgebung
-
-- bessere Systemauslastung erreichbar
-- leichter managebar
-- Energiekosten senken -> Umweltrichtlinien einhalten
-- höhere Sicherheit und Stabilität
-- schneller Anforderungen umsetzen
-
-*Quelle: [https://www.elektronik-kompendium.de/sites/com/1101011.htm](https://www.elektronik-kompendium.de/sites/com/1101011.htm)*
-
-#### Everything as a Service
-
-##### Service-orientierte Architektur
-
-Die Service-orientierte Architektur (SOA) ist ein Architekturkonzept mit dem diverse Internetdienste, durch sogenannte Web Services, angeboten werden können. Web Services sind Softwareanwendungen zur Unterstützung maschinenübergreifender Interaktion. So lautet die Definition der zuständigen Working Group des World Wide Web Consortium. Damit stellen Web Services die Technologie zum Aufbau von verteilten, lose gekoppelten und Service-orientierten Anwendungen dar, die miteinander über ein Netzwerk kommunizieren und zum Anbieten von Diensten verwendet werden.
-
-![Service-orientierte Architektur](bilder/kap_02_SOA.png)
-
-SOA ist wie ein Dreieck aufgebaut und unterscheidet die Rollen Service-Provider, Service-Requestor und Service-Broker. Durch den Service-Provider wird ein Dienst zur Verwendung bereitgestellt. Dieser Dienst wird wiederum bei dem Service-Broker gelistet. Über den Service-Broker kann der Service-Requestor einen bestimmten Dienst finden und einbinden. Ausgeführt wird der Dienst durch den Service-Provider. Somit fällt dem Service-Broker die Rolle des Vermittlers zwischen Service-Requestor und Service-Provider zu.
-
-Die Umsetzung der Funktionsweise einer Service-orientierte Architektur findet sich in Web Services wieder. Dabei kommen unterschiedliche Techniken zum Datenaustausch und der Kommunikation zum Einsatz. Bekannte Protokolle wie das Transportprotokoll HTTP, das File Transfer Protocol (FTP) oder das Simple Mail Transfer Protocol (SMTP) können zur Verwendung von Web Services eingesetzt werden. Zur Speicherung der Dienstbeschreibung setzten Web Services auf XML-Dokumente. Die eingesetzte Beschreibungssprache ist die Web Service Description Language (WSDL), die dem entfernten Client die Nutzungsdetails für den angeforderten Web Service bereitstellt. Somit kann der Service-Provider seine Dienste veröffentlichen. Um einen bestimmten Web Service im Internet ausfindig zu machen, kann die durchsuchbare Datenbank Universal Description, Discovery and Integration (UDDI) verwendet werden.
-
-*Quelle: Schwarzer & Krcmar (2014). Wirtschaftsinformatik. Grundlagen betrieblicher Informationssysteme. Stuttgart: Schäffer-Poeschel.*
-
-##### Everything as a Service-Konzepte
-
-Everything as a Service (XaaS) ist ein Oberbegriff für die Betrachtung sämtlicher Leistungen des Informationsmanagements aus einer dienstleistungsorientierten Perspektive. Die einzelnen Basisfunktionalitäten, Basistechniken und Technikbündel werden als grundlegende Dienstleistung eines Service-Ecosystems aufgefasst. So erlaubt das XaaS-Konzept ein feingranulares Outsourcing in diesen Bereichen. Ein Unternehmen kann z. B. die Bereitstellung der IT-Infrastruktur oder die Datenspeicherung von einem externen Dienstleister übernehmen lassen. Der Service-Anbieter kann, durch die Spezialisierung auf eine Aufgabe, Economies-of-Scale realisieren und somit diese Aufgabe kosteneffizienter ausführen. Einige ausgewählte Konzepte des XaaS werden im Folgenden vorgestellt.
-
-Infrastructure as a Service (IaaS) bezeichnet die Anwendung des XaaS-Konzepts auf die IT-Infrastruktur. So wird die Bereitstellung der Infrastruktur als Dienstleistung angeboten (Hosting). Neben der Auslagerung der operativen Tätigkeit besteht die Möglichkeit, die benötigte Leistung, durch die Nutzung zusätzlicher Ressourcen kurzfristig anzupassen. Prominente Beispiele sind z.B. Amazon Webservices ([http://aws.amazon.com](http://aws.amazon.com)) oder Rackspace Hosting ([http://www.rackspace-hosting.de](http://www.rackspace-hosting.de)).
-
-Das Konzept des Storage as a Service (StaaS) wendet das Konzept der Dienstleistungsorientierung auf die Datenspeicherung an. Durch eine Übernahme der Datenspeicherung durch einen Service-Anbieter können einerseits erneut Flexibilisierungspotenziale ausgeschöpft werden, andererseits kann die Aufgabe der Konzeption und Umsetzung notwendiger Speicherressourcen ausgelagert werden.
-
-Durch das Software as a Service (SaaS)-Konzept wird eine bestimmte Applikation für eine Vielzahl von Servicekonsumenten zur Verfügung gestellt. Der Kunde kann die Software nach Vertragsabschluss einfach nutzen ohne diese selbst installieren oder warten zu müssen. Diese Aufgaben werden von dem Service-Anbieter übernommen. Für SaaS gibt es viele verschiedene Anbieter, wie z. B. Google, die mit der Software Google Docs einen SaaS anbieten, mit dem Tabellen und Textdokumente bearbeitet und verwaltet werden können ([http://docs.google.com](http://docs.google.com)).
-
-Platform as a Service (PaaS) stellt eine Erweiterung des SaaS-Konzepts dar. Statt fertigen Anwendungen werden integrierte Entwicklungs- und Betriebsumgebungen für Software im Internet bereitgestellt. Microsoft stellt etwa mit der Plattform Azure einen solchen Service bereit ([http://www.microsoft.com/windowsazure](http://www.microsoft.com/windowsazure)).
-
-*Quelle: Schwarzer & Krcmar (2014). Wirtschaftsinformatik. Grundlagen betrieblicher Informationssysteme. Stuttgart: Schäffer-Poeschel.*
-
-##### Cloud Computing
-
-Unter Cloud Computing wird ein IT-basiertes Bereitstellungsmodell verstanden, bei dem Ressourcen sowohl in Form von Infrastruktur als auch Anwendungen und Daten, als verteilter Dienst über das Internet, durch einen oder mehrere Leistungserbringer bereitgestellt wird. So wird das Prinzip von Web Services, mit denen komplette Anwendungen aus gekapselten Funktionen über das Internet ausgeführt werden können, erweitert. Diese „Clouds“ sind nach Bedarf flexibel skalierbar und können verbrauchsabhängig abgerechnet werden, d.h. es wird immer die aktuell benötigte Menge an Ressourcen zur Verfügung gestellt.
-
-![Cloud Computing](bilder/kap_02_cloudComputing.png)
-
-Aus Sicht des Nutzers werden die Ressourcen zentral in der „Cloud“ bereitgestellt. Im Hintergrund können diese aber auch über diverse Cloud-Dienste verstreut sein. Für die Realisation von Cloud Computing kann auf verschiedene XaaS-Verfahren zurückgegriffen werden. Durch XaaS und Cloud Computing lassen sich Vorteile durch eine feingranulare Gestaltung der Auslagerung realisieren. Auf der anderen Seite kann die hohe Beziehungskomplexität mit den verschiedenen Service-Anbietern und die Abhängigkeit zu selbigen ein Unternehmen vor weitere Herausforderungen stellen.
-
-*Quelle: Schwarzer & Krcmar (2014). Wirtschaftsinformatik. Grundlagen betrieblicher Informationssysteme. Stuttgart: Schäffer-Poeschel.*
-
----
-
-## Weitere Übungen
-
-Sollten Sie sich zu den folgenden Themen noch nicht auskennen, ist die Bearbeitung der Aufgaben / Selbsttests zu den IT-Grundlagen sehr sinnvoll.
-
----
+## Übungen
 
 ### Übung UE|2.0: Komponenten im EVA-Prinzip
 
@@ -821,73 +471,113 @@ Interaktives Inhaltselement
 
 ---
 
-### Übung UE|2.1: Info - Aufbau eines Motherboards
+### Übung UE|2.1: Auswahl eines IT-Systems für das Nachhilfestudio Müller
 
-The motherboard, also known as the system board or the main board, is the backbone of the computer. As shown in Figure 1, a motherboard is a printed circuit board (PCB) that contains buses, or electrical pathways, that interconnect electronic components. These components may be soldered directly to the motherboard, or added using sockets, expansion slots, and ports.
+1. Lesen Sie sich aufmerksam die E-Mail des Kunden/Interessenten (s.u.) durch.
+2. Führen Sie das Schema der verbalen Begründung durch und empfehlen Sie dem Kunden/Interessenten somit eine Art IT-System für seine Anforderungen. Es muss kein konkretes Produkt recherchiert und genannt werden. Bauen Sie die verbale Begründung auf, als wäre es eine E-Mail an den Kunden.
+3. Suchen Sie im Internet nach einem Beispielprodukt für Ihre Entscheidung heraus und ergänzen Sie einen Screenshot/einen PDF-Ausdruck der Shopseite hinter Ihrer verbalen Begründung.
 
-![Motherboard mit Kennzeichnung der Elemente](bilder/kap_02_motherboardITEssentials.png)
+*Sehr geehrte Damen und Herren,*
 
-These are some connections on the motherboard where computer components can be added:
+*wir haben vor ein paar Jahren unsere Räume durch Sie mit digitalen Tafeln ausstatten lassen. Mit der Zeit müssen wir uns aber eingestehen, dass diese Technik nicht die notwendige Flexibilität liefert, die wir uns wünschen. Wir möchten unseren Nachhilfelehrern neue Endgeräte ausgeben. Diese sollen mit Tastatur, aber auch Stift bedienbar sein. Die in jedem Raum befindlichen Beamer können per HDMI angeschlossen werden. Können Sie uns auch direkt eine drahtlose Verbindungsmöglichkeit anbieten? Wir nutzen im Nachhilfestudio MS Office, Geogebra und ansonsten viel Software, die im Browser läuft. Können Sie uns bitte einen Hardwarevorschlag zusenden? Danke!*
 
-- **Central Processing Unit (CPU)** - This is considered the brain of the computer.
-- **Random Access Memory (RAM)** - This is a temporary location to store data and applications.
-- **Expansion slots** - These provide locations to connect additional components.
-- **Chipset** - This consists of the integrated circuits on the motherboard that control how system hardware interacts with the CPU and motherboard. It also establishes how much memory can be added to a motherboard and the type of connectors on the motherboard.
-- **Basic input/output system (BIOS)** chip and **Unified Extensible Firmware Interface (UEFI)** chip - BIOS is used to help boot the computer and manage the flow of data between the hard drive, video card, keyboard, mouse, and more. Recently the BIOS has been enhanced by UEFI. UEFI specifies a different software interface for boot and runtime services but still relies on the traditional BIOS for system configuration, power-on self test (POST), and setup.
+*Freundliche Grüße*
 
-![Motherboard mit Grafikkarte und RAM](bilder/kap_02_motherboardRAMGrakaITEssentials.png)
-
-The picture above displays a motherboard with some additional components installed.
-
-Most chipsets consist of the following two types:
-
-- **Northbridge** – Controls high speed access to the RAM and video card. It also controls the speed at which the CPU communicates with all of the other components in the computer. Video capability is sometimes integrated into the Northbridge.
-- **Southbridge** – Allows the CPU to communicate with slower speed devices including hard drives, Universal Serial Bus (USB) ports, and expansion slots.
-
-![Motherboard Schema](bilder/kap_02_motherboardSystematikITEssentials.png)
-
-The picture above illustrates how a motherboard connects various components.
-
-The form factor of motherboards pertains to the size and shape of the board. It also describes the physical layout of the different components and devices on the motherboard.
-
-There have been many variations of motherboards developed over the years. There are three common motherboard form factors:
-
-- **Advanced Technology eXtended (ATX)** - This is the most common motherboard form factor. The ATX case accommodates the integrated I/O ports on the standard ATX motherboard. The ATX power supply connects to the motherboard via a single 20-pin connector.
-- **Micro-ATX** – This is a smaller form factor that is designed to be backward-compatible with ATX. Micro-ATX boards often use the same Northbridge and Southbridge chipsets and power connectors as full-size ATX boards and therefore can use many of the same components. Generally, Micro-ATX boards can fit in standard ATX cases. However, Micro-ATX motherboards are much smaller than ATX motherboards and have fewer expansion slots.
-- **ITX** - The ITX form factor has gained in popularity because of its very small size. There are many types of ITX motherboards; however, Mini-ITX is one of the most popular. The Mini-ITX form factor uses very little power, so fans are not needed to keep it cool. A Mini-ITX motherboard has only one PCI slot for expansion cards. A computer based on a Mini-ITX form factor can be used in places where it is inconvenient to have a large or noisy computer.
-
-![Motherboard Formfaktoren](bilder/kap_02_motherboardFormfaktorITEssentials.png)
-
-*Quelle: [Cisco NetAcad - https://static-course-assets.s3.amazonaws.com/ITE6/en/index.html#1.1.2.1](https://static-course-assets.s3.amazonaws.com/ITE6/en/index.html#1.1.2.1)*
+*Maria Müller*  
+*Geschäftsführerin "Nachhilfestudio Müller"*
 
 ---
 
-## Tipps und Tricks
+### Übung UE|2.2: Auswahl eines IT-Systems für den Hackerspace Stendal e.V.
 
-Der Cisco NetAcad-Kurs "IT-Essentials" beinhaltet viele Informationen zu den Grundlagen der IT. Für diesen Abschnitt eignen sich einige Aspekte aus dem Kurs ganz besonders.
+1. Lesen Sie sich aufmerksam die E-Mail des Kunden/Interessenten (s.u.) durch.
+2. Führen Sie das Schema der verbalen Begründung durch und empfehlen Sie dem Kunden/Interessenten somit eine Art IT-System für seine Anforderungen. Es muss kein konkretes Produkt recherchiert und genannt werden. Bauen Sie die verbale Begründung auf, als wäre es eine E-Mail an den Kunden.
+3. Suchen Sie im Internet nach einem Beispielprodukt für Ihre Entscheidung heraus und ergänzen Sie einen Screenshot/einen PDF-Ausdruck der Shopseite hinter Ihrer verbalen Begründung.
 
-| Chapter / Section | Title | Objectives |
+*Guten Tag,*
+
+*vielen Dank für die Einrichtung des Netzwerkswitches vergangenen Monat, unser Durchsatz hat sich hierdurch wirklich merklich verbessert. Die Mitglieder des Hackerspaces sind vollkommen zufrieden. Nun haben wir aber auch schon das nächste Projekt vor: Bisher lassen wir unsere Webseite über einen Raspberry Pi laufen. Da dieser aber an seine Grenzen stößt und wir auch noch weitere Dienste auf einem neuen Gerät einrichten wollen, benötigen wir eine neue Hardware.*
+
+*Wir würden auf dem System gerne die Webseite, ein Ticketsystem, ein Benutzermanagement und ggf. zukünftig noch weitere Dienste in unser Netzwerk einbinden. Welche Art von System würden Sie hierfür vorschlagen? Ich freue mich auf eine Antwort Ihrerseits.*
+
+*Viele Grüße*
+
+*@HaHase23 aka Jan Pahler*
+*Hackerspace Stendal e.V.*
+
+---
+
+### Übung UE|2.3: Auswahl eines IT-Systems für die Region Pomburg - Museum für Kunstgeschichte
+
+1. Lesen Sie sich aufmerksam die E-Mail des Kunden/Interessenten (s.u.) durch.
+2. Führen Sie das Schema der verbalen Begründung durch und empfehlen Sie dem Kunden/Interessenten somit eine Art IT-System für seine Anforderungen. Es muss kein konkretes Produkt recherchiert und genannt werden. Bauen Sie die verbale Begründung auf, als wäre es eine E-Mail an den Kunden.
+3. Suchen Sie im Internet nach einem Beispielprodukt für Ihre Entscheidung heraus und ergänzen Sie einen Screenshot/einen PDF-Ausdruck der Shopseite hinter Ihrer verbalen Begründung.
+
+*Sehr geehrte Damen und Herren,*
+
+*ich bin im Museum für Kunstgeschichte für die IT-Ausstattung verschiedener Arbeitsplätze verantwortlich. Für unseren Empfangstresen benötigen wir eine neue IT-Ausstattung für einen neuen Mitarbeiter. Der Arbeitsplatz ist räumlich (wie unser gesamtes Museum) nicht sehr groß. Daher benötigen wir ein platzsparendes System. Die Anwendungen, die auf dem System laufen sind einerseits das MS Office-Paket und unsere Informations- und Auskunftssysteme, die browserbasiert aufgerufen werden. Ferner werden E-Mails von dem System aus beantwortet.*
+
+*Wir stellen uns ein Gerät vor, welches in unseren bestehenden Windows-basierten Gerätepark einbinden lässt. Außerdem wünscht sich der Mitarbeiter eine Touch-Eingabemöglichkeit an dem Gerät. Zuletzt sollte noch darauf geachtet werden, dass der Bildschirm der Gerätes eine Diagonale von mindestens 20 Zoll aber maximal 32 Zoll aufweisen darf.*
+
+*Bitte bieten Sie mir ein System an.*
+
+*Mit freundlichen Grüßen*
+*Peter Haller*
+
+*Museum für Kunstgeschichte*
+*der Region Pomburg*
+
+---
+
+## Podcastempfehlungen
+
+### IT-Berufe-Podcast #159 - Anforderungsermittlung (nicht nur für dein Abschlussprojekt) (11/2020)
+
+[https://it-berufe-podcast.de/anforderungsermittlung-nicht-nur-fuer-dein-abschlussprojekt-it-berufe-podcast-159/](https://it-berufe-podcast.de/anforderungsermittlung-nicht-nur-fuer-dein-abschlussprojekt-it-berufe-podcast-159/)
+
+---
+
+### CRE Technik Kultur Gesellschaft #151 - Die ARM-Architektur (04/2010)
+
+Sehr nerdig, aber immer noch gut. Es hat sich technisch aber einiges getan.
+
+[https://cre.fm/cre151-die-arm-architektur](https://cre.fm/cre151-die-arm-architektur)
+
+---
+
+## Zusatzmaterial
+
+| Was ist ein Computer? | Allgemeines zum Rechner 1 & 2 | Computeranatomie |
 | :--- | :--- | :--- |
-| Chapter 3 | Advanced Computer Hardware | Install and configure components to upgrade a computer |
-| 3.1 | Boot the Computer | Explain how to verify BIOS and UEFI settings |
-| 3.2 | Electrical Power | Explain electrical power |
-| 3.3 | Advanced Computer Functionality | Explain computer functionality |
-| 3.4 | Computer Configuration | Select components to upgrade a computer to meet requirements |
-| 3.5 | Protecting the Environment | Explain the necessary procedures to protect the environment |
+| ![Computer](bilder/kap_02_zusatzmaterial_computer.jpg) | ![Platine](bilder/kap_02_zusatzmaterial_platine.jpg) | ![CPU](bilder/kap_02_zusatzmaterial_cpu.jpg) |
+| In diesem LinkedIn-Learning-Kurs erhalten Sie einen Überblick über die Grundlagen von Hard- und Software bezüglich IT-Endgeräten. | Auf Studyflix finden Sie Lernvideos zum Thema "Computergrundlagen". Wenn Sie mehr über die Rechnerarchitekturen wissen wollen, ist dies auch eine gute Anlaufstelle. | Dieser Grundkurs klärt die Frage, wie es eigentlich in einem Computer aussieht. Welche Komponenten sind enthalten? Wie arbeiten die Komponenten zusammen? |
+| [zum LinkedIn-Learning-Kurs](https://www.linkedin.com/learning-login/share?account=68522354&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fmit-computern-und-mobilgeraten-arbeiten%3Ftrk%3Dshare_ent_url%26shareId%3DmMv7JqyfRxmQVdi%252BZFx62w%253D%253D) | [zu Studyflix](https://studyflix.de/informatik/allgemeines-zum-rechner-i-776) | [zur OpenHPI](https://open.hpi.de/courses/computeranatomie2021) |
 
-![Logo LinkedIn Learning](bilder/kap_02_linkedInLearning.jpg)
+## Lernstrategien & Werkzeuge
 
-Im Videoportal "LinkedIn-Learning" stehen verschiedene Videos und Kurse zur Verfügung. Für dieses Kapitel sollen die folgenden Links Unterstützung, Wiederholung oder auch neue Perspektiven bieten:
+### Zeitmanagement mit Pomodoro
 
-[LinkedIn-Learning - VirtualBox Grundkurs](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fvirtualbox-grundkurs-2%3Ftrk%3Dshare_ent_url&account=68522354)
+Die Pomodoro-Technik ist eine Methode für das Zeitmanagement. Die Arbeit oder das Lernen wird in 25-Minuten-Einheiten unterteilt, die von Pausenzeiten begleitet werden (mehr dazu in der Wikipedia). Hier ein kurzes Infovideo:
 
-![Logo Studyflix](bilder/kap_02_studyflix.png)
-
-Im Videoportal "Studyflix" stehen ebenfalls verschiedene Videos und Kurse zur Verfügung. Für dieses Kapitel sollen die folgenden Links Unterstützung, Wiederholung oder auch neue Perspektiven bieten:
-
-[Studyflix - Der Rechner als System (Rechnerarchitekturen)](https://studyflix.de/informatik/der-rechner-als-system-770)
+[https://youtu.be/kXoTIimyGPQ?t=68](https://youtu.be/kXoTIimyGPQ?t=68)
 
 ---
+
+### Software & App: SuperProductivity (auch für die Pomodoro-Technik)
+
+[https://github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
+
+---
+
+## GitHub
+
+### GitHub.io - LF2-Kurs als MkDocs-Variante
+
+[https://herr-nm.github.io/MMBbS_KIT_LF02/](https://herr-nm.github.io/MMBbS_KIT_LF02/)
+
+### GitHub.io - Curriculum der kaufmännischen IT-Berufe
+
+[https://herr-nm.github.io/MMBbS_KIT_Curriculum/](https://herr-nm.github.io/MMBbS_KIT_Curriculum/)
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"

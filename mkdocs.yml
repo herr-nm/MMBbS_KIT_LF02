@@ -27,7 +27,7 @@ site_url: https://herr-nm.github.io/MMBbS_KIT_LF02/
 nav:
     - Einleitung zum LF2: 'index.md'
     - Kapitel 00 - Organisatorisches: 'kapitel_00.md'
-    - Kapitel 01 - Modellunternehmen: 'kapitel_01.md'
+    - Kapitel 01 - Propädeutikum: 'kapitel_01.md'
     - Kapitel 02 - IT-Systeme auswählen: 'kapitel_02.md'
     - Kapitel 03 - Netzwerkspeicher dimensionieren: 'kapitel_03.md'
     - Kapitel 04 - IT-Systeme in Betrieb nehmen: 'kapitel_04.md'

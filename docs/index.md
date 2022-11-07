@@ -6,14 +6,13 @@ Willkommen im LF2-Kurs der MMBbS.
 
 Dieser Kurs wird unter Moodle abgebildet:
 
-- https://moodle.mm-bbs.de/moodle/course/view.php?id=2406
-
+- https://moodle.mm-bbs.de/moodle/course/view.php?id=2733 [Stand SJ 2022/2023]
 
 ---
 
 ## Kapitel 2: IT-Systeme auswählen
 
-!!! info "Verortung in der Lernsituation"
+!!! abstract "Verortung in der Lernsituation"
 
     - Dieses Kapitel bildet die Lernsituation LS 2.6 ab.
     - Die LS 2.6 ist die erste Lernsituation des technischen Schwerpunkts.
@@ -35,7 +34,7 @@ Dieser Kurs wird unter Moodle abgebildet:
 
 ## Kapitel 3: Netzwerkspeicher dimensionieren
 
-!!! info "Verortung in der Lernsituation"
+!!! abstract "Verortung in der Lernsituation"
 
     - Dieses Kapitel bildet die Lernsituation LS 2.7 ab.
     - Die LS 2.7 ist der Nachfolger von LS 2.6 (IT-Systeme auswählen).
@@ -55,31 +54,8 @@ Dieser Kurs wird unter Moodle abgebildet:
 | | Auswahl eines Netzwerkspeichers | 75 Min. |
 | **Summe** | | **405 Min.** </br>**↳ 9 UStd.** |
 
----
-
-## Kapitel 4: IT-Systeme in Betrieb nehmen
-
-
-!!! info "Verortung in der Lernsituation"
-
-    - Dieses Kapitel bildet die Lernsituation LS 2.8 ab.
-    - Die LS 2.8 ist der Nachfolger von LS 2.7 (Netzwerkspeicher dimensionieren).
-    - Auf die LS 2.8 folgt die LS 2.9 (Sensoren auslesen).
-
-### Zeitplanung
-
-| Kompetenz |  | Zeitansatz |
-| :--- | :--- | ---: |
-| | Einstieg in die Handlungssituation | 15 Min. |
-| 4.0 | Vorbereitungen der Inbetriebnahme eines IT-Systems treffen | 135 Min. |
-| 4.1 | Betriebssystem auswählen | 45 Min. |
-| 4.2 | Linux-Kommandozeile bedienen | 135 Min. |
-| 4.3 | Installation und Aktualisierung des Betriebssystems | 45 Min. |
-| 4.4 | Funktionstüchtigkeit eines IT-Systems prüfen | 45 Min. |
-| | Inbetriebnahme, Installation und Funktionstest dokumentieren | 30 Min. |
-| **Summe** | | **405 Min.** </br>**↳ 10 UStd.** |
-
----
-
-***Multi Media Berufsbildende Schulen***  
-*Ansprechpartner zum Kurs: neumann@mmbbs.de*
+{%
+   include-markdown "inhalte/lizenzhinweis.md"
+   start="<!--Lizenzhinweis-->"
+   end="<!--Lizenzhinweis-->"
+%}

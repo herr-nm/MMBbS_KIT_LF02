@@ -20,11 +20,7 @@ Das IT-Systemhaus ChangeIT GmbH ist seit mehreren Jahren auf dem IT-Markt etabli
 
 Sie haben sich für einen Bildungsgang der IT-Berufe entschieden. Die kaufmännischen IT-Berufe beinhalten dabei sowohl wirtschaftliche als auch technische Fragestellungen. Für den Technikbereich sind einige Grundkenntnisse für den Unterricht wichtig. Abhängig davon, wie viel Sie sich bereits vor Ihrer Ausbildung privat, in der Schule oder ggf. in vorherigen Ausbildungen bzw. im Studium damit auseinandergesetzt haben, liegt unterschiedlich viel Vorwissen vor. Im ersten Block soll daher ein Propädeutikum (Einführungsveranstaltung / Einführungsvorlesung) als Crash-Kurs herangezogen werden, um eine erste Basis zu legen oder Inhalte zu vertiefen. Mit dem folgenden Informationsmaterial sollen die Problemstellungen aus den Arbeitsaufträgen s.u. gelöst werden.
 
-| Basics | Pro |
-| :--- | :--- |
-| ![HERDT AYCR ITECH_2021](bilder/kap_01_propaedeutikum_basics_herdt.png) | ![HERDT AYCR ITECH_2021](bilder/kap_01_propaedeutikum_pro_cybersecurity.png) |
-| Rufen Sie die [Landingpage](https://mm-bbs.de) auf. Wählen Sie dort die Bubble des HERDT AYCR aus. Anschließend finden Sie unter *Home > HERDT-Themenkatalog > IT-Technik / Netzwerke / Systeme > IT-Technik > Informationstechnologie Grundlagen (Stand 2021)* ein Script mit einem Überblick zu IT-Technologien und aktuellen Entwicklungen. Nutzen Sie dieses, um sich in die Welt der IT einzufinden. Bearbeiten Sie die Übungen in dem Script, um Ihre neuen Kenntnisse anzuwenden. | Sie legen Ihren Fokus auf die Sicherheit von IT-Systemen. Dazu nutzen Sie in der Cisco NetAcad den Kurs [Cybersecurity Essentials](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials), welcher via Skills for All-Platform zur Selbsteinschreibung bereitsteht. Die Ziele dieses Kurses sind die Sicherheit für Netzwerke, Server und Anwendungen. Mit Einsatz des [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) werden Übungen in simulierten Netzwerkumgebungen durchgeführt. |
-| [zur Landingpage](https://www.mm-bbs.de) | [zur Cisco NetAcad](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials) |
+---
 
 ### Arbeitsauftrag A|1.0: Fragestellungen zu "Basics"
 
@@ -36,7 +32,11 @@ Sie haben sich für einen Bildungsgang der IT-Berufe entschieden. Die kaufmänni
 
 //TODO Fragestellungen ergänzen
 
----
+| Basics | Pro |
+| :--- | :--- |
+| ![HERDT AYCR ITECH_2021](bilder/kap_01_propaedeutikum_basics_herdt.png) | ![HERDT AYCR ITECH_2021](bilder/kap_01_propaedeutikum_pro_cybersecurity.png) |
+| Rufen Sie die [Landingpage](https://mm-bbs.de) auf. Wählen Sie dort die Bubble des HERDT AYCR aus. Anschließend finden Sie unter *Home > HERDT-Themenkatalog > IT-Technik / Netzwerke / Systeme > IT-Technik > Informationstechnologie Grundlagen (Stand 2021)* ein Script mit einem Überblick zu IT-Technologien und aktuellen Entwicklungen. Nutzen Sie dieses, um sich in die Welt der IT einzufinden. Bearbeiten Sie die Übungen in dem Script, um Ihre neuen Kenntnisse anzuwenden. | Sie legen Ihren Fokus auf die Sicherheit von IT-Systemen. Dazu nutzen Sie in der Cisco NetAcad den Kurs [Cybersecurity Essentials](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials), welcher via Skills for All-Platform zur Selbsteinschreibung bereitsteht. Die Ziele dieses Kurses sind die Sicherheit für Netzwerke, Server und Anwendungen. Mit Einsatz des [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) werden Übungen in simulierten Netzwerkumgebungen durchgeführt. |
+| [zur Landingpage](https://www.mm-bbs.de) | [zur Cisco NetAcad](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials) |
 
 !!! note "Zusätzliches Material, weitere Übungen & Tipps"
 
