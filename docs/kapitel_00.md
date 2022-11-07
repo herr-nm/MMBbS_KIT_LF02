@@ -117,8 +117,6 @@ Das angebotene Zusatzmaterial soll Ihnen helfen auch Material über diesen Moodl
 | Schulbuch, Grundstufe Lernfelder 1-5, Westermann Verlag: Dieses Schulbuch enthält Infotexte und Aufgaben zu den Lernfeldern 1-5. Ein Lösungsheft als PDF-Datei für die Aufgaben kann durch die Ausbilder:innen bestellt werden. | Arbeitsbuch, Lernfelder 1-5, Westermann Verlag: Dieses Arbeitsheft enthält Aufgaben zu den Lernfeldern 1-5. Ein Lösungsheft als PDF-Datei für die Aufgaben kann durch die Ausbilder:innen bestellt werden. Die Aufgaben sind auch zur Vorbereitung auf die AP1 gut geeignet. | IT-Handbuch (KIT), Westermann Verlag: Das IT-Handbuch enthält kurze Erläuterungen und Definitionen sowie Schaubilder zu den Themen aller Lernfelder. Das Handbuch dient als schnelles Nachschlagewerk und um einen Überblick zu Themen zu erhalten. |
 | [Link zum Buch](https://www.westermann.de/artikel/978-3-14-220000-2/IT-Berufe-Grundstufe-Lernfelder-1-5) | [Link zum Buch](https://www.westermann.de/artikel/978-3-14-220008-8/IT-Berufe-Lernsituationen-Grundstufe-Lernfelder-1-5) | [Link zum Buch](https://www.westermann.de/artikel/978-3-14-235088-2/IT-Handbuch-IT-Systemkaufmann-frau-Informatikkaufmann-Informatikkauffrau) |
 
----
-
 ## Lernstrategien & Werkzeuge
 
 In dieser Rubrik werden in den Kapiteln Lernmethoden und Tools vorgestellt, die sich gut eignen, für den Unterricht, die Tests bzw. Klassenarbeiten aber auch langfristig für die IHK-Prüfung zu lernen. 
