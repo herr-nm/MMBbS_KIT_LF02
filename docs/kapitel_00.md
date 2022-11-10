@@ -104,7 +104,6 @@ An dieser Stelle werden Sie in den Kapiteln zum Thema passende Folgen aus Podcas
 
 [https://it-berufe-podcast.de/episoden/](https://it-berufe-podcast.de/episoden/)
 
-
 ---
 
 ## Zusatzmaterial
@@ -136,6 +135,14 @@ Auf YouTube finden Sie einen [Obsidian Tutorial-Kurs](https://youtube.com/playli
 ![YouTube Obsidian](bilder/kap_00_obsidian_tutorial.png)
 
 *Bildquelle: [https://www.youtube.com/playlist?list=PLzp2ZLXTBP0uMYXsnxVjJMrtWJ9JIncPC](https://www.youtube.com/playlist?list=PLzp2ZLXTBP0uMYXsnxVjJMrtWJ9JIncPC)*
+
+---
+
+## PowerToys (für Microsoft-Geräte)
+
+[PowerToys von Microsoft](https://learn.microsoft.com/de-de/windows/powertoys/) sind eine Sammlung von Hilfsprogrammen, die im Alltag sehr nützlich sind. Bspw. das Verkleinern von Bildern, die Anzeige von Fenstern mithilfe von zuvor eingerichteten Zonen, das Umbenennen mehrerer Dateien oder das Feststellen eines Farbwertes sind einfach und schnell durchführbar.
+
+![MS PowerToys](bilder/kap_00_PowerToys.png)
 
 ---
 
