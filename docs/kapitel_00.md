@@ -138,11 +138,33 @@ Auf YouTube finden Sie einen [Obsidian Tutorial-Kurs](https://youtube.com/playli
 
 ---
 
-## PowerToys (für Microsoft-Geräte)
+### KeePassXC Passwortmanager
 
-[PowerToys von Microsoft](https://learn.microsoft.com/de-de/windows/powertoys/) sind eine Sammlung von Hilfsprogrammen, die im Alltag sehr nützlich sind. Bspw. das Verkleinern von Bildern, die Anzeige von Fenstern mithilfe von zuvor eingerichteten Zonen, das Umbenennen mehrerer Dateien oder das Feststellen eines Farbwertes sind einfach und schnell durchführbar.
+Sie haben im Rahmen der Einschulung diverse Dienste für Ihre Ausbildung an die Hand bekommen. Damit gehen auch verschiedene Logins einher. Damit Sie sich die Kombinationen aus User und Passwort sicher notieren können, wird ein Passwortmanager empfohlen. Je nachdem welches Betriebssystem Sie nutzen (bspw. bei Apple-Geräten könnte auch die Keychain genutzt werden), gibt es verschiedene Onboard-Systeme hierfür.
 
-![MS PowerToys](bilder/kap_00_PowerToys.png)
+Wenn Sie nach einer Software dafür suchen, wäre ein Passwortmanager die richtige Wahl. Als ein Vertreter dieser Programme wird an dieser Stelle *KeePassXC* vorgestellt ([Link zur Webseite](https://keepassxc.org/)). Dieses Programm ...
+
+- ... verschlüsselt mit 256-bit AES.
+- ... ist plattformunabhängig und steht für Windows, macOS sowie Linux zur Verfügung (und auch für mobile Geräte gibt es Apps in den Stores).
+- ... ist OpenSource und kostenfrei erhältlich.
+
+![Screenshot](bilder/kap_00_keepassxc.png)
+
+*Bildquelle: [https://keepassxc.org/docs/KeePassXC_GettingStarted.html](https://keepassxc.org/docs/KeePassXC_GettingStarted.html)*
+
+Sie können mit diesem Programm nicht nur Passwörter speichern, sondern auch generieren.
+
+Auch für Browser gibt es Plugins, die Passwortfelder automatisch erkennen und die Datenbank von KeePassXC abfragen oder um neue Einträge ergänzen.
+
+---
+
+### KeePassXC Tutorial
+
+Auf YouTube finden Sie Tutorials zur Bedienung von KeePassXC:
+
+![Screenshot](bilder/kap_00_keepass_tutorial.png)
+
+[https://youtu.be/6cWh3pLwOf0](https://youtu.be/6cWh3pLwOf0)
 
 ---
 

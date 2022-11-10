@@ -67,6 +67,14 @@ In diesem Video wird die Umrechnung von Zahlensystemen am Beispiel des Casio fx 
 [https://www.youtube.com/watch?v=QE7D-d2goCQ](https://www.youtube.com/watch?v=QE7D-d2goCQ)
 
 ---
+
+### PowerToys (für Microsoft-Geräte)
+
+[PowerToys von Microsoft](https://learn.microsoft.com/de-de/windows/powertoys/) sind eine Sammlung von Hilfsprogrammen, die im Alltag sehr nützlich sind. Bspw. das Verkleinern von Bildern, die Anzeige von Fenstern mithilfe von zuvor eingerichteten Zonen, das Umbenennen mehrerer Dateien oder das Feststellen eines Farbwertes sind einfach und schnell durchführbar.
+
+![MS PowerToys](bilder/kap_01_PowerToys.png)
+
+---
 ## GitHub
 
 ### GitHub.io - LF2-Kurs als MkDocs-Variante
