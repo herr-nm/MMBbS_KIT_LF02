@@ -266,13 +266,11 @@ Bei der Auswahl eines geeigneten Speichermediums für einen Kunden fallen im Ver
 
 ![Cartoon WTF](bilder/kap_03_cartoon.PNG)
 
----
-
-### Arbeitsauftrag A|3.1: Unterschied zwischen Gibibyte und Gigabyte
-
 !!! attention "Taschenrechner"
 
-    Nutzen Sie einen Taschenrechner, den Sie auch in der IHK-Prüfung verwenden wollen. Je mehr Übung Sie mit Ihrem Taschenrechner haben, desto einfacher werden Ihnen die Aufgabentypen in der Prüfung fallen.
+    Nutzen Sie einen Taschenrechner, den Sie auch in der IHK-Prüfung verwenden wollen. Je mehr Übung Sie mit Ihrem Taschenrechner haben, desto einfacher werden Ihnen die Aufgabentypen in der Prüfung fallen. Ich empfehle Ihnen ein Modell, welches Zahlensysteme umrechnen kann (bspw. Casio FX991 DEX); damit ist bspw. auch das Berechnen von Break-even-Points und ähnliches möglich.
+
+### Arbeitsauftrag A|3.1: Unterschied zwischen Gibibyte und Gigabyte
 
 #### Aufgabe 1
 
