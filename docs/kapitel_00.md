@@ -148,7 +148,7 @@ Wenn Sie nach einer Software dafür suchen, wäre ein Passwortmanager die richti
 - ... ist plattformunabhängig und steht für Windows, macOS sowie Linux zur Verfügung (und auch für mobile Geräte gibt es Apps in den Stores).
 - ... ist OpenSource und kostenfrei erhältlich.
 
-![Screenshot](bilder/kap_00_keepassxc.png)
+![Screenshot](bilder/kap_00_keypassxc.png)
 
 *Bildquelle: [https://keepassxc.org/docs/KeePassXC_GettingStarted.html](https://keepassxc.org/docs/KeePassXC_GettingStarted.html)*
 
@@ -165,6 +165,12 @@ Auf YouTube finden Sie Tutorials zur Bedienung von KeePassXC:
 ![Screenshot](bilder/kap_00_keepass_tutorial.png)
 
 [https://youtu.be/6cWh3pLwOf0](https://youtu.be/6cWh3pLwOf0)
+
+---
+
+### Tipps im Umgang mit Passwörtern
+
+Hierzu gibt es einen guten Blogeintrag von Linus Neumann mit Video-Ausschnitt aus der Lanz Sendung von 2019, in dem das Vorgehen ebenfalls erläutert wird: [https://linus-neumann.de/2019/01/lehren-aus-den-doxing-angriffen/](https://linus-neumann.de/2019/01/lehren-aus-den-doxing-angriffen/).
 
 ---
 
