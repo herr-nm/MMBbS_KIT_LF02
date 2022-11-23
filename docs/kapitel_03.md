@@ -1,6 +1,6 @@
-# Kapitel 4: Netzwerkspeicher dimensionieren
+# Kapitel 3: Netzwerkspeicher dimensionieren
 
-![Kapitelbild](bilder/kap_04_kapitelbild.jpg)
+![Kapitelbild](bilder/kap_03_kapitelbild.jpg)
 
 In diesem Kapitel werden Sie ...
 
@@ -787,11 +787,17 @@ Treffen und begründen Sie Ihre letztendliche Entscheidung.
 
 ---
 
-### Übung UE|3.1: Übertragung von Daten
+### Übung UE|3.1: Datenspeicher einordnen
 
-!!! attention "Taschenrechner"
+<iframe src="https://moodle.mm-bbs.de/moodle/mod/hvp/embed.php?id=199060" width="1091" height="459" frameborder="0" allowfullscreen="allowfullscreen" title="UE|3.1: Datenspeicher einordnen"></iframe><script src="https://moodle.mm-bbs.de/moodle/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
-    Nutzen Sie einen Taschenrechner, den Sie auch in der IHK-Prüfung verwenden wollen. Je mehr Übung Sie mit Ihrem Taschenrechner haben, desto einfacher werden Ihnen die Aufgabentypen in der Prüfung fallen.
+!!! info
+
+    Sie müssen in einem anderen Tab im Browser unter moodle.mm-bbs.de angemeldet sein, um diese Ressource laden zu können.
+
+---
+
+### Übung UE|3.2: Übertragung von Daten berechnen
 
 #### Aufgabe 1
 
@@ -823,21 +829,7 @@ Das Hochladen von 50 Mebibyte dauerte 15 Minuten.
 
 ---
 
-### Übung UE|3.3: Datenspeicher
-
-<iframe src="https://moodle.mm-bbs.de/moodle/mod/hvp/embed.php?id=110709" width="733" height="477" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://moodle.mm-bbs.de/moodle/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
-
-!!! info
-
-    Sie müssen in einem anderen Tab im Browser unter moodle.mm-bbs.de angemeldet sein, um diese Ressource laden zu können.
-
-### Übung UE|3.4: RAID-Systeme
-
-TODO Interaktives Inhaltselement
-
----
-
-### Übung UE|3.5: Berechnungen zu elektrotechnischen Fragestellungen
+### Übung UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
 
 #### Aufgabe 1
 
@@ -879,7 +871,7 @@ Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstell
 
 ---
 
-### Lösung zu UE|3.5: Berechnungen zu elektrotechnischen Fragestellungen
+### Lösung zu UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
 
 #### Aufgabe 1
 
@@ -939,6 +931,109 @@ Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstell
 - *I = P / U*
 - *I = 3,8 W / 5 V = 0,76 A*
 - *Die vom USB Port bereitgestellte Stromstärke von 0,9 A reicht für die benötigten 0,76 A aus.*
+
+---
+
+### UE|3.4: Wiederholung der Themen aus diesem Kapitel
+
+#### UE|3.4.0: Handlungssituation
+
+Bearbeiten Sie die Aufgaben auf dem Lernpfad in der Abbildung in der angegebenen Reihenfolge. Notieren Sie sich für den Abgleich mit der Beispiellösung Ihre Rechenwege und Ergebnisse. Eine Beispiellösung für alle Aufgaben wird am Ende verfügbar gemacht. Dazu müssen Sie Ihre Teilschritte in den einzelnen Aufgaben hochgeladen haben.
+
+Versuchen Sie alle Aufgaben in max. 30 Min. fertig zu bearbeiten.
+
+#### UE|3.4.1: Speichertechnologien
+
+Der Raspberry Pi soll für ein Projekt das Betriebssystem "DietPi" nutzen. Dieses wird auf die Micro-SD-Karte installiert. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
+
+Für die Speicherung größerer Datenmengen wird per USB eine HDD angeschlossen. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
+
+#### UE|3.4.2: Speichermaßeinheiten
+
+Das Betriebssystem "DietPi" soll installiert werden. Die Dateigröße des gepackten Images beträgt 169.895 KB. Wie viel ist dies als Angabe in MiB?
+
+#### UE|3.4.3: Übertragung von Daten
+
+Für die Vorbereitung der Installation von Pi-Hole (einem Werbeblocker für das eigene Netzwerk) sollen Updates durchgeführt werden. Es sind 148 MiB mit einer Geschwindigkeit von 10,4 Mbit/s herunterzuladen. Wie lange dauert der Download (in Sekunden)?
+
+#### UE|3.4.4: Bildgrößen berechnen
+
+Ein an den Raspberry Pi angeschlossenes Kameramodul soll für eine Zeitrafferaufnahme jede volle Stunde ein Foto machen. Die Bildgröße entspricht späteren 20x30cm mit 300 ppi Auflösung bei 24-Bit RGB-Modus (je Kanal 8 Bit). Die Aufnahmen sollen für 30 Tage durchgeführt und gespeichert werden. Wie viel Platz muss auf dem Speichermedium reserviert werden? Geben Sie die Speichermenge in MiB an.
+
+#### UE|3.4.5: RAID-Level unterscheiden
+
+Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level aus, welches bei drei Festplatten das höchste Maß an Sicherheit gegen den Ausfall von Festplatten bietet. Die Nettokapazität spielt gegenüber der Sicherheit in diesem Fall eine untergeordnete Rolle. Wählen Sie aus folgenden RAID-Leveln begründet aus:
+
+- RAID 0
+- RAID 1
+- RAID 5
+- RAID 10
+
+#### UE|3.4.6: Energieeffizienz berechnen
+
+Für den Einsatz als Werbeblocker mit Pi-Hole soll die geeignetste Hardware gefunden werden. Ein Aspekt dabei ist die Energieeffizienz.
+
+Ein RPi Zero würde mit 5V Spannung versorgt werden und zieht 1A. Es müsste allerdings noch ein Shield für die RJ45-Netzwerkschnittstelle hinzugefügt werden. Dieses wird mit 3,3V Spannung versorgt und zieht nochmal zusätzlich 0,75A.
+
+Ein RPi 3B+ würde ebenfalls mit 5V Spannung versorgt werden und dabei 1,75A ziehen.
+
+Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb, wenn der Preis für eine kWh bei 31,4ct liegt. Welches ist die günstigere Variante?
+
+#### UE|3.4.7: Info pi-hole
+
+Sie haben die Aufgaben geschafft! Wenn Sie das Projekt gerne selbst einmal ausprobieren wollen, finden Sie hier viele weitere Informationen: [https://pi-hole.net/](https://pi-hole.net/)
+
+![pi-hole](bilder/kap_03_pihole.png)
+
+Die Lösungen zu den Aufgaben finden Sie im nächsten Abschnitt der Lernlandkarte.
+
+#### UE|3.4.8: Beispiellösung zu den Aufgaben
+
+##### Speichertechnologien
+
+Der Raspberry Pi soll für ein Projekt das Betriebssystem "DietPi" nutzen. Dieses wird auf die Micro-SD-Karte installiert. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
+
+Für die Speicherung größerer Datenmengen wird per USB eine HDD angeschlossen. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
+
+![Lösung](bilder/kap_03_lernlandkarte_speichertechnologien.png)
+
+##### Speichermaßeinheiten
+
+Das Betriebssystem "DietPi" soll installiert werden. Die Dateigröße des gepackten Images beträgt 169.895 KB. Wie viel ist dies als Angabe in MiB?
+
+![Lösung](bilder/kap_03_lernlandkarte_speichermasseinheiten.png)
+
+##### Übertragung von Daten
+Für die Vorbereitung der Installation von Pi-Hole (einem Werbeblocker für das eigene Netzwerk) sollen Updates durchgeführt werden. Es sind 148 MiB mit einer Geschwindigkeit von 10,4 Mbit/s herunterzuladen. Wie lange dauert der Download (in Sekunden)?
+
+![Lösung](bilder/kap_03_lernlandkarte_uebertragungDaten.png)
+
+##### Bildgrößen berechnen
+Ein an den Raspberry Pi angeschlossenes Kameramodul soll für eine Zeitrafferaufnahme jede volle Stunde ein Foto machen. Die Bildgröße entspricht späteren 20x30cm mit 300 ppi Auflösung bei 24-Bit RGB-Modus (je Kanal 8 Bit). Die Aufnahmen sollen für 30 Tage durchgeführt und gespeichert werden. Wie viel Platz muss auf dem Speichermedium reserviert werden? Geben Sie die Speichermenge in MiB an.
+
+![Lösung](bilder/kap_03_lernlandkarte_bildgroesse.png)
+
+##### RAID
+Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level aus, welches bei drei Festplatten das höchste Maß an Sicherheit gegen den Ausfall von Festplatten bietet. Die Nettokapazität spielt gegenüber der Sicherheit in diesem Fall eine untergeordnete Rolle. Wählen Sie aus folgenden RAID-Leveln begründet aus:
+
+- RAID 0
+- RAID 1
+- RAID 5
+- RAID 10
+
+![Lösung](bilder/kap_03_lernlandkarte_raid.png)
+
+##### Energieeffizienz berechnen
+
+Für den Einsatz als Werbeblocker mit Pi-Hole soll die geeignetste Hardware gefunden werden. Ein Aspekt dabei ist die Energieeffizienz.
+
+Ein RPi Zero würde mit 5V Spannung versorgt werden und zieht 1A. Es müsste allerdings noch ein Shield für die RJ45-Netzwerkschnittstelle hinzugefügt werden. Dieses wird mit 3,3V Spannung versorgt und zieht nochmal zusätzlich 0,75A.
+
+Ein RPi 3B+ würde ebenfalls mit 5V Spannung versorgt werden und dabei 1,75A ziehen.
+
+Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb, wenn der Preis für eine kWh bei 31,4ct liegt. Welches ist die günstigere Variante?
+
+![Lösung](bilder/kap_03_lernlandkarte_energieeffizienz.png)
 
 ---
 
