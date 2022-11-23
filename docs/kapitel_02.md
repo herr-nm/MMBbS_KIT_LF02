@@ -531,10 +531,6 @@ Interaktives Inhaltselement
 
 ## Podcastempfehlungen
 
-### IT-Berufe-Podcast #159 - Anforderungsermittlung (nicht nur für dein Abschlussprojekt) (11/2020)
-
-[https://it-berufe-podcast.de/anforderungsermittlung-nicht-nur-fuer-dein-abschlussprojekt-it-berufe-podcast-159/](https://it-berufe-podcast.de/anforderungsermittlung-nicht-nur-fuer-dein-abschlussprojekt-it-berufe-podcast-159/)
-
 ---
 
 ### CRE Technik Kultur Gesellschaft #151 - Die ARM-Architektur (04/2010)
