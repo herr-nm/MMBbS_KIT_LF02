@@ -353,7 +353,7 @@ Schneidefuchs Werbeagentur GmbH
 
 ### Informationsmaterial M|2.5: Prozessor (CPU)
 
-Rufen Sie sich über die [Landingpage](https://mm-bbs.de) das Script *PC-Technik Grundlagen (Stand 2020)* auf. Sie finden dieses unter: 
+Rufen Sie sich über die [Landingpage](https://mm-bbs.de) das Script *PC-Technik Grundlagen (Stand 2020)* auf. Sie finden dieses unter:
 
 Home > HERDT-Themenkatalog > IT-Technik / Netzwerke / Systeme > IT-Technik > PC-Technik Grundlagen (Stand 2020)
 
