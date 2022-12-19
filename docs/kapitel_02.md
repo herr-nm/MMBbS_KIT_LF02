@@ -299,7 +299,7 @@ Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten
 
 ---
 
-## Kompetenz 2.2: Software unterscheiden
+## Kompetenz 2.2: Rechnerarchitekturen und ihre Software unterscheiden
 
 Bei der Auswahl des IT-Systems haben Sie zwar eine Kategorie an Geräten als Ergebnis erzielt, allerdings unterscheiden sich die Systeme hinsichtlich ihrer Software. Während von der Kaeks OHG diesbezüglich keine Vorgaben vorlagen, werden in der nächsten Kundenanfrage Wünsche hierzu geäußert.
 
