@@ -28,9 +28,9 @@ Im Lernfeld 2 sind die Inhalte nach Rahmenlehrplan für alle IT-Berufe identisch
 
 | Nr. | Lernsituation | Unterrichtsstunden |
 | :--- | :--- | :--- |
-| LS 2.6 | IT-Systeme unterscheiden | 12 |
-| LS 2.7 | Netzwerkspeicher dimensionieren | 18 |
-| LS 2.8 | | |
+| LS 2.6 | IT-Systeme unterscheiden | 10 |
+| LS 2.7 | Netzwerkspeicher dimensionieren | 10 |
+| LS 2.8 |  | |
 
 ---
 
@@ -38,13 +38,7 @@ Im Lernfeld 2 sind die Inhalte nach Rahmenlehrplan für alle IT-Berufe identisch
 
 ---
 
-### Informationsmaterial M|0.0: Mitarbeit - mehr als "mündlich"?!
-
-![Mindmap Mitarbeit](bilder/kap_00_m_00_mitarbeit.PNG)
-
----
-
-### Informationsmaterial M|0.1: Zusammensetzung der Note im Lernfeld 2 (technischer Anteil)
+### Informationsmaterial M|0.0: Zusammensetzung der Note im Lernfeld 2 (technischer Anteil)
 
 #### Zusammensetzung
 
@@ -59,11 +53,17 @@ Der 50%-Anteil der LF2 Note bei Herrn Neumann setzt sich wie folgt zusammen:
 
 #### Lernstandsbezogene Leistungsfeststellungen
 
-Die lernstandsbezogene Leistungsfeststellung in Form einer Klassenarbeit wird im 4. Block geschrieben (genauer Termin s. zu gegebener Zeit im WebUntis). Die Klassenarbeit hat einen Umfang von 70 Minuten und findet als Moodle-Klassenarbeit statt.
+Die lernstandsbezogene Leistungsfeststellung in Form einer Klassenarbeit wird ca. im 4. Block geschrieben (genauer Termin s. zu gegebener Zeit im WebUntis). Die Klassenarbeit hat einen Umfang von 45-60 Minuten und findet als Papier-Klassenarbeit statt. Zur Klassenarbeit ist ein Taschenrechner zugelassen (s. auch im Kurs [KIT Organisatorisches](https://moodle.mm-bbs.de/moodle/course/view.php?id=1720&section=3)).
 
 #### Lernprozessbegleitende Leistungsfeststellungen
 
 Die lernprozessbegleitenden Leistungsfeststellungen setzen sich aus verschiedenen Abgaben oder angekündigten Tests zusammen (s. hier ebenfalls WebUntis).
+
+---
+
+### Informationsmaterial M|0.1: Mitarbeit - mehr als "mündlich"?!
+
+![Mindmap Mitarbeit](bilder/kap_00_m_00_mitarbeit.PNG)
 
 ---
 

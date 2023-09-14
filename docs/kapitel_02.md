@@ -20,7 +20,11 @@ In Ihrer Ausbildung sind Sie aktuell im Vertriebsinnendienst eingesetzt. Hier un
 
 ### Arbeitsauftrag A|2.0: Erarbeitung der verbalen Begründung
 
-Sicherlich haben Sie schon einmal für eine private Anschaffung aus verschiedenen Kandidaten auswählen müssen. Bspw. bei der Auswahl einer passenden Smartwatch müssten Sie sich Aspekte überlegen, die Ihnen an einer solchen wichtig sind. Stellen Sie sich nun vor, Sie sollten die Auswahl einem Kollegen gegenüber begründen. Nach welchem Schema könnten Sie hierfür vorgehen, um einer außenstehenden Person zu verdeutlichen, welche Gründe zu der Auswahl geführt haben?
+Sicherlich haben Sie schon einmal für eine private Anschaffung aus verschiedenen Kandidaten auswählen müssen. Bspw. bei der Auswahl einer passenden Smartwatch müssten Sie sich Aspekte überlegen, die Ihnen an einer solchen wichtig sind. Stellen Sie sich nun vor, Sie sollten die Auswahl einem Kollegen, einem Kunden oder Freunden gegenüber begründen.
+
+Nach welchem Schema könnten Sie hierfür **im Allgemeinen** vorgehen, um einer außenstehenden Person zu verdeutlichen, welche Gründe zu der Auswahl geführt haben? Der Fokus in dieser Aufgabe liegt wirklich nur auf dem **Prozess** und nicht auf der Auswahl eines konkreten Systems.
+
+![Schema verbale Begründung](bilder/kap_02_A2.0_Verbale_Begründung_Aufgabenstellung.png)
 
 ---
 
@@ -57,8 +61,8 @@ E-Mail: s.mayer@kaeks-ohg.de
 
 Da Sie neu in der Vertriebsabteilung sind, empfiehlt Ihr Ausbilder Ihnen, sich vorerst einen Überblick zu den angebotenen IT-Systemen zu verschaffen. Legen Sie eine Mindmap an, in welcher sie die verschiedenen IT-Systeme aufgreifen. Ordnen Sie zwei bis drei Charakteristika zu jedem System zu und wägen Sie Vor- und Nachteile ab, indem Sie jeweils maximal drei hiervon aufnehmen.
 
-1. Falls Sie sich über Mindmaps informieren wollen, sehen Sie sich die Methodeninformation im Kurs unter dieser Aufgabe an. In dieser ist auch erläutert, wie sie den Mindmanager auf dem Terminal-Server aufrufen.
-2. Erstellen Sie eine Mindmap zu den IT-Systemen unter Berücksichtigung der Vorgaben s.o.
+1. Falls Sie sich über Mindmaps informieren wollen, sehen Sie sich die Methodeninformation im Kurs unter dieser Aufgabe an.
+2. Erstellen Sie gemeinsam eine Mindmap zu den IT-Systemen unter Berücksichtigung der Vorgaben s.o. **Es geht hier noch nicht um den konkreten Fall der Kaeks OHG, sondern um alle in dem Informationsmaterial enthaltenen IT-Systeme und deren allgemeine Vor- und Nachteile.**
 
 ---
 
@@ -295,7 +299,13 @@ Peripheriegeräte sind unterteilt in Eingabe- und Ausgabegeräte. Auch Multifunk
 
 ### Arbeitsauftrag A|2.2: Auswahl eines IT-Systems für die Kaeks OHG
 
-Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten erfüllt. Bereiten Sie außerdem entsprechend Ihrer angestellten Überlegungen zur verbalen Begründung einer Auswahl eine kurze Stellungnahme zur Überzeugung des Ausbilders und des Kunden vor. Verschriftlichen Sie diese in einem Text.
+Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten erfüllt:
+
+- Schreiben Sie dem Kunden eine Antwort in Form einer ausformulierten E-Mail.
+- Nutzen Sie die Phasen der verbalen Begründung (s. Lösung zu A|2.0: Entscheidungen verbal begründen).
+- Beachten Sie die Bewertungskriterien s.u., da die Abgabe in dieser Aufgabe als Leistung in den lernprozessbegleitenden Bereich eingeht.
+- Sie dürfen sich mit Ihrem Umfeld in der Klasse besprechen und Lösungsansätze diskutieren, das Ergebnis ist allerdings eine Einzelarbeit. Daher ist eine individuelle Abgabe notwendig.
+- Geben Sie dieses Schreiben als PDF-Datei (max. 5 MB) in dieser Aufgabe ab.
 
 ---
 

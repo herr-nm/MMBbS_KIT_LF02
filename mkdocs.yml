@@ -6,6 +6,8 @@ theme:
   font: false
   favicon: bilder/favicon.png
   logo: bilder/logo.png
+  features:
+    - navigation.footer
 
 markdown_extensions:
 - admonition
@@ -18,6 +20,11 @@ plugins:
 
 extra_css:
     - 'extra.css'
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/herr-nm
 
 use_directory_urls: false
 

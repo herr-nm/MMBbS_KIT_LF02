@@ -6,7 +6,7 @@ Willkommen im LF2-Kurs der MMBbS.
 
 Dieser Kurs wird unter Moodle abgebildet:
 
-- https://moodle.mm-bbs.de/moodle/course/view.php?id=2733 [Stand SJ 2022/2023]
+- https://moodle.mm-bbs.de/moodle/course/view.php?id=3005 [Stand SJ 2023/2024]
 
 ---
 
@@ -22,13 +22,12 @@ Dieser Kurs wird unter Moodle abgebildet:
 
 | Kompetenz |  | Zeitansatz |
 | :--- | :--- | ---: |
-| | Einstieg in die Handlungssituation | 15 Min. |
-| 2.0 | Entscheidungen verbal begründen | 90 Min. |
-| 2.1 | Hardware unterscheiden | 45 Min. |
-| 2.2 | Software unterscheiden | 45 Min. |
-| 2.3 | Virtualisierung von IT-Systemen unterscheiden | 45 Min. |
-| | Auswahl einer Hard- und Software | 45 Min. |
-| **Summe** | | **405 Min.** </br>**↳ 9 UStd.** |
+| 2.0 | Entscheidungen verbal begründen | 45 Min. |
+| 2.1 | IT-Systeme unterscheiden | 180 Min. |
+| 2.2 | Rechnerarchitekturen und ihre Software unterscheiden | 90 Min. |
+| Handlungsergebnisse | Auswahl zweier IT-Systeme | 90 Min. |
+| | Einstieg in die Lernsituation, Tests, Pufferzeit | 45 Min. |
+| **Summe** | | **450 Min.** </br>**↳ 10 UStd.** |
 
 ---
 
@@ -44,15 +43,15 @@ Dieser Kurs wird unter Moodle abgebildet:
 
 | Kompetenz |  | Zeitansatz |
 | :--- | :--- | ---: |
-| | Einstieg in die Handlungssituation | 15 Min. |
 | 3.0 | Speichertechnologien und -medien auswählen | 90 Min. |
-| 3.1 | Speichergrößen umrechnen | 45 Min. |
+| 3.1 | Speichermaßeinheiten umrechnen | 45 Min. |
 | 3.2 | Größen von Bild- und Videodateien bestimmen | 45 Min. |
 | 3.3 | Übertragung von Daten berechnen | 45 Min. |
-| 3.4 | RAID-Level unterscheiden | 45 Min. |
+| 3.4 | RAID-Level unterscheiden | 90 Min. |
 | 3.5 | Energieeffizienz berechnen | 45 Min. |
-| | Auswahl eines Netzwerkspeichers | 75 Min. |
-| **Summe** | | **405 Min.** </br>**↳ 9 UStd.** |
+| Handlungsergebnis | Auswahl eines Netzwerkspeichers | 45 Min. |
+| | Einstieg in die Lernsituation, Tests, Pufferzeit | 90 Min. |
+| **Summe** | | **450 Min.** </br>**↳ 10 UStd.** |
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
