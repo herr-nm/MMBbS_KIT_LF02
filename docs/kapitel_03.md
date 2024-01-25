@@ -12,15 +12,11 @@ In diesem Kapitel werden Sie ...
 - ... die Energieeffizienz berechnen.
 - ... einen Netzwerkspeicher auswählen.
 
----
-
 ## Handlungssituation
 
 Das Unternehmen Yoel.de AG hat bei der Change IT GmbH einen Netzwerkspeicher angefragt. Der zuständige Außendienst hat nach dem Gespräch mit dem Kunden eine Gesprächsnotiz für die Vertriebsabteilung geschrieben, um alle Anforderungen zur Datensicherheit, den verwendeten Technologien, der Energieeffizienz und weiterer Bedingungen an das System zusammenzufassen. Sie sollen sich auf Basis einer Vorauswahl für ein passendes Gerät entscheiden.
 
 ![NAS mit Notebook](bilder/kap_03_nasMitNotebook.jpg)
-
----
 
 ### Informationsmaterial M|3.0: Gesprächsnotiz zu Yoel.de AG
 
@@ -54,8 +50,6 @@ Danke und bis die Tage!
 
 Z. Andersen
 
----
-
 ### Informationsmaterial M|3.1: Vorauswahl der Change IT-NAS-Systeme
 
 Auszug aus dem Produktkatalog der Change IT:
@@ -67,21 +61,17 @@ Auszug aus dem Produktkatalog der Change IT:
 | Gerätetyp | Standalone | Standalone | Standalone | 19"-Rackmount |
 | Anzahl Laufwerke | 2 x 2,5" oder 3,5" SATA | 4 x 2,5" oder 3,5" SATA | 4 x 2,5" oder 3,5" SATA | 8 x 2,5" oder 3,5" SATA |
 | Laufwerkstypen | HDD | SSD oder HDD | SSD oder HDD | SSD oder HDD | SSD oder HDD |
-| Max. Laufwerksgröße | 5.460 GiB | 7,28 TiB | 16 TB | 16,37 TiB |
+| Max. Laufwerksgröße | 5.587,94 GiB | 7,28 TiB | 16 TB | 16,37 TiB |
 | Energieverbrauch in Voll-Betrieb | 12 W | 50 W | 60 W | 90 W |
 | Energieverbrauch im Festplattenruhestand | 8 W | 8 W | 10 W | 10 W |
 | Energieverbrauch im Standby | 1 W | 1000 mW | 2 W | 5 W |
 | ... | ... | ... | ... | ... |
-
----
 
 ## Kompetenz 3.0: Speichertechnologien und -medien auswählen
 
 Auf Basis der Gesprächsnotiz und der durch den Kollegen Herrn Andersen getroffenen Vorauswahl ist ein IT-System zu dimensionieren. Im ersten Schritt sollen unterschiedliche Speichertechnologien beleuchtet werden, um ein passendes Medium für die vorliegende Kundenanfrage von Yoel.de AG zu erhalten.
 
 ![Verschiedene Speichermedien](bilder/kap_03_speichermedien.jpg)
-
----
 
 ### Arbeitsauftrag A|3.0: Auswahl eines Speichermediums
 
@@ -98,8 +88,6 @@ Erstellen Sie ein Schaubild zu den Eigenschaften und je zwei Vor- und Nachteilen
 #### Aufgabe 3
 
 Treffen Sie anhand Ihrer Zusammenstellung und auf Basis der NAS-Übersicht in der Vorauswahl eine sinnvolle und begründete Auswahl eines Speichermediums für die Kundenanfrage von Yoel.de AG.
-
----
 
 ### Informationsmaterial M|3.2: Speichertechnologien
 
@@ -258,8 +246,6 @@ Man unterscheidet bei Speichergeräten mit mechanischen Lesevorgängen zwischen 
 - Ein Beispiel für die analogen Medien ist die Schellackplatte / die Vinylschallplatte. Die eingepressten Vertiefungen in diesem Datenträger werden durch eine Spezialnadel abgetastet.
 - Das Beispiel für digitale Medien dieser Kategorie ist die Lochkarte, welche zumeist aus hochwertigem Karton gefertigt ist. In der Datenverarbeitung wurde sie zur Datenerfassung und -Speicherung verwendet. In ihr wurden die Dateninhalte durch einen Lochcode abgebildet, dessen Verarbeitung mithilfe von elektro-mechanischen Geräten erfolgte.
 
----
-
 ## Kompetenz 3.1: Speichermaßeinheiten umrechnen
 
 Bei der Auswahl eines geeigneten Speichermediums für einen Kunden fallen im Vergleich verschiedener Anbieter unterschiedliche Angaben zu den Größen auf. So werden einige Laufwerke mit der Einheit Gibibyte und andere mit der Einheit Gigabyte angeboten. Nach dem Einbau einer 1 TB Festplatte in einen Windows-PC für Testzwecke ist die Verwirrung groß: es werden nur 931 GB angezeigt. Wo ist der Rest? Etwas ähnliches ist Ihnen auch in der Vorauswahl unter der Angabe der maximalen Speichergröße je Laufwerk aufgefallen.
@@ -274,17 +260,15 @@ Bei der Auswahl eines geeigneten Speichermediums für einen Kunden fallen im Ver
 
 #### Aufgabe 1
 
-Bei der Recherche zum Thema *Speichermaßeinheiten* sind Sie auf einen Artikel gestoßen, der das Problem in der Ausgangsbeschreibung beschreibt. Fassen Sie die Kernaussagen des Artikels im Informationsmaterial kurz und knapp zusammen.
+Bei der Recherche zum Thema *Speichermaßeinheiten* sind Sie auf einen Artikel (M|3.3: Was unterscheidet Gigabyte und Gibibyte?) gestoßen, der das Problem in der Ausgangsbeschreibung beschreibt. Fassen Sie die Kernaussagen des Artikels im Informationsmaterial kurz und knapp zusammen.
 
 #### Aufgabe 2
 
-Nach dem Einbau einer 1 TB Festplatte in einem PC mit dem Betriebssystem *Microsoft Windows* wird eine Kapazität von 931 GB angezeigt. Informieren Sie sich mithilfe des Videos im Informationsmaterial, warum dies so ist und fassen Sie auch hier den Grund kurz und knapp zusammen.
+Nach dem Einbau einer 1 TB Festplatte in einem PC mit dem Betriebssystem *Microsoft Windows* wird eine Kapazität von 931 GB angezeigt. Informieren Sie sich mithilfe des Videos im Informationsmaterial (M|3.4: Umrechnungen von Speichermaßeinheiten), warum dies so ist und fassen Sie auch hier den Grund kurz und knapp zusammen.
 
 #### Aufgabe 3
 
-Rechnen Sie die Angaben in der Vorauswahl der NAS Systeme oben im Kurs auf eine einheitliche Max. Laufwerksgröße um, damit ein Vergleich möglich ist.
-
----
+Rechnen Sie die Angaben in der Vorauswahl der NAS Systeme (M|3.1: Vorauswahl der Change IT-NAS-Systeme) oben im Kurs auf eine einheitliche Max. Laufwerksgröße in aufgerundeten ganzen TB um, damit ein Vergleich möglich ist.
 
 ### Informationsmaterial M|3.3: Was unterscheidet Gigabyte und Gibibyte?
 
@@ -303,8 +287,6 @@ Damit sind die Hersteller von Festplatten und SSDs im Recht, doch verwirrend ist
 Langfristig ist das aber keine gute Strategie: Mit stetig steigenden Datenmengen erhöht sich der Unterschied zwischen vermeintlich vorhandenem und tatsächlich vorhandenem Speicher. Während ein Kibibyte nur 2,4 % mehr Daten umfasst als ein Kilobyte, beinhaltet ein Tebibyte bereits 10 % mehr Informationen als ein Terabyte. Ein Zebibyte - in diesen Regionen liegt Schätzungen zufolge bereits das aktuelle jährliche anfallende Datenaufkommen über das Internet - entspricht bereits einer 18,1 % größeren Datenmenge als ein Zetabyte.
 
 *Quelle: [https://www.pcgameshardware.de/Neue-Technologien-Thema-71240/Specials/PCGH-Basiswissen-im-Video-Was-unterscheidet-Gigabyte-und-Gibibyte-605340/](https://www.pcgameshardware.de/Neue-Technologien-Thema-71240/Specials/PCGH-Basiswissen-im-Video-Was-unterscheidet-Gigabyte-und-Gibibyte-605340/)*
-
----
 
 ### Arbeitsauftrag A|3.2: Umrechnungen zwischen SI- und IEC-Einheiten
 
@@ -333,8 +315,6 @@ Sie kaufen sich eine Festplatte mit einer Speicherkapazität von 240 GB. Wie gro
 #### Aufgabe 6
 
 Rechnen Sie den Wert von 375 MiB in den für ein Umrechnungsprogramm benötigten Wert als Angabe in KB um. Geben Sie Ihren Rechenweg an.
-
----
 
 ### Informationsmaterial M|3.4: Umrechnungen von Speichermaßeinheiten
 
