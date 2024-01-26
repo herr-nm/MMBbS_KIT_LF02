@@ -459,7 +459,7 @@ Eine PDF-Anleitung mit einer Dateigröße von 2 MB wurde über eine drahtlose Ne
 
 #### Aufgabe 3
 
-Mit einer Übertragungsgeschwindigkeit von 50 MBit/s können die restlichen Videotutorials vom Endgerät des Projektverantwortlichen auf den Netzwerkspeicher übertragen werden. Dieser hat für Videotutorials einer Abteilung des Unternehmens 30 Min. lang Daten übertragen. Wie groß war die gesamte Speichermenge der in dieser Zeit übertragenen Videos? Geben Sie den Rechenweg an.
+Mit einer Übertragungsgeschwindigkeit von 50 MBit/s können die restlichen Videotutorials vom Endgerät des Projektverantwortlichen auf den Netzwerkspeicher übertragen werden. Dieser hat für Videotutorials einer Abteilung des Unternehmens 30 Min. lang Daten übertragen. Wie groß war die gesamte Speichermenge (in GiB) der in dieser Zeit übertragenen Videos? Geben Sie den Rechenweg an.
 
 ---
 
