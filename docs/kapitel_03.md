@@ -479,15 +479,15 @@ Die Datensicherheit ist für Yoel.de AG ein wichtiger Aspekt in der Auswahl eine
 
 ---
 
-### Arbeitsauftrag A|3.5: Analyse eines Netzwerkspeichers (NAS)
+### Arbeitsauftrag A|3.5: Verfügbarkeit von Daten unterstützen
 
 #### Aufgabe 1
 
-Welche Anforderungen zur Datensicherheit hatte der Kunde dem Außendienst mitgeteilt? Fassen Sie diese in eigenen Worten zusammen.
+Welche Anforderungen zur Datensicherheit hatte der Kunde dem Außendienst mitgeteilt (s. M|3.0: Gesprächsnotiz zu Yoel.de AG)? Fassen Sie diese in eigenen Worten zusammen.
 
 #### Aufgabe 2
 
-Es sind bei den Netzwerkspeichern verschiedene Möglichkeiten für den Betrieb mehrerer Festplatten angegeben. Wählen Sie für den Anwendungsfall zwischen JBOD, RAID 0, RAID 1, RAID 10 und RAID 5 begründet aus. Prüfen Sie dazu jeden Betriebsmodus und beschreiben Sie, warum Sie diesen für den Anwendungsfall von Yoel.de AG für angemessen oder eben nicht angemessen halten. Informationen zu den Betriebsmodi finden Sie im Kurs.
+Es sind bei den Netzwerkspeichern verschiedene Möglichkeiten für den Betrieb mehrerer Festplatten angegeben. Wählen Sie für den Anwendungsfall zwischen JBOD, RAID 0, RAID 1, RAID 10 und RAID 5 begründet aus. Prüfen Sie dazu jeden Betriebsmodus und beschreiben Sie, warum Sie diesen für den Anwendungsfall von Yoel.de AG für angemessen oder eben nicht angemessen halten. Informationen zu den Betriebsmodi finden Sie im Kurs (s. M|3.7: Betriebsmodi für Festplatten im NAS).
 
 #### Aufgabe 3
 
@@ -499,7 +499,7 @@ Nehmen Sie zu der folgenden Aussage begründet Stellung:
 
 #### Aufgabe 4
 
-Das NAS-System *NAS Serv Plus* ist mit dem Modus des RAID 6 kompatibel. Informieren Sie sich im Informationsmaterial, wie dieses funktioniert und prüfen Sie, ob dieses aufgrund der Kundenanforderungen eine Alternative darstellt.
+Das NAS-System *NAS Serv Plus* ist mit dem Modus des RAID 6 kompatibel. Informieren Sie sich im Informationsmaterial (s. M|3.7: Betriebsmodi für Festplatten im NAS), wie dieses funktioniert und prüfen Sie, ob dieses aufgrund der Kundenanforderungen eine Alternative darstellt.
 
 ---
 
