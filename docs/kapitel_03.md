@@ -370,7 +370,7 @@ Es liegen bei Yoel.de AG bereits einige Videotutorials vor. Sie haben folgende D
 | :--- | :--- |
 | **Auflösung in Pixel:** | 1072 x 768 |
 | **Bilder je Sekunde:** | 30 |
-| **Farbtiefe:** | 12 Bit/Pixel |
+| **Farbtiefe & Kanäle:** | 8 Bit je Farbe, RGB-Modus je Pixel |
 | **Videodauer:** | 15 Min. |
 
 </br>
