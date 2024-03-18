@@ -749,25 +749,13 @@ Treffen und begründen Sie Ihre letztendliche Entscheidung.
     - Schreiben Sie max. eine DIN-A4-Seite.
     - Benennen Sie die Datei nach dem Schema "klasse_nachname.pdf".
 
----
-
 ## Weitere Übungen
 
 !!! note "Hinweis zu den Übungen"
 
     Nachfolgend finden Sie Aufgaben zur Wiederholung der Inhalte dieses Kapitels. Es liegen hierzu jeweils Beispiellösungen zum Zweck der Selbstkontrolle vor.
 
-### Übung UE|3.0: Speichermaßeinheiten umrechnen
-
-<iframe src="https://moodle.mm-bbs.de/moodle/mod/hvp/embed.php?id=110707" width="733" height="325" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://moodle.mm-bbs.de/moodle/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
-
-!!! info
-
-    Sie müssen in einem anderen Tab im Browser unter moodle.mm-bbs.de angemeldet sein, um diese Ressource laden zu können.
-
----
-
-### Übung UE|3.1: Datenspeicher einordnen
+### Übung UE|3.0: Datenspeicher einordnen
 
 <iframe src="https://moodle.mm-bbs.de/moodle/mod/hvp/embed.php?id=199060" width="1091" height="459" frameborder="0" allowfullscreen="allowfullscreen" title="UE|3.1: Datenspeicher einordnen"></iframe><script src="https://moodle.mm-bbs.de/moodle/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -775,7 +763,13 @@ Treffen und begründen Sie Ihre letztendliche Entscheidung.
 
     Sie müssen in einem anderen Tab im Browser unter moodle.mm-bbs.de angemeldet sein, um diese Ressource laden zu können.
 
----
+### Übung UE|3.1: Speichermaßeinheiten umrechnen
+
+<iframe src="https://moodle.mm-bbs.de/moodle/mod/hvp/embed.php?id=110707" width="733" height="325" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://moodle.mm-bbs.de/moodle/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+!!! info
+
+    Sie müssen in einem anderen Tab im Browser unter moodle.mm-bbs.de angemeldet sein, um diese Ressource laden zu können.
 
 ### Übung UE|3.2: Übertragung von Daten berechnen
 
@@ -806,8 +800,6 @@ Das Hochladen von 50 Mebibyte dauerte 15 Minuten.
 1. Welche durchschnittliche Übertragungsrate in Kilobit pro Sekunde wurde erreicht?
 2. Um wie viel Prozent wurde die nominelle Übertragungsrate von 512 kbit/s unterschritten?
 3. Wie hoch müsste die effektiv erreichte Übertragungsrate in kbit/s sein, wenn die Übertragung von 100 MiB nicht länger als 5 Minuten dauern soll?
-
----
 
 ### Übung UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
 
@@ -848,8 +840,6 @@ An ein Tablet mit einer USB 3.0 Schnittstelle (U = 5 V, I max = 900 mA) sollen �
 - USB Festplatte (2,6 W)
 
 Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstelle beim gleichzeitigem Betrieb der Peripheriegeräte bereitstellen muss und bewerten Sie, ob die vom USB Port zur Verfügung gestellte Stromstärke ausreicht.
-
----
 
 ### Lösung zu UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
 
@@ -912,35 +902,79 @@ Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstell
 - *I = 3,8 W / 5 V = 0,76 A*
 - *Die vom USB Port bereitgestellte Stromstärke von 0,9 A reicht für die benötigten 0,76 A aus.*
 
----
+### UE|3.5: Berechnung der Energiekosten eines Netzteils
 
-### UE|3.4: Wiederholung der Themen aus diesem Kapitel
+Für das Bereitstellen eines Ticket-Systems und diverser weiterer Dienste soll ein Server aufgebaut werden. Die Bestandteile dessen sind wie folgt.
 
-#### UE|3.4.0: Handlungssituation
+| Komponente | Max. Leistungsaufnahme | Anzahl |
+| :--- | :---: | ---: |
+| Mainboard | 50 W | 1 |
+| Prozessor | 150 W | 1 |
+| Lüfter des Prozessors | 10 W | 1 |
+| Grafikkarte | 80 W | 1 |
+| Arbeitsspeicher | 5 W | 4 |
+| SSD | 20 W | 2 |
+| Gehäuselüfter | 10 W | 3 |
+
+#### Aufgabe 1
+
+Es stehen Netzteile von 400 W in 50-W-Schritten bis 1200 W zur Verfügung. Berechnen Sie die maximale Leistungsaufnahme des Gesamtsystems, wenn zur Sicherheit 15% Leistungsreserve hinzugerechnet werden soll und entscheiden Sie sich auf Basis des Ergebnisses für eine Leistung des Netzteils.
+
+#### Aufgabe 2
+
+Der Server wird geplant an 365 Tagen für je 24 Stunden laufen. Es wird pro Jahr mit Wartungsarbeiten von 50 Stunden gerechnet, die dazu führen, dass der Server ausgeschaltet wird. Während der realen Betriebszeit wird von einer Auslastung des Systems von 40% ausgegangen. Da auf die Grafikkarte verzichtet wird, kann ein 400W-Netzteil mit einen Wirkungsgrad von 90% eingesetzt werden. Berechnen Sie die Stromkosten eines Jahres, wenn Sie den Strom zum Preis von 32 ct/kWh beziehen.
+
+### Lösung zu UE|3.5: Berechnung der Energiekosten eines Netzteils
+
+#### Aufgabe 1
+
+\(50\,\text{W}+150\,\text{W}+10\,\text{W}+80\,\text{W}+4*5\,\text{W}+2*20\,\text{W}+3*10\,\text{W}=380\,\text{W}\)
+
+\(380\,\text{W}*1,15=437\,\text{W}\)
+
+Es ist ein Netzteil mit 450 W auszuwählen.
+
+#### Aufgabe 2
+
+\(365\,\text{Tage}*24\,\text{h}=8.760\,\text{h}\)
+
+\(8.760\,\text{h}-50\,\text{h (Wartung)}=8.710\,\text{h}\)
+
+\(8.710\,\text{h}*0,4=3.484\,\text{h}\)
+
+\(\frac{400\,\text{W}}{0,9}=444,44\,\text{W}\)
+
+\(3.484\,\text{h}*444,44\,\text{W}=1.548.428,96\,\text{Wh}≙1.548,43\,\text{kWh}\)
+
+\(1.548,43\,\text{kWh}*0,32\,\text{EUR/kWh}=495,50\,\text{EUR}\)
+
+### UE|3.5: Wiederholung der Themen aus diesem Kapitel
+
+#### UE|3.5.0: Handlungssituation
 
 Bearbeiten Sie die Aufgaben auf dem Lernpfad in der Abbildung in der angegebenen Reihenfolge. Notieren Sie sich für den Abgleich mit der Beispiellösung Ihre Rechenwege und Ergebnisse. Eine Beispiellösung für alle Aufgaben wird am Ende verfügbar gemacht. Dazu müssen Sie Ihre Teilschritte in den einzelnen Aufgaben hochgeladen haben.
 
 Versuchen Sie alle Aufgaben in max. 30 Min. fertig zu bearbeiten.
 
-#### UE|3.4.1: Speichertechnologien
+#### UE|3.5.1: Speichertechnologien
 
 Der Raspberry Pi soll für ein Projekt das Betriebssystem "DietPi" nutzen. Dieses wird auf die Micro-SD-Karte installiert. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
 
 Für die Speicherung größerer Datenmengen wird per USB eine HDD angeschlossen. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
 
-#### UE|3.4.2: Speichermaßeinheiten
+#### UE|3.5.2: Speichermaßeinheiten
 
 Das Betriebssystem "DietPi" soll installiert werden. Die Dateigröße des gepackten Images beträgt 169.895 KB. Wie viel ist dies als Angabe in MiB?
 
-#### UE|3.4.3: Übertragung von Daten
+#### UE|3.5.3: Übertragung von Daten
 
 Für die Vorbereitung der Installation von Pi-Hole (einem Werbeblocker für das eigene Netzwerk) sollen Updates durchgeführt werden. Es sind 148 MiB mit einer Geschwindigkeit von 10,4 Mbit/s herunterzuladen. Wie lange dauert der Download (in Sekunden)?
 
-#### UE|3.4.4: Bildgrößen berechnen
+#### UE|3.5.4: Bildgrößen berechnen
 
 Ein an den Raspberry Pi angeschlossenes Kameramodul soll für eine Zeitrafferaufnahme jede volle Stunde ein Foto machen. Die Bildgröße entspricht späteren 20x30cm mit 300 ppi Auflösung bei 24-Bit RGB-Modus (je Kanal 8 Bit). Die Aufnahmen sollen für 30 Tage durchgeführt und gespeichert werden. Wie viel Platz muss auf dem Speichermedium reserviert werden? Geben Sie die Speichermenge in MiB an.
 
-#### UE|3.4.5: RAID-Level unterscheiden
+#### UE|3.5.5: RAID-Level unterscheiden
 
 Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level aus, welches bei drei Festplatten das höchste Maß an Sicherheit gegen den Ausfall von Festplatten bietet. Die Nettokapazität spielt gegenüber der Sicherheit in diesem Fall eine untergeordnete Rolle. Wählen Sie aus folgenden RAID-Leveln begründet aus:
 
@@ -949,7 +983,7 @@ Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level 
 - RAID 5
 - RAID 10
 
-#### UE|3.4.6: Energieeffizienz berechnen
+#### UE|3.5.6: Energieeffizienz berechnen
 
 Für den Einsatz als Werbeblocker mit Pi-Hole soll die geeignetste Hardware gefunden werden. Ein Aspekt dabei ist die Energieeffizienz.
 
@@ -959,7 +993,7 @@ Ein RPi 3B+ würde ebenfalls mit 5V Spannung versorgt werden und dabei 1,75A zie
 
 Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb, wenn der Preis für eine kWh bei 31,4ct liegt. Welches ist die günstigere Variante?
 
-#### UE|3.4.7: Info pi-hole
+#### UE|3.5.7: Info pi-hole
 
 Sie haben die Aufgaben geschafft! Wenn Sie das Projekt gerne selbst einmal ausprobieren wollen, finden Sie hier viele weitere Informationen: [https://pi-hole.net/](https://pi-hole.net/)
 
@@ -967,7 +1001,7 @@ Sie haben die Aufgaben geschafft! Wenn Sie das Projekt gerne selbst einmal auspr
 
 Die Lösungen zu den Aufgaben finden Sie im nächsten Abschnitt der Lernlandkarte.
 
-#### UE|3.4.8: Beispiellösung zu den Aufgaben
+#### UE|3.5.8: Beispiellösung zu den Aufgaben
 
 ##### Speichertechnologien
 
@@ -1015,11 +1049,7 @@ Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb,
 
 ![Lösung](bilder/kap_03_lernlandkarte_energieeffizienz.png)
 
----
-
 ## Tipps & Tricks
-
----
 
 !!! hint "ISA-Aufgaben"
 
