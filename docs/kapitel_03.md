@@ -801,7 +801,48 @@ Das Hochladen von 50 Mebibyte dauerte 15 Minuten.
 2. Um wie viel Prozent wurde die nominelle Übertragungsrate von 512 kbit/s unterschritten?
 3. Wie hoch müsste die effektiv erreichte Übertragungsrate in kbit/s sein, wenn die Übertragung von 100 MiB nicht länger als 5 Minuten dauern soll?
 
-### Übung UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
+### Übung UE|3.3: Übertragung von Daten berechnen
+
+#### Situation
+
+Sie sind als Mitarbeiter mit mobilem Arbeiten bei der ChangeIT GmbH beschäftigt. Im Rahmen Ihrer Tätigkeiten fallen Aufgaben an, zu denen Sie die Übertragung von Daten berechnen müssen.
+
+#### Aufgabe 1
+
+Sie wollen ein Vollbackup mit der Größe von 1 GiB vom Client auf einem Server speichern. Wie lange dauert die Übertragung der Datenmenge, wenn Ihnen das folgende Ergebnis eines Geschwindigkeitstests der Anbindung vorliegt?
+
+![Datenübertragung](bilder/kap_03_ue3.3_speedtest.png)
+
+Runden Sie das Ergebnis auf volle Sekunden auf und stellen Sie das Ergebnis in Minuten und Sekunden dar.
+
+#### Aufgabe 2
+
+Die Übertragung eines 300 MiB großen inkrementellen Backups hat beim letzten Durchlauf 3 Minuten und 20 Sekunden gedauert, wie schnell war die Übertragungsgeschwindigkeit in Mbit/s für diesen Vorgang?
+
+#### Aufgabe 3
+
+Über Nacht soll ein Update für die eingesetzte Software auf dem Laptop heruntergeladen werden. Dafür steht serverseitig ein Zeitraum von 2 Stunden und 15 Minuten zur Verfügung. Welche Datenmenge in GiB kann in der Zeit maximal heruntergeladen werden, wenn die Übertragungsgeschwindigkeit im Homeoffice aus Aufgabe 1 angenommen wird.
+
+### Lösung zu Übung UE|3.3: Übertragung von Daten berechnen
+
+#### Aufgabe 1
+
+\(\text{Übertragungsdauer} ≙ \frac{\text{Datenmenge}}{\text{Übertragungsgeschwindigkeit}}\)
+\(\text{Übertragungsdauer} ≙ \frac{1\,\text{GiB}}{89,95\text{Mbit/s}} ≙ \frac{\frac{1\,\text{GiB}*1024^3*8}{1000^2}}{89,95\text{Mbit/s}} ≙ 95,5\,\text{s} ≙ 96\,\text{s}\)
+\(\text{Übertragungsdauer} ≙ 1\,\text{Minute } 36\,\text{Sekunden}\)
+
+#### Aufgabe 2
+
+\(\text{Übertragungsgeschwindigkeit} ≙ \frac{\text{Datenmenge}}{\text{Übertragungsdauer}}\)
+\(\text{Übertragungsgeschwindigkeit} ≙ \frac{300\,\text{MiB}}{3\,\text{Min }20\,\text{Sek}} ≙ \frac{\frac{300\,\text{MiB} * 1024^2 * 8}{1000^2}}{3 * 60 + 20} ≙ 12,59\,\text{Mbit/s}\)
+
+#### Aufgabe 3
+
+\(\text{Datenmenge} ≙ \text{Übertragungsgeschwindigkeit} * \text{Übertragungsdauer}\)
+\(\text{Datenmenge} ≙ 188,68\,\text{Mbit/s} * 2\,\text{Std } 15\,\text{Min} ≙ 188,68\,\text{Mbit/s} * (60^2*2+60*15)\,\text{Sek} ≙ 1.528.308\,\text{Mbit}\)
+\(\text{Datenmenge} ≙ \frac{1.528.308\,\text{Mbit} * 1000^2}{1024^3*8} ≙ 177,91\,\text(GiB)\)
+
+### Übung UE|3.4: Berechnungen zu elektrotechnischen Fragestellungen
 
 #### Aufgabe 1
 
@@ -841,7 +882,7 @@ An ein Tablet mit einer USB 3.0 Schnittstelle (U = 5 V, I max = 900 mA) sollen �
 
 Berechnen Sie die Stromstärke in Ampere, die das Tablet an der USB Schnittstelle beim gleichzeitigem Betrieb der Peripheriegeräte bereitstellen muss und bewerten Sie, ob die vom USB Port zur Verfügung gestellte Stromstärke ausreicht.
 
-### Lösung zu UE|3.3: Berechnungen zu elektrotechnischen Fragestellungen
+### Lösung zu UE|3.4: Berechnungen zu elektrotechnischen Fragestellungen
 
 #### Aufgabe 1
 
@@ -948,33 +989,33 @@ Es ist ein Netzteil mit 450 W auszuwählen.
 
 \(1.548,43\,\text{kWh}*0,32\,\text{EUR/kWh}=495,50\,\text{EUR}\)
 
-### UE|3.5: Wiederholung der Themen aus diesem Kapitel
+### UE|3.6: Wiederholung der Themen aus diesem Kapitel
 
-#### UE|3.5.0: Handlungssituation
+#### UE|3.6.0: Handlungssituation
 
 Bearbeiten Sie die Aufgaben auf dem Lernpfad in der Abbildung in der angegebenen Reihenfolge. Notieren Sie sich für den Abgleich mit der Beispiellösung Ihre Rechenwege und Ergebnisse. Eine Beispiellösung für alle Aufgaben wird am Ende verfügbar gemacht. Dazu müssen Sie Ihre Teilschritte in den einzelnen Aufgaben hochgeladen haben.
 
 Versuchen Sie alle Aufgaben in max. 30 Min. fertig zu bearbeiten.
 
-#### UE|3.5.1: Speichertechnologien
+#### UE|3.6.1: Speichertechnologien
 
 Der Raspberry Pi soll für ein Projekt das Betriebssystem "DietPi" nutzen. Dieses wird auf die Micro-SD-Karte installiert. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
 
 Für die Speicherung größerer Datenmengen wird per USB eine HDD angeschlossen. Welche Vor- und welche Nachteile hat dieses Speichermedium? Nennen Sie jeweils zwei.
 
-#### UE|3.5.2: Speichermaßeinheiten
+#### UE|3.6.2: Speichermaßeinheiten
 
 Das Betriebssystem "DietPi" soll installiert werden. Die Dateigröße des gepackten Images beträgt 169.895 KB. Wie viel ist dies als Angabe in MiB?
 
-#### UE|3.5.3: Übertragung von Daten
+#### UE|3.6.3: Übertragung von Daten
 
 Für die Vorbereitung der Installation von Pi-Hole (einem Werbeblocker für das eigene Netzwerk) sollen Updates durchgeführt werden. Es sind 148 MiB mit einer Geschwindigkeit von 10,4 Mbit/s herunterzuladen. Wie lange dauert der Download (in Sekunden)?
 
-#### UE|3.5.4: Bildgrößen berechnen
+#### UE|3.6.4: Bildgrößen berechnen
 
 Ein an den Raspberry Pi angeschlossenes Kameramodul soll für eine Zeitrafferaufnahme jede volle Stunde ein Foto machen. Die Bildgröße entspricht späteren 20x30cm mit 300 ppi Auflösung bei 24-Bit RGB-Modus (je Kanal 8 Bit). Die Aufnahmen sollen für 30 Tage durchgeführt und gespeichert werden. Wie viel Platz muss auf dem Speichermedium reserviert werden? Geben Sie die Speichermenge in MiB an.
 
-#### UE|3.5.5: RAID-Level unterscheiden
+#### UE|3.6.5: RAID-Level unterscheiden
 
 Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level aus, welches bei drei Festplatten das höchste Maß an Sicherheit gegen den Ausfall von Festplatten bietet. Die Nettokapazität spielt gegenüber der Sicherheit in diesem Fall eine untergeordnete Rolle. Wählen Sie aus folgenden RAID-Leveln begründet aus:
 
@@ -983,7 +1024,7 @@ Die Fotos sollen auf einem NAS abgespeichert werden. Wählen Sie ein RAID-Level 
 - RAID 5
 - RAID 10
 
-#### UE|3.5.6: Energieeffizienz berechnen
+#### UE|3.6.6: Energieeffizienz berechnen
 
 Für den Einsatz als Werbeblocker mit Pi-Hole soll die geeignetste Hardware gefunden werden. Ein Aspekt dabei ist die Energieeffizienz.
 
@@ -993,7 +1034,7 @@ Ein RPi 3B+ würde ebenfalls mit 5V Spannung versorgt werden und dabei 1,75A zie
 
 Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb, wenn der Preis für eine kWh bei 31,4ct liegt. Welches ist die günstigere Variante?
 
-#### UE|3.5.7: Info pi-hole
+#### UE|3.6.7: Info pi-hole
 
 Sie haben die Aufgaben geschafft! Wenn Sie das Projekt gerne selbst einmal ausprobieren wollen, finden Sie hier viele weitere Informationen: [https://pi-hole.net/](https://pi-hole.net/)
 
@@ -1001,7 +1042,7 @@ Sie haben die Aufgaben geschafft! Wenn Sie das Projekt gerne selbst einmal auspr
 
 Die Lösungen zu den Aufgaben finden Sie im nächsten Abschnitt der Lernlandkarte.
 
-#### UE|3.5.8: Beispiellösung zu den Aufgaben
+#### UE|3.6.8: Beispiellösung zu den Aufgaben
 
 ##### Speichertechnologien
 
