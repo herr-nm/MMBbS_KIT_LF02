@@ -1090,6 +1090,215 @@ Berechnen Sie die Kosten für beide Optionen für jeweils 365 Tage Dauerbetrieb,
 
 ![Lösung](bilder/kap_03_lernlandkarte_energieeffizienz.png)
 
+## Probeklassenarbeit
+
+### Probeklassenarbeit zur Übung und Selbstkontrolle
+
+- 50 Punkte ingesamt
+- 70 Minuten Bearbeitungszeit
+- Hilfsmittel: Taschenrechner
+
+#### Situation
+
+Artemis 1 ist ein Raumfahrtprogramm der NASA (National Aeronautics and Space Administration), das die Entwicklung und den Start eines unbemannten Raumfahrzeugs zum Mond zum Ziel hat. Es ist Teil der größeren Artemis-Missionen der NASA, die bis 2024 eine bemannte Mondlandung und langfristige menschliche Präsenz auf dem Mond anstrebt. Viele technische Eckdaten hierzu sind zu überprüfen.
+
+![Rakete](bilder/03_probearbeit_artemis.png)
+
+#### Aufgabe 1: Verbale Begründung & Auswahl eines IT-Systems (gesamt: 12 Punkte)
+
+Die ESA (European Space Agency) hat als Lieferant für das europäische Servicemodul eine Mitarbeiterin zur NASA entsandt. Diese benötigte ein neues Endgerät für seine Aufgabe bei Mission Control im Kennedy Space Center.
+Folgende Anforderungen liegen hierfür vor:
+
+- Stifteingabe
+- Displaygröße mindestens 10 Zoll
+- Verfügbarer Speicherplatz mindestens 10 GB
+- Microsoft Office installiert oder via Webanwendung (Microsoft 365)
+- Mobil
+- lange Akkulaufzeit
+
+#### Aufgabe 1a (4 Punkte)
+
+Für die Überzeugung von Kunden haben Sie die verbale Begründung kennengelernt. Vervollständigen Sie die Phasen in folgender Abbildung gemäß der korrekten Reihenfolge:
+
+![Phasen](bilder/03_probearbeit_phasen_vb.png)
+
+#### Aufgabe 1b (4 Punkte)
+
+Ein Kollege schlägt vor, für die ESA-Mitarbeiterin ein Tablet-PC mit einer Bluetooth-Tastatur auszuwählen. Beschreiben Sie zwei Vorteile dieses Systems mit Bezug zu den oben genannten Anforderungen.
+
+#### Aufgabe 1c (4 Punkte)
+
+Ein anderer Kollege hat zwischenzeitlich Angebote zu drei verschiedenen Laptops als Option für die ESA-Mitarbeiterin angefragt. Beschreiben Sie zwei Nachteile gegenüber einem Tablet-PC mit Bezug zu den oben genannten Anforderungen.
+
+#### Aufgabe 2: Rechnerarchitekturen (gesamt: 5 Punkte)
+
+Notieren Sie die Buchstaben der korrekten Antworten in den Feldern rechts neben der Frage.
+
+Was sind die beiden gängigsten Architekturen von Prozessoren?
+1. CISC und DISC
+2. x86/x64 und ARM
+3. PowerPC und MIPS
+4. SPARC und Itanium
+
+Warum sind heutige RISC-Prozessoren komplexer als frühere Modelle?
+1. Weil sie nun auch Befehle von CISC-Prozessoren unterstützen müssen.
+2. Weil sie mehr Rechenkerne besitzen.
+3. Weil sie eine höhere Taktrate aufweisen.
+4. Weil sie nun auch die Steuerung von Hardwarekomponenten übernehmen müssen.
+
+Wie kann die Leistung von Prozessoren trotz niedrigerer Taktrate gesteigert werden?
+1. Durch Verwendung schnellerer RAM-Module
+2. Durch den Einsatz von mehreren Rechenkernen
+3. Durch Erhöhung der Taktrate des Buses
+4. Durch Verwendung größerer Cache-Speicher
+
+Was ist der Cache eines Prozessors?
+1. Ein schneller Zwischenspeicher in der CPU
+2. Ein externer Speicher zur Datenhaltung
+3. Ein Bauteil zur Kühlung des Prozessors
+4. Ein Chip zur Entfernung elektromagnetischer Störungen
+
+Was versteht man unter Virtualisierung?
+1. Die Aufteilung der Hardware in logische Einheiten
+2. Die Simulation einer virtuellen Umgebung auf einem Computer
+3. Die Emulation einer anderen CPU-Architektur
+4. Die Verschlüsselung von Daten auf einer Festplatte
+ 
+#### Aufgabe 3: Übertragung von Daten (gesamt: 12 Punkte)
+
+Daten von Artemis 1 werden mit dem Deep Space Network übertragen. In Abhängigkeit von der Position einer Sonde und der genutzten Funkfrequenz variieren die Übertragungsgeschwindigkei-ten stark. Es gibt drei Bodenstationen die sich strategisch auf der ganzen Welt verteilen, um sicherzustellen, dass sie immer in der Lage sind, die Missionen im tiefen Raum zu verfolgen und zu kom-munizieren (in Goldstone – Kalifornien – USA; Madrid – Spanien und Canberra – Australien).
+
+#### Aufgabe 3a (4 Punkte)
+
+Berechnen Sie die Übertragungsgeschwindigkeit in kbit/s, wenn die Artemis 1-Sonde 650 MiB Telemetrie-Daten in 10 Stunden, 47 Minuten und 24 Sekunden an die Bodenstation in Canberra übertragen hat. Geben Sie Ihren Rechenweg nachvollziehbar an und machen Sie das Ergebnis kenntlich.
+
+#### Aufgabe 3b (4 Punkte)
+
+Die in Canberra empfangenen Telemetriedaten wurden mit 50 Mbit/s an Mission Control in Florida übertragen. Berechnen Sie die Übertragungsdauer in X Minuten und Y Sekunden mit gerundeten ganzen Sekunden für den Datentransfer. Geben Sie Ihren Rechenweg nachvollziehbar an und machen Sie das Ergebnis kenntlich.
+
+#### Aufgabe 3c (4 Punkte)
+
+Durch die Nutzung des Deep Space Networks für Artemis 1 müssen andere Projekte der NASA mit Beeinträchtigungen bei der Übertragung ihrer Daten rechnen. Das James-Webb-Teleskop ist für die Dauer der Artemis 1-Mission nur alle drei Tage in einem Zeitfenster für 4 Stunden und 30 Minuten erreichbar. Es erfolgen nun kürzere Beobachtungen, die kleinere Datenpakete erzeugen, welche mit 500 Kbit/s übertragen werden können. Wie groß ist die Datenmenge in GiB, die das James-Webb-Teleskop in einem Zeitfenster maximal an die Bodenstationen auf der Erde übertragen kann?
+Geben Sie Ihren Rechenweg nachvollziehbar an und machen Sie das Ergebnis kenntlich.
+
+#### Aufgabe 4: Bild- und Videogrößen berechnen (gesamt: 10 Punkte)
+
+Die Festplatte (SSD) des James-Webb-Weltraumteleskops ist 68 GB groß. Das Teleskop selbst verfügt damit über keine umfangreiche Langzeitspeicherung, da es diese bei regelmäßiger Datenübertragung nicht benötigt. Das Weltraumteleskop ist so gebaut, dass es jeden Tag etwa 57 GB an Daten sammelt.
+
+#### Aufgabe 4a (6 Punkte)
+
+Die ESA-Technikerin im Kennedy Space Center hat leider zehn wichtige Seiten aus einem Handbuch im Büro in Köln vergessen. Ein freundlicher Kollege scannt die zehn Seiten ein und schickt diese per E-Mail zu. Der Scan erfolgte mit 400 dpi, eine DIN A4-Seite ist 297 mm x 210 mm groß. Als Farbmodell wurden drei Kanäle (Rot, Grün, Blau) mit je 8 Bit ausgewählt. 1 Inch = 2,54 cm. Berechnen Sie die Dateigröße für den Scan der vergessenen Seiten in MB.
+Geben Sie Ihren Rechenweg nachvollziehbar an und machen Sie das Ergebnis kenntlich.
+
+#### Aufgabe 4b (4 Punkte)
+
+In den fehlenden Seiten des Handbuchs sind Eckdaten verschiedener Weltraumprojekte enthalten. So auch die Informationen zum James-Webb-Teleskop: Die Auflösung der Detektoren für sichtbares Licht und nahes Infrarot beträgt ein Pixel-Verhältnis von 2048 x 2048 Pixel. Wir gehen von einer 10-Bit-Farbtiefe je Kanal und drei Kanälen (Rot, Grün, Blau) aus. Das Teleskop nimmt kleine Videos auf, um schnell bewegte Objekte identifizieren zu können. Eine Serie dauert 2 Minuten und wird mit 3 Bildern pro Sekunde aufgenommen. Berechnen Sie die Videogröße für eine Serie in MiB. Geben Sie Ihren Rechenweg nachvollziehbar an und machen Sie das Ergebnis kenntlich.
+
+#### Aufgabe 5: RAID-Level unterscheiden (gesamt: 11 Punkte)
+
+Die auf der Erde gespeicherten Telemetriedaten der Artemis 1-Mission sind für die weiteren Flüge des Projektes sehr wichtig. Bei der Konzeption der Speicherorte wurden deshalb verschiedene RAID-Level diskutiert, um die Verfügbarkeit der Daten sicherstellen zu können.
+
+#### Aufgabe 5a (2 Punkte)
+
+Das RAID-Level 10 wird in die engere Auswahl zur Speicherung der Telemetriedaten genommen. Folgendes Schema soll den Festplattenverbund darstellen. Wie würden die Datenblöcke A, B und C hierin gespeichert werden? Tragen Sie entsprechend in das Schema ein:
+
+![RAID](bilder/03_probearbeit_raid.png)
+
+#### Aufgabe 5b (3 Punkte)
+
+Ein Techniker stellt folgende Aussage in den Raum: „Wir haben ein RAID-1-System aufgesetzt, damit brauchen wir kein Backup mehr!“. Nehmen Sie begründet Stellung zu dieser Aussage.
+
+#### Aufgabe 5c (6 Punkte)
+
+Bei der Einrichtung des RAID-Systems für die Speicherung der Telemetriedaten stehen die RAID-Level in der Tabelle zur Diskussion. Für den Server stehen drei 3 TB- und zwei 6 TB-Festplatten zur Verfügung Es fehlen noch wichtige Eckdaten, um eine Entscheidung treffen zu können. Vervollständigen Sie die Tabelle unter Berücksichtigung der angegebenen Daten.
+
+|      | RAID 0 | RAID 1 | RAID 5 |
+| :--- | :---   | :---   | :---   |
+| Prinzip des RAID | | | |
+| Nettokapazität (mit Rechenweg) | | | |
+| Wie viele Festplatten müssen mindestens eingesetzt werden? | | | |
+| Wie viele Festplatten dürfen ohne Datenverlust ausfallen | | | |
+
+### Beispiellösung zur Probearbeit
+
+#### Aufgabe 1: Verbale Begründung & Auswahl eines IT-Systems (gesamt: 12 Punkte)
+
+#### Aufgabe 1a (4 Punkte)
+
+![Phasen](bilder/03_probearbeit_phasen_vb_löser.png)
+
+#### Aufgabe 1b (4 Punkte)
+
+- **Mobilität:** Das Tablet-PC-System ist sehr mobil und kann leicht transportiert werden. Dies ist besonders wichtig für einen ESA-Mitarbeiter, der möglicherweise an verschiedenen Orten arbeiten muss, sowohl innerhalb als auch außerhalb des Büros. Das System ist leicht und einfach zu transportieren, was es dem Mitarbeiter ermöglicht, seine Arbeit nahtlos fortzusetzen.
+- **Lange Akkulaufzeit:** Ein weiterer Vorteil eines Tablet-PCs ist, dass er in der Regel eine längere Akkulaufzeit hat als ein Laptop. Da der Mitarbeiter möglicherweise an Orten ohne direkten Zugang zu Stromquellen arbeitet, ist eine lange Akkulaufzeit ein entscheidendes Merkmal, um sicherzustellen, dass er seine Arbeit ohne Unterbrechungen fortsetzen kann. Mit einem Tablet-PC kann der Mitarbeiter den ganzen Tag arbeiten, ohne sich Gedanken über den Stromverbrauch machen zu müssen.
+- **Stifteingabe:** Ein Tablet-PC ist oft mit einem Stift oder Eingabestift ausgestattet, der es dem Mitarbeiter ermöglicht, direkt auf dem Display zu schreiben oder zu zeichnen. Diese Funktion kann besonders nützlich sein, wenn der Mitarbeiter Diagramme, Skizzen oder Zeichnungen erstellen muss, um seine Arbeit zu erledigen.
+- **Großes Display:** Ein Tablet-PC verfügt in der Regel über ein größeres Display als ein Smartphone, was es dem Mitarbeiter erleichtert, Dokumente oder andere Dateien zu lesen oder zu bearbeiten. Ein großes Display ist auch wichtig, wenn der Mitarbeiter mehrere Anwendungen oder Fenster gleichzeitig öffnen muss, um effektiv zu arbeiten.
+- **Microsoft Office:** Tablet-PCs sind in der Regel mit Microsoft Office oder Microsoft 365 ausgestattet, was es dem Mitarbeiter ermöglicht, auf bekannten und leistungsfähigen Tools wie Word, Excel und PowerPoint zuzugreifen. Diese Anwendungen können auch über die Webanwendungen genutzt werden, was die Flexibilität und die Möglichkeit zur Zusammenarbeit mit anderen Kollegen erhöht.
+- **Speicherplatz:** Tablet-PCs haben in der Regel einen ausreichenden Speicherplatz, um Daten, Dateien und Anwendungen zu speichern, die der Mitarbeiter benötigt. In der Regel bieten sie auch die Möglichkeit, den Speicherplatz durch eine SD-Karte oder ein anderes externes Speichermedium zu erweitern, was dem Mitarbeiter noch mehr Flexibilität bei der Speicherung seiner Daten gibt.
+
+#### Aufgabe 1c (4 Punkte)
+
+- **Mobilität:** Im Vergleich zu einem Tablet-PC ist ein Laptop weniger mobil. Laptops sind schwerer und größer als Tablets und können auf Reisen oder bei der Arbeit an verschiedenen Orten unhandlich sein.
+- **Akkulaufzeit:** Obwohl die meisten Laptops heutzutage eine anständige Akkulaufzeit haben, ist sie oft kürzer als die eines Tablet-PCs. Eine lange Akkulaufzeit ist jedoch wichtig, insbesondere wenn der Mitarbeiter an Orten ohne Stromversorgung arbeitet.
+- **Stifteingabe:** Einige Laptops haben einen Touchscreen, aber nur wenige sind mit einem Stift oder Eingabestift ausgestattet. Dies ist ein Nachteil, wenn der Mitarbeiter Zeichnungen oder Notizen erstellen muss.
+- **Displaygröße:** Obwohl es viele Laptops mit einem Display von mehr als 10 Zoll gibt, ist die Größe und das Gewicht des Laptops oft ein Kompromiss zwischen Portabilität und Displaygröße. Ein großer Laptop kann unhandlich sein und weniger tragbar.
+- **Microsoft Office:** Einige Laptops haben Microsoft Office bereits vorinstalliert, aber oft sind es nur Testversionen. Eine vollständige Version von Microsoft Office kann auch zusätzliche Kosten verursachen, was für den ESA-Mitarbeiter möglicherweise nicht akzeptabel ist.
+- **Speicherplatz:** Ein Laptop mit einer ausreichenden Speicherkapazität kann teurer sein als ein Tablet-PC mit vergleichbarer Speicherkapazität. Es ist auch schwieriger, den Speicherplatz auf einem Laptop zu erweitern, da dies in der Regel nur durch den Austausch der Festplatte oder den Anschluss eines externen Speichermediums möglich ist.
+
+#### Aufgabe 2: Rechnerarchitekturen (gesamt: 5 Punkte)
+
+- B
+- A
+- B oder C
+- A
+- A
+
+#### Aufgabe 3: Übertragung von Daten (gesamt: 12 Punkte)
+
+#### Aufgabe 3a (4 Punkte)
+
+\(\text{Übertragungsgeschwindigkeit} = \frac{\text{Dateigröße}}{\text{Übertragungsdauer}} = \frac{650\,\text{MiB}\,\cdot\,1.024^2\,\cdot\,8}{(10\,\cdot\,60^2+47\,\cdot\,60+24)\,\cdot\,1.000} = 140,37\,\text{kbit/s}\)
+
+#### Aufgabe 3b (4 Punkte)
+
+\(\text{Übertragungsdauer} = \frac{\text{Dateigröße}}{\text{Übertragungsgeschwindigkeit}} = \frac{650\,\text{MiB}}{50\,\text{Mbit/s}} = \frac{650\,\cdot\,1.024^2\,\cdot\,8}{1.000^2\,\cdot\,50} = \frac{5.452,60\,\text{Mbit}}{50\,\text{Mbit/s}} = 109,05\,\text{s} = 1\,\text{Min}\, 50\,\text{Sek}\)
+
+#### Aufgabe 3c (4 Punkte)
+
+\(\text{Datenmenge} = \text{Übertragungsgeschwindigkeit}\,\cdot\,\text{Übertragungsdauer} = \frac{500\,\text{Kbit/s}\,\cdot\,(4\,\cdot\,60^2+30\,\cdot\,60)\,\text{s}\,\cdot\,1.000}{1.024^3\,\cdot\,8} = 0,94\,\text{GiB}\)
+
+#### Aufgabe 4: Bild- und Videogrößen berechnen (gesamt: 10 Punkte)
+
+#### Aufgabe 4a (6 Punkte)
+
+\(297\,\text{mm} = 29,7\,\text{cm} → 11,69\,\text{Inch}\,\cdot\,400\,\text{dpi} = 4.676\,\text{px}\)
+\(210\,\text{mm} = 21,0\,\text{cm} → 8,27\,\text{Inch}\,\cdot\,400\,\text{dpi} = 3.308\,\text{px}\)
+
+\(\text{Dateigröße} = \frac{4.676\,\cdot\,3.308\,\text{px}\,\cdot\,3\,\text{Kanäle}\,\cdot\,8\,\text{Bit/Kanal}\,\cdot\,10\,\text{Seiten}}{1.000^2\,\cdot\,8} = 464,05\,\text{MB}\)
+
+#### Aufgabe 4b (4 Punkte)
+
+\(\text{Dateigröße} = \frac{2.048\,\cdot\,2.048\,\text{px}\,\cdot\,3\,\text{Kanäle}\,\cdot\,10\,\text{Bit/Kanal}\,\cdot\,2\,\cdot\,60\,\text{s}\,\cdot\,3\,\text{fps}}{1.024^2\,\cdot\,8} = 5.400,00\,\text{MiB}\)
+
+#### Aufgabe 5: RAID-Level unterscheiden (gesamt: 11 Punkte)
+
+#### Aufgabe 5a (2 Punkte)
+
+![RAID](bilder/03_probearbeit_raid_löser.png)
+
+#### Aufgabe 5b (3 Punkte)
+
+Es ist immer noch wichtig, Backups von wichtigen Daten durchzuführen, auch wenn ein RAID-1-System vorhanden ist. Ein RAID-1-System bietet zwar eine gute Ausfallsicherheit, aber es schützt nicht vor allen Arten von Datenverlusten. Wenn zum Beispiel Daten durch menschliches Versagen oder durch eine Cyberattacke verloren gehen, wird das RAID-1-System die Datenverluste nicht verhindern oder beheben können. Ein Backup-System bietet eine zusätzliche Ebene der Datensicherheit, indem es eine Kopie der Daten an einem anderen Ort speichert, um sicherzustellen, dass sie im Falle eines Datenverlusts wiederhergestellt werden können.
+
+#### Aufgabe 5c (6 Punkte)
+
+|      | RAID 0 | RAID 1 | RAID 5 |
+| :--- | :---   | :---   | :---   |
+| Prinzip des RAID | Striping | Mirroring | Striping mit Parity |
+| Nettokapazität (mit Rechenweg) | \(5\,\cdot\,3\,\text{TB} = 15\,\text{TB}\) | \(1\,\cdot\,3\,\text{TB} = 3\,\text{TB}\) | \(5\,\cdot\,3\,\text{TB} - 1\,\cdot\,3\,\text{TB} = 12\,\text{TB}\) |
+| Wie viele Festplatten müssen mindestens eingesetzt werden? | 2 | 2 | 3 |
+| Wie viele Festplatten dürfen ohne Datenverlust ausfallen | 0 | alle bis auf eine (= 4) | 1 |
+
 ## Tipps & Tricks
 
 !!! hint "ISA-Aufgaben"
