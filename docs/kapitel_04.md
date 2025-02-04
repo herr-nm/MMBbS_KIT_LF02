@@ -23,6 +23,8 @@ Sie arbeiten im Vertrieb der ChangeIT GmbH und erstellen ein umfassendes Konzept
 
 Sie haben bereits eine kleine Vorauswahl von Komponenten für das Architekturbüro getroffen. Dabei bestehen jeweils zwei Alternativen, welche Sie noch bezüglich der Auswahl voneinander abgrenzen wollen. Lediglich die Auswahl einer zum System passenden CPU ist noch nicht erfolgt. Die Restarbeiten zur Zusammenstellung des IT-Systems sollen zeitnah erfolgen, um die Bestellung der Komponenten durchführen zu können.
 
+![High-End-PC](bilder/04_hs01_highendpc.png)
+
 ### Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten
 
 #### Aufgabenstellung
@@ -246,10 +248,6 @@ https://download.lenovo.com/bsco/index.html#/textsimulator/ThinkPad%20P14s%20Gen
 
 ### Informationsmaterial M|4.6: BIOS und UEFI
 
-Hier ist ein informativer Text über **BIOS** und **UEFI**, der sich gut für den Einsatz im Unterricht eignet:
-
----
-
 #### **BIOS und UEFI – Die Steuerzentrale des Computers**
 
 ##### **1. Was ist das BIOS?**
@@ -328,9 +326,13 @@ Ein **BIOS-Flash** bezeichnet das **Aktualisieren der BIOS- oder UEFI-Firmware**
 
 Das neue IT-System soll in den Verzeichnisdienst bzw. die Domäne des Architekturbüros eingebettet werden. Es wird Microsoft Active Directory (AD) eingesetzt, um alle Mitarbeiterkonten, Computer und Ressourcen zentral zu verwalten.
 
-### Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen
+### Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben
+
+#### Aufgabenstellung
 
 Sie haben sich bisher nur wenig mit Verzeichnisdiensten und Domänen auseinandergesetzt. Für einen Überblick sollen Sie die folgenden Fragen in eigenen Worten beantworten und für den betriebsinternen Runden Tisch der Auszubildenden kurz präsentieren. Fertigen Sie daher ein ansprechendes Handout mit den wichtigsten Informationen an.
+
+#### Arbeitsschritte
 
 1. Erklären Sie den Unterschied zwischen einer Domäne und einer Arbeitsgruppe.
 2. Was ist ein Verzeichnisdienst? Welche Aufgaben erfüllt er in einem Netzwerk?
@@ -340,7 +342,7 @@ Sie haben sich bisher nur wenig mit Verzeichnisdiensten und Domänen auseinander
 6. Nennen Sie drei Sicherheitsmaßnahmen, die in einer Domänenumgebung angewendet werden sollten.
 7. Was ist der Vorteil von Gruppenrichtlinien (GPOs) in Bezug auf die Sicherheit?
 
-### Informationsmaterial M|4.7: Domänen und Verzeichnisdienste
+### Informationsmaterial M|4.7: Verzeichnisdienste und Domänen
 
 **Definitionen und Konzepte**
 
@@ -460,25 +462,15 @@ Das System soll sowohl für regelmäßige Teammeetings als auch für Kundenpräs
 
 ## Kompetenz 4.4: KI-Anwendungen betreiben
 
-Das Architekturbüro BauVision GmbH möchte seine Arbeitsprozesse durch den gezielten Einsatz von KI-Anwendungen optimieren. Die IT-Abteilung wurde beauftragt, verschiedene KI-Lösungen zu evaluieren, die sowohl die interne Effizienz steigern als auch die Kommunikation mit Kunden verbessern sollen. Die Integration dieser KI-Anwendungen soll nahtlos in die bestehende IT-Infrastruktur erfolgen und dabei höchste Sicherheits- und Datenschutzanforderungen erfüllen.
+Das Architekturbüro möchte seine Arbeitsprozesse durch den gezielten Einsatz von KI-Anwendungen optimieren. Die IT-Abteilung wurde beauftragt, verschiedene KI-Lösungen zu evaluieren, die sowohl die interne Effizienz steigern als auch die Kommunikation mit Kunden verbessern sollen. Die Integration dieser KI-Anwendungen soll nahtlos in die bestehende IT-Infrastruktur erfolgen und dabei höchste Sicherheits- und Datenschutzanforderungen erfüllen.
 
-### Informationsmaterial M|4.10: Anforderungen an die KI-Anwendungen
+### Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen
+
+#### Aufgabenstellung
 
 Die ChangeIT GmbH, bei der Sie im Vertrieb tätig sind, wurde beauftragt, ein umfassendes Konzept zur Einrichtung, Integration und Inbetriebnahme der KI-Lösungen zu entwickeln. Dabei sollen folgende Anwendungsbereiche unter Berücksichtigung von Datenschutz und dem Schutz von Firmengeheimnissen einerseits, aber auch andererseits der Wahrung des Urheberrechts anderer betrachtet werden:
 
-**1. Ziel: Abfrage technischer Spezifikationen**
-
-Eine lokal installierte KI soll es den Mitarbeitern ermöglichen, technische Spezifikationen von Gebäuden schnell und effizient abzufragen. Die KI erhält vorab PDF-Dateien mit den relevanten Informationen, die sie für Suchanfragen analysiert und verarbeitet. Dies soll die Recherchezeit erheblich reduzieren und die Genauigkeit bei technischen Abfragen verbessern.
-
-**2. Ziel: Chatbot für die Unternehmenswebseite**
-
-Auf der Webseite des Architekturbüros soll ein KI-gestützter Chatbot integriert werden, der allgemeine Kundenanfragen sowie häufig gestellte Fragen (FAQ) automatisch beantwortet. Der Chatbot soll so konfiguriert sein, dass er tiefergehende oder komplexe Anfragen erkennt und diese an die zuständigen Mitarbeiter weiterleitet. Dadurch soll der Kundenservice effizienter gestaltet werden.
-
-**3. Ziel: KI-Assistenz zur Generierung von CAD-Zeichnungen**
-
-Für die Planungsphase soll eine KI-Assistenz mit einem vortrainierten Modell eingesetzt werden, das in der Lage ist, aus groben Skizzen der Architekten erste CAD-Entwürfe zu generieren. Diese Entwürfe dienen als Anschauungsmaterial für Kunden und sollen den kreativen Planungsprozess unterstützen, indem sie schnell visuelle Konzepte liefern.
-
-### Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen
+#### Arbeitsschritte
 
 1. Fassen Sie die Anforderungen (M|4.10: Anforderungen an die KI-Anwendungen) des Kunden stichpunktartig zusammen.
 2. Informieren Sie sich darüber, wie eigene KI-Projekte entwickelt und umgesetzt werden können.
@@ -493,9 +485,23 @@ Für die folgenden Aufgaben können Sie eine Publikation des BSI als Handreichun
 5. Welche Maßnahmen müssen ergriffen werden, um den Datenschutz und die Datensicherheit beim Einsatz der KI-Anwendungen, insbesondere des webbasierten Chatbots, zu gewährleisten?
 6. Welche Vorteile und möglichen Herausforderungen ergeben sich durch den Einsatz der KI-Assistenz zur automatisierten Generierung von CAD-Zeichnungen aus Skizzen?
 
+### Informationsmaterial M|4.10: Anforderungen an die KI-Anwendungen
+
+**1. Ziel: Abfrage technischer Spezifikationen**
+
+Eine lokal installierte KI soll es den Mitarbeitern ermöglichen, technische Spezifikationen von Gebäuden schnell und effizient abzufragen. Die KI erhält vorab PDF-Dateien mit den relevanten Informationen, die sie für Suchanfragen analysiert und verarbeitet. Dies soll die Recherchezeit erheblich reduzieren und die Genauigkeit bei technischen Abfragen verbessern.
+
+**2. Ziel: Chatbot für die Unternehmenswebseite**
+
+Auf der Webseite des Architekturbüros soll ein KI-gestützter Chatbot integriert werden, der allgemeine Kundenanfragen sowie häufig gestellte Fragen (FAQ) automatisch beantwortet. Der Chatbot soll so konfiguriert sein, dass er tiefergehende oder komplexe Anfragen erkennt und diese an die zuständigen Mitarbeiter weiterleitet. Dadurch soll der Kundenservice effizienter gestaltet werden.
+
+**3. Ziel: KI-Assistenz zur Generierung von CAD-Zeichnungen**
+
+Für die Planungsphase soll eine KI-Assistenz mit einem vortrainierten Modell eingesetzt werden, das in der Lage ist, aus groben Skizzen der Architekten erste CAD-Entwürfe zu generieren. Diese Entwürfe dienen als Anschauungsmaterial für Kunden und sollen den kreativen Planungsprozess unterstützen, indem sie schnell visuelle Konzepte liefern.
+
 ### Informationsmaterial M|4.11: Linkedin Learning - KI-Projekte planen und starten
 
-![LinkedIn Thumbnail](bilder/05_linkedin_ki.png)
+![LinkedIn Thumbnail](bilder/04_hs4.4_linkedin_ki.png)
 
 https://www.linkedin.com/learning-login/share?account=68522354&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fki-projekte-planen-und-starten%3Ftrk%3Dshare_ent_url%26shareId%3Dtswnj0qnQsmANa1hKQkBRA%253D%253D
 
