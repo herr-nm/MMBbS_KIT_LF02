@@ -1,0 +1,133 @@
+@startmindmap "IT-Systeme"
++[#black] <color:white>IT-Systeme - Teil 2</color>
+++[#lightskyblue] Einplatinencomputer
++++[#lightgrey] Charakteristika
+++++ alle Komponenten auf einer Leiterplatte
+++++ SoC - System on Chip
+++++ oftmals geringe Leistung
+++++ verhältnismäßig günstig
+++++ "Desktop-PC in klein"
++++[#yellowgreen] Vorteile
+++++ geringer Formfaktor
+++++ leistungseffizient
+++++ gut an den Zweck anzupassen
+++++ sehr breite Anwendungsgebiete
+++++ gutes Preis-/Leistungsverhältnis
+++++ sehr mobil
+++++ simples System zum Prototyping
++++[#LightCoral] Nachteile
+++++ verhältnismäßig leistungsschwach
+++++ eingeschränkte Betriebsystemauswahl
+++++ Hardware ist empfindlich
+++++ Speicher eingeschränkt
++++++ Onboard-Speicher gering
++++++ Bootfähigkeit nur von bestimmten Speichern
++++++ Schnittstellen wie SATA fehlen i.d.R.
+++[#lightskyblue] Mikrocontroller
++++[#lightgrey] Charakteristika
+++++ Halbleiterchips
+++++ Prozessorfunktionen enthalten
+++++ Ein-Chip-Computersystem
+++++ Bootloader statt (komplexes) Betriebssystem
+++++ Abarbeitung in Zyklen / Schleifen
++++[#yellowgreen] Vorteile
+++++ gut für Automatisierungsprojekte
+++++ sehr günstig
+++++ einfach programmierbar
+++++ sehr breite Einsatzgebiete
+++++ sehr geringer Stromverbrauch
++++[#LightCoral] Nachteile
+++++ geringe Leistung
+++++ kein grafisches Interface
+++++ Inbetriebnahme erfordert Kenntnisse
++++++ Elektotechnik
++++++ Programmierung
+++[#lightskyblue] Server
++++[#lightgrey] Charakteristika
+++++ Computersystem mit entsprechendem Einsatzzweck
++++++ kann auf diverserer Hardware betrieben werden
+++++ im professionellen Umfeld spezielle Hardware
+++++ Arten
++++++ Hardware-Server
++++++ Virtuelle Server
+++++ versorgt Clients mit Anwendungen / Diensten
+++++ i.d.R. Hochleistungsrechner mit spezieller Software
++++[#yellowgreen] Vorteile
+++++ von extern verwaltbar / Remotewartung
+++++ gut aufrüstbar
+++++ gut reparierbar
+++++ ggf. Hot-Swap-fähig
+++++ ggf. Snapshots möglich
+++++ Virtualisierung zur Auslastung der Hardware
+++++ i.d.R. hohe Performance
++++[#LightCoral] Nachteile
+++++ hoher Stromverbrauch
+++++ aktiv zu temperieren
+++++ ggf. sehr teure Hardware
+++++ großer Formfaktor ggf. sogar eigener Raum
+++++ ggf. hohe Lautstärke
+++++ kritische Infrastruktur für Unternehmen
+++++ IT-Fachwissen benötigt (Spezialisten)
+++++ Single Point of Failure
+--[#lightskyblue] Thin-Clients
+---[#lightgrey] Charakteristika
+---- Minimale Hardware-Ausstattung
+---- Betriebssystem oft im Flash-Speicher---- Anwendungen laufen auf einem Server
+---- Zentrales Management
+---- Unterstützt grundlegende Peripheriegeräte
+---[#yellowgreen] Vorteile
+---- Geringe Anschaffungskosten
+---- Niedriger Energieverbrauch
+---- Einfache Wartung und Verwaltung
+---- Höhere Sicherheit durch zentrale Datenhaltung
+---- Längere Lebensdauer der Hardware
+---[#LightCoral] Nachteile
+---- Abhägigkeit von Server und Netzwerk
+---- Eingeschränkte lokale Rechenleistung
+---- Begrenzte Offline-Funktionalität
+---- Potenzielle Latenz bei Netzwerkauslastung
+--[#lightskyblue] Zero-Clients
+---[#lightgrey] Charakteristika
+---- Kein lokales Betriebssystem
+---- Sehr einfache Hardware
+---- keine lokalen Anwendungen oder Speicherung
+---- Verbindung zu virtuellen Desktops (VDI)
+---- Zentrales Management
+---[#yellowgreen] Vorteile
+---- noch geringere Anschaffungskosten als Thin-Clients
+---- Minimaler Wartungsaufwand
+---- Sehr niedriger Energieverbrauch
+---- Höchste Sicherheit, da keine lokalen Daten
+---- Schnelle Einrichtung
+---[#LightCoral] Nachteile
+---- Volle Abhängigkeit von Netzwerk und Server
+---- Keine Möglichkeit zur lokalen Verarbeitung
+---- Komplett nutzlos ohne Serververbindung
+---- Höhere Anforderungen an Netzwerkbandbreite und Serverinfrastruktur
+--[#lightskyblue] Network-Attatched-Storage
+---[#lightgrey] Charakteristika
+---- Netzwerkspeichergerät
+---- Zugriff über das lokale Netzwerk oder das Interet
+---- Dedizierte Hardware für Dateispeicherung
+---- Unterstützt mehrere Protokolle
+----- z.B. SMB
+----- z.B. NFS
+----- z.B. FTP
+---- Häufig mit RAID-Unterstützung für Datensicherheit
+---- Bietet oft zusätzliche Funktionen
+----- Medienserver
+----- Backup-Dienste
+---[#yellowgreen] Vorteile
+---- Zentraler Speicherort für Daten
+---- Zugriff von verschiedenen Geräten und Standorten
+---- Einfach Erweiterbarkeit der Speicherkapaziät
+---- Datenredundanz und -sicherheit durch RAID
+---- Unterstützung von automatisierten Backups
+---- Energieeffizient im Vergleich zu herkömmlichen Servern
+---[#LightCoral] Nachteile
+---- Höhere Anschaffungskosten je nach Konfiguration
+---- Abhängigkeit vom Netzwerk für den Zugriff
+---- Sicherheitsrisiken bei unsachgemäßer Konfiguration (z.B. offene Ports)
+---- Komplexität der Einrichtung und Verwaltung bei großen Netzwerken
+---- Einschränkungen bei der Skalierbarkeit im Vergleich zu größeren Storage-Lösungen
+@endmindmap
