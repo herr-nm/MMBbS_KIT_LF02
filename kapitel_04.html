@@ -1,0 +1,2461 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_LF02/kapitel_04.html">
+      
+      
+        <link rel="prev" href="kapitel_03.html">
+      
+      
+        <link rel="next" href="kapitel_05.html">
+      
+      
+      <link rel="icon" href="bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Kapitel 04 - IT-Systeme in Betrieb nehmen - KIT Lernfeld 2 (technisch)</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kapitel-4-it-systeme-in-betrieb-nehmen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="index.html" title="KIT Lernfeld 2 (technisch)" class="md-header__button md-logo" aria-label="KIT Lernfeld 2 (technisch)" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Lernfeld 2 (technisch)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Kapitel 04 - IT-Systeme in Betrieb nehmen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_LF02" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="KIT Lernfeld 2 (technisch)" class="md-nav__button md-logo" aria-label="KIT Lernfeld 2 (technisch)" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Lernfeld 2 (technisch)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_LF02" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Einleitung zum LF2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_00.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 00 - Organisatorisches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 01 - Propädeutikum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 02 - IT-Systeme auswählen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 03 - Netzwerkspeicher dimensionieren
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 04 - IT-Systeme in Betrieb nehmen
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kapitel_04.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 04 - IT-Systeme in Betrieb nehmen
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handlungssituation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-40-hardwarekomponenten-auswahlen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.0: Hardwarekomponenten auswählen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.0: Hardwarekomponenten auswählen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a40-vervollstandigung-der-auswahlmatrix-fur-computerkomponenten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m40-bisherige-zusammenstellung-der-komponenten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.0: Bisherige Zusammenstellung der Komponenten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m41-auszug-aus-dem-lastenheft" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.1: Auszug aus dem Lastenheft
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.1: Auszug aus dem Lastenheft">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#motherboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motherboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grafikkarte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grafikkarte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m42-vergleichswebseite-zu-den-motherboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.2: Vergleichswebseite zu den Motherboards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m43-vergleichswebseite-zu-den-grafikkarten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.3: Vergleichswebseite zu den Grafikkarten
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-41-biosuefi-einstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.1: BIOS/UEFI einstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.1: BIOS/UEFI einstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a41-biosuefi-einstellungen-fur-virtualisierung-energieeffizienz-und-sicherheit-vornehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen für Virtualisierung, Energieeffizienz und Sicherheit vornehmen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen für Virtualisierung, Energieeffizienz und Sicherheit vornehmen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m44-uefi-simulator-des-lenovo-yoga-aio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.4: UEFI-Simulator des Lenovo YOGA AIO 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m45-bios-simulator-des-lenovo-p14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.5: BIOS-Simulator des Lenovo P14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m46-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.6: BIOS und UEFI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.6: BIOS und UEFI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bios-und-uefi-die-steuerzentrale-des-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      BIOS und UEFI – Die Steuerzentrale des Computers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="BIOS und UEFI – Die Steuerzentrale des Computers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-was-ist-das-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Was ist das BIOS?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Was ist das BIOS?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionen-des-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionen des BIOS:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-des-klassischen-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merkmale des klassischen BIOS:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-was-ist-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Was ist UEFI?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Was ist UEFI?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionen-des-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionen des UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-von-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merkmale von UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-wichtige-unterschiede-zwischen-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Wichtige Unterschiede zwischen BIOS und UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-warum-ist-uefi-heute-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Warum ist UEFI heute Standard?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-zugriff-auf-biosuefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Zugriff auf BIOS/UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-bios-flash-firmware-update-fur-das-motherboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. BIOS Flash – Firmware-Update für das Motherboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quellen:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-42-it-systeme-in-domanen-einbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.2: IT-Systeme in Domänen einbinden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.2: IT-Systeme in Domänen einbinden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a42-verzeichnisdienste-und-domanen-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m47-verzeichnisdienste-und-domanen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.7: Verzeichnisdienste und Domänen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-43-videokonferenzssysteme-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.3: Videokonferenzssysteme unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.3: Videokonferenzssysteme unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a43-auswahl-eines-videokonferenzsystems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.3: Auswahl eines Videokonferenzsystems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m48-produktkatalog-videokonferenzsysteme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.8: Produktkatalog Videokonferenzsysteme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m49-auszug-aus-dem-lastenheft-videokonferenzsysteme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.9: Auszug aus dem Lastenheft Videokonferenzsysteme
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.9: Auszug aus dem Lastenheft Videokonferenzsysteme">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anforderungen-an-das-videokonferenzsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anforderungen an das Videokonferenzsystem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anforderungen an das Videokonferenzsystem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionale-anforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionale Anforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technische-anforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technische Anforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sicherheitsanforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sicherheitsanforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzerfreundlichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benutzerfreundlichkeit:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-44-ki-anwendungen-betreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.4: KI-Anwendungen betreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.4: KI-Anwendungen betreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a44-einsatz-von-ki-anwendungen-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m410-anforderungen-an-die-ki-anwendungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.10: Anforderungen an die KI-Anwendungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m411-linkedin-learning-ki-projekte-planen-und-starten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.11: Linkedin Learning - KI-Projekte planen und starten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m412-bsi-generative-ki-modelle-chancen-und-risiken-fur-industrie-und-behorden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.12: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-45-it-systeme-an-kunden-ubergeben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.5: IT-Systeme an Kunden übergeben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.5: IT-Systeme an Kunden übergeben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a45-erstellung-eines-abnahmeprotokolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.5: Erstellung eines Abnahmeprotokolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m413-abnahmeprotokolle-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.13: Abnahmeprotokolle erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.13: Abnahmeprotokolle erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-bedeutung-des-abnahmeprotokolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Bedeutung des Abnahmeprotokolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vorgehen-bei-festgestellten-mangeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Vorgehen bei festgestellten Mängeln
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 05 - Sensoren auslesen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kapitel 06 - Aktoren ansteuern
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handlungssituation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-40-hardwarekomponenten-auswahlen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.0: Hardwarekomponenten auswählen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.0: Hardwarekomponenten auswählen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a40-vervollstandigung-der-auswahlmatrix-fur-computerkomponenten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m40-bisherige-zusammenstellung-der-komponenten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.0: Bisherige Zusammenstellung der Komponenten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m41-auszug-aus-dem-lastenheft" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.1: Auszug aus dem Lastenheft
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.1: Auszug aus dem Lastenheft">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#motherboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motherboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grafikkarte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grafikkarte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m42-vergleichswebseite-zu-den-motherboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.2: Vergleichswebseite zu den Motherboards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m43-vergleichswebseite-zu-den-grafikkarten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.3: Vergleichswebseite zu den Grafikkarten
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-41-biosuefi-einstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.1: BIOS/UEFI einstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.1: BIOS/UEFI einstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a41-biosuefi-einstellungen-fur-virtualisierung-energieeffizienz-und-sicherheit-vornehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen für Virtualisierung, Energieeffizienz und Sicherheit vornehmen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen für Virtualisierung, Energieeffizienz und Sicherheit vornehmen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m44-uefi-simulator-des-lenovo-yoga-aio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.4: UEFI-Simulator des Lenovo YOGA AIO 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m45-bios-simulator-des-lenovo-p14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.5: BIOS-Simulator des Lenovo P14
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m46-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.6: BIOS und UEFI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.6: BIOS und UEFI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bios-und-uefi-die-steuerzentrale-des-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      BIOS und UEFI – Die Steuerzentrale des Computers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="BIOS und UEFI – Die Steuerzentrale des Computers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-was-ist-das-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Was ist das BIOS?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Was ist das BIOS?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionen-des-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionen des BIOS:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-des-klassischen-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merkmale des klassischen BIOS:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-was-ist-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Was ist UEFI?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Was ist UEFI?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionen-des-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionen des UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-von-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merkmale von UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-wichtige-unterschiede-zwischen-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Wichtige Unterschiede zwischen BIOS und UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-warum-ist-uefi-heute-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Warum ist UEFI heute Standard?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-zugriff-auf-biosuefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Zugriff auf BIOS/UEFI:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-bios-flash-firmware-update-fur-das-motherboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. BIOS Flash – Firmware-Update für das Motherboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quellen:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-42-it-systeme-in-domanen-einbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.2: IT-Systeme in Domänen einbinden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.2: IT-Systeme in Domänen einbinden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a42-verzeichnisdienste-und-domanen-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m47-verzeichnisdienste-und-domanen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.7: Verzeichnisdienste und Domänen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-43-videokonferenzssysteme-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.3: Videokonferenzssysteme unterscheiden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.3: Videokonferenzssysteme unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a43-auswahl-eines-videokonferenzsystems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.3: Auswahl eines Videokonferenzsystems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m48-produktkatalog-videokonferenzsysteme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.8: Produktkatalog Videokonferenzsysteme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m49-auszug-aus-dem-lastenheft-videokonferenzsysteme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.9: Auszug aus dem Lastenheft Videokonferenzsysteme
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.9: Auszug aus dem Lastenheft Videokonferenzsysteme">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anforderungen-an-das-videokonferenzsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anforderungen an das Videokonferenzsystem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anforderungen an das Videokonferenzsystem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funktionale-anforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funktionale Anforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technische-anforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technische Anforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sicherheitsanforderungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sicherheitsanforderungen:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzerfreundlichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benutzerfreundlichkeit:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-44-ki-anwendungen-betreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.4: KI-Anwendungen betreiben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.4: KI-Anwendungen betreiben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a44-einsatz-von-ki-anwendungen-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsschritte
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m410-anforderungen-an-die-ki-anwendungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.10: Anforderungen an die KI-Anwendungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m411-linkedin-learning-ki-projekte-planen-und-starten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.11: Linkedin Learning - KI-Projekte planen und starten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m412-bsi-generative-ki-modelle-chancen-und-risiken-fur-industrie-und-behorden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.12: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-45-it-systeme-an-kunden-ubergeben" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kompetenz 4.5: IT-Systeme an Kunden übergeben
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.5: IT-Systeme an Kunden übergeben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a45-erstellung-eines-abnahmeprotokolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arbeitsauftrag A|4.5: Erstellung eines Abnahmeprotokolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m413-abnahmeprotokolle-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsmaterial M|4.13: Abnahmeprotokolle erstellen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.13: Abnahmeprotokolle erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-bedeutung-des-abnahmeprotokolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Bedeutung des Abnahmeprotokolls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vorgehen-bei-festgestellten-mangeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Vorgehen bei festgestellten Mängeln
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="kapitel-4-it-systeme-in-betrieb-nehmen">Kapitel 4: IT-Systeme in Betrieb nehmen</h1>
+<p><img alt="Kapitelbild" src="bilder/04_kapitelbild.png" /></p>
+<p>In diesem Kapitel werden Sie ...</p>
+<ul>
+<li>... kompatible Hardwarekomponenten auswählen.</li>
+<li>... das Zusammenspiel zwischen Hardware und BIOS/UEFI aufzeigen.</li>
+<li>... die Einbindung eines IT-Systems in eine Domäne beschreiben.</li>
+<li>... die Anforderungen an ein Videokonferenzsystem darstellen.</li>
+<li>... die Voraussetzungen zur Nutzung einer KI-Anwendung beschreiben.</li>
+<li>... die Übergabe des Systems an den Kunden vorbereiten.</li>
+</ul>
+<h2 id="handlungssituation">Handlungssituation</h2>
+<p>Ein Architekturbüro plant, einen leistungsstarken Computer für CAD-Anwendungen, Videokonferenzen und KI-gestützte Berechnungen zu beschaffen. Die IT-Abteilung soll die optimale Hardware zusammenstellen und die Integration des Systems in die bestehende IT-Infrastruktur konzipieren.</p>
+<p>Sie arbeiten im Vertrieb der ChangeIT GmbH und erstellen ein umfassendes Konzept zur Beschaffung, Einrichtung und Inbetriebnahme des Systems, einschließlich der theoretischen Konfiguration von Hardware, Domänenintegration und KI-Einsatz.</p>
+<p><img alt="Architektenbüro" src="bilder/04_handlungssituation.png" /></p>
+<h2 id="kompetenz-40-hardwarekomponenten-auswahlen">Kompetenz 4.0: Hardwarekomponenten auswählen</h2>
+<p>Sie haben bereits eine kleine Vorauswahl von Komponenten für das Architekturbüro getroffen. Dabei bestehen jeweils zwei Alternativen, welche Sie noch bezüglich der Auswahl voneinander abgrenzen wollen. Lediglich die Auswahl einer zum System passenden CPU ist noch nicht erfolgt. Die Restarbeiten zur Zusammenstellung des IT-Systems sollen zeitnah erfolgen, um die Bestellung der Komponenten durchführen zu können.</p>
+<p><img alt="High-End-PC" src="bilder/04_hs01_highendpc.png" /></p>
+<h3 id="arbeitsauftrag-a40-vervollstandigung-der-auswahlmatrix-fur-computerkomponenten">Arbeitsauftrag A|4.0: Vervollständigung der Auswahlmatrix für Computerkomponenten</h3>
+<h4 id="aufgabenstellung">Aufgabenstellung</h4>
+<p>Sie übernehmen die finale Auswahl der Hardwarekomponenten für das Architekturbüro. Ihre Aufgabe ist es, die Auswahlmatrix (M|4.0: Bisherige Zusammenstellung der Komponenten) zu vervollständigen und eine passende CPU auszuwählen. Ihre Entscheidung soll auf einer fundierten Analyse der technischen Spezifikationen und Anforderungen (M|4.1: Auszug aus dem Lastenheft) basieren.</p>
+<h4 id="arbeitsschritte">Arbeitsschritte</h4>
+<p><strong>1. Vergleich der bestehenden Alternativen</strong></p>
+<ul>
+<li>Analysieren Sie die beiden Alternativen für Motherboard und Grafikkarte.</li>
+<li>Verschaffen Sie sich einen Überblick über beide Systeme mittels Vergleichswebseite (M|4.2: Vergleichswebseite zu den Motherboards &amp; M|4.3: Vergleichswebseite zu den Grafikkarten)</li>
+<li>Füllen Sie die Spalte "Empfohlene Auswahl" in der Tabelle aus und begründen Sie Ihre Entscheidung.</li>
+</ul>
+<p><strong>2. Auswahl der CPU:</strong></p>
+<ul>
+<li>Recherchieren Sie zwei geeignete CPUs (eine von AMD, eine von Intel), die die Anforderungen aus dem Lastenheft erfüllen.</li>
+<li>Ergänzen Sie diese in der Auswahlmatrix.</li>
+<li>Stellen Sie die beiden Kandidaten in einem Vergleich gegenüber. Sie können hierfür ebenbfalls die Webseite https://versus.com/de nutzen.</li>
+<li>Schreiben Sie zu jeder ausgewählten Komponente eine kurze Begründung, warum diese die beste Wahl ist.</li>
+<li>Gehen Sie dabei auf Kompatibilität, Leistungsanforderungen und Energieeffizienz ein.</li>
+</ul>
+<p><strong>3. Zusammenfassung der Ergebnisse:</strong></p>
+<ul>
+<li>Speichern Sie die fertiggestellte Komponenten-Matrix für den späteren Zugriff ab.</li>
+<li>Lessons Learned: Sie haben in Ihrer Gruppe die Auswahl der vorbereiteten Komponenten sowie die Recherche zu zwei Optionen der CPU durchgeführt. Welche Erkenntnisse haben Sie hieraus gewonnen. Die folgenden Leitfragen können Ihnen bei der Rückschau auf den Prozess helfen:</li>
+<li>Welche Kriterien waren für die Auswahl der Hardwarekomponenten am wichtigsten und warum?</li>
+<li>Welche Herausforderungen sind bei der Bewertung der verschiedenen CPU-Optionen aufgetreten?</li>
+<li>Wie haben Sie die Kompatibilität zwischen den einzelnen Komponenten sichergestellt?</li>
+<li>Gab es in der Gruppe unterschiedliche Meinungen zur Auswahl der Komponenten? Falls ja, wie wurden diese gelöst?</li>
+<li>Welche Quellen oder Tools waren besonders hilfreich bei der Recherche und warum?</li>
+<li>Wie würden Sie den Auswahlprozess beim nächsten Mal optimieren oder effizienter gestalten?</li>
+</ul>
+<h3 id="informationsmaterial-m40-bisherige-zusammenstellung-der-komponenten">Informationsmaterial M|4.0: Bisherige Zusammenstellung der Komponenten</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Komponente</th>
+<th style="text-align: left;">Alternative 1</th>
+<th style="text-align: left;">Alternative 2</th>
+<th style="text-align: left;">Bemerkung</th>
+<th style="text-align: left;">Empfohlene Auswahl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Motherboard</td>
+<td style="text-align: left;">ASUS TUF Gaming B550-Plus</td>
+<td style="text-align: left;">MSI MAG B550 Tomahawk</td>
+<td style="text-align: left;">Beide Boards unterstützen PCIe 4.0</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">CPU</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Grafikkarte</td>
+<td style="text-align: left;">NVIDIA RTX 3060 Ti (8 GB GDDR6)</td>
+<td style="text-align: left;">AMD Radeon RX 6750 XT (12 GB GDDR6)</td>
+<td style="text-align: left;">Für CAD-Software wie AutoCAD empfohlen: NVIDIA RTX</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Arbeitsspeicher</td>
+<td style="text-align: left;">32 GB DDR4-3200 (2x16 GB)</td>
+<td style="text-align: left;">64 GB DDR4-3200 (2x32 GB)</td>
+<td style="text-align: left;">Abhängig von der Komplexität der CAD-Projekte</td>
+<td style="text-align: left;">Es werden umfangreiche Projekte erwartet, deshalb 64 GB RAM ausgewählt.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Netzteil</td>
+<td style="text-align: left;">be quiet! Pure Power 11 FM 650W (80+ Gold)</td>
+<td style="text-align: left;">Corsair RM750x 750W (80+ Gold)</td>
+<td style="text-align: left;">Beide effizient, Corsair bietet mehr Leistung</td>
+<td style="text-align: left;">Zur Sicherstellung der Erweiterbarkeit des Systems soll das Corsair-Netzteil mit entsprechend 100W mehr Leistung gewählt werden</td>
+</tr>
+<tr>
+<td style="text-align: left;">Speicher</td>
+<td style="text-align: left;">1 TB NVMe SSD (Samsung 970 EVO Plus)</td>
+<td style="text-align: left;">2 TB NVMe SSD (WD Black SN850)</td>
+<td style="text-align: left;">Kapazität abhängig von Projekterfordernissen</td>
+<td style="text-align: left;">Rücksprache mit dem Kunden: Die aktuellen Projektdaten werden auf dem neuen System bearbeitet, nach Abschluss werden diese auf den Netzwerkspeicher übertragen. 1 TB reicht damit aus.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="informationsmaterial-m41-auszug-aus-dem-lastenheft">Informationsmaterial M|4.1: Auszug aus dem Lastenheft</h3>
+<h4 id="motherboard">Motherboard</h4>
+<p><strong>1. Kompatibilität und Leistungsanforderungen:</strong></p>
+<ul>
+<li>Prozessorsockel: Das Motherboard muss den gewählten CPU-Typ unterstützen:</li>
+<li>AMD: Sockel AM4 oder AM5</li>
+<li>Intel: Sockel LGA 1200 oder LGA 1700</li>
+<li>Chipsatz: Der Chipsatz soll eine optimale Balance zwischen Leistung und Stabilität bieten:</li>
+<li>Für AMD: B550 oder besser (z. B. X570)</li>
+<li>Für Intel: Z690 oder B660 (abhängig von der gewählten CPU)</li>
+<li>Arbeitsspeicher-Unterstützung:</li>
+<li>Unterstützung für mindestens 64 GB DDR4/DDR5 RAM.</li>
+<li>Dual-Channel-Betrieb für maximale Speicherbandbreite.</li>
+</ul>
+<p><strong>2. Erweiterbarkeit und Konnektivität:</strong></p>
+<ul>
+<li>PCIe-Steckplätze:</li>
+<li>Mindestens 1 PCIe 4.0 x16-Steckplatz für die Grafikkarte.</li>
+<li>Zusätzliche PCIe x1-Steckplätze für Erweiterungskarten (z. B. Netzwerkkarten, zusätzliche Schnittstellen).</li>
+<li>M.2- und SATA-Schnittstellen:</li>
+<li>Mindestens 2 M.2 NVMe-Steckplätze für schnellen SSD-Speicher.</li>
+<li>Unterstützung von RAID-Konfigurationen für Datensicherheit und Performance.</li>
+<li>Netzwerk und Internet:</li>
+<li>Integrierter Gigabit-Ethernet-Anschluss.</li>
+<li>Optional: WLAN 6 (802.11ax) für kabellose Verbindungen.</li>
+<li>USB-Anschlüsse:</li>
+<li>Mindestens 4 USB 3.2 Gen 2-Anschlüsse (Typ-A und Typ-C).</li>
+<li>Unterstützung von USB-C mit Power Delivery für zukünftige Geräte.</li>
+</ul>
+<p><strong>3. BIOS/UEFI und Systemstabilität:</strong></p>
+<ul>
+<li>UEFI/BIOS-Funktionen:</li>
+<li>Einfache Benutzeroberfläche mit erweiterten Konfigurationsmöglichkeiten.</li>
+<li>BIOS-Flashback-Funktion zur einfachen Aktualisierung der Firmware ohne installierte CPU.</li>
+<li>Unterstützung für Secure Boot und TPM 2.0 (für Windows 11-Kompatibilität).</li>
+<li>Stromversorgung und Kühlung:</li>
+<li>VRM-Kühlung (spannungsregulierende Module) für stabile Leistung unter Last.</li>
+<li>Effizientes Power Management zur Optimierung des Energieverbrauchs.</li>
+</ul>
+<p><strong>4. Besondere Anforderungen:</strong></p>
+<ul>
+<li>Zukunftssicherheit: Das Motherboard soll PCIe 4.0 (oder besser) unterstützen, um zukünftige Hardware-Upgrades zu ermöglichen.</li>
+<li>Formfaktor: Das Systemgehäuse des Architekturbüros erfordert den Formfaktor ATX.</li>
+<li>Langlebigkeit: Hochwertige Kondensatoren und 5-Jahres-Herstellergarantie werden bevorzugt.</li>
+</ul>
+<h4 id="grafikkarte">Grafikkarte</h4>
+<p><strong>1. Leistungsanforderungen:</strong></p>
+<ul>
+<li>VRAM (Videospeicher):</li>
+<li>Mindestens 8 GB GDDR6 für große CAD-Modelle und flüssige 3D-Darstellungen. 12 GB oder mehr sind wünschenswert für besonders komplexe Baupläne oder Renderings.</li>
+<li>GPU-Architektur:</li>
+<li>Die Grafikkarte muss eine moderne Architektur besitzen (z. B. NVIDIA Ampere oder AMD RDNA 2), um optimale Performance für CAD und KI-gestützte Berechnungen zu gewährleisten.</li>
+<li>CUDA-/OpenCL-Unterstützung:</li>
+<li>Für KI-Anwendungen wird CUDA-Unterstützung (nur bei NVIDIA-Karten) bevorzugt.</li>
+<li>Alternativ muss die Karte OpenCL-kompatibel sein (unterstützt von AMD und NVIDIA).</li>
+<li>DirectX und OpenGL:</li>
+<li>Unterstützung von DirectX 12 Ultimate für CAD-Visualisierungen und OpenGL 4.6 (oder höher) ist erforderlich.</li>
+</ul>
+<p><strong>2. Kompatibilität und Anschlüsse:</strong></p>
+<ul>
+<li>Schnittstelle:</li>
+<li>Die Grafikkarte muss PCIe 4.0 x16 unterstützen, um die volle Bandbreite moderner Motherboards zu nutzen.</li>
+<li>Bildschirmanschlüsse (mindestens):</li>
+<li>1x HDMI 2.1 (für hochauflösende Monitore oder Präsentationen)</li>
+<li>3x DisplayPort 1.4a (für Multi-Monitor-Setups)</li>
+<li>Auflösung und Multi-Monitor-Unterstützung:<ul>
+<li>Unterstützung von 4K-Auflösung bei 60 Hz für Präsentationen.</li>
+<li>Betrieb von bis zu 3 Monitoren gleichzeitig (für CAD, Videokonferenzen und KI-Arbeitsumgebungen parallel).</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Energieeffizienz und Kühlung:</strong></p>
+<ul>
+<li>Leistungsaufnahme (TDP):</li>
+<li>Die Grafikkarte sollte eine maximale TDP von 250 Watt nicht überschreiten, um mit dem geplanten Netzteil kompatibel zu bleiben.</li>
+<li>Kühlsystem:</li>
+<li>Effizientes und leises Kühlsystem mit mindestens zwei Lüftern. Semi-passive Kühlung ist wünschenswert, um Geräusche während ruhender Phasen zu minimieren.</li>
+</ul>
+<p><strong>4. Besondere Anforderungen:</strong></p>
+<ul>
+<li>Zertifizierungen für CAD-Software:</li>
+<li>Die Grafikkarte sollte idealerweise von den Herstellern der CAD-Software (z. B. Autodesk, Dassault Systèmes) zertifiziert sein, um maximale Stabilität und Performance sicherzustellen.</li>
+<li>KI-Unterstützung:</li>
+<li>Für lokale KI-Anwendungen wird eine GPU mit Tensor-Kernen (bei NVIDIA) oder Ray Accelerators (bei AMD) bevorzugt.</li>
+<li>Kompatibilität mit KI-Frameworks wie TensorFlow und PyTorch.</li>
+<li>Zukunftssicherheit:</li>
+<li>Unterstützung zukünftiger Technologien wie Raytracing und DLSS (Deep Learning Super Sampling) ist wünschenswert, um den PC langfristig aktuell zu halten.</li>
+</ul>
+<h4 id="cpu">CPU</h4>
+<p><strong>1. Leistung und Effizienz</strong></p>
+<ul>
+<li>Mindestens 8 physische Kerne und 16 Threads für parallele Berechnungen.</li>
+<li>Taktfrequenz von mindestens 3,5 GHz (Boost bis zu 4,5 GHz wünschenswert).</li>
+<li>Unterstützung von SIMD-Erweiterungen (z. B. AVX2, AVX-512) für CAD- und KI-Berechnungen.</li>
+</ul>
+<p><strong>2. Kompatibilität:</strong></p>
+<ul>
+<li>Kompatibel mit dem ausgewählten Motherboard (Sockel AM4 oder AM5 für AMD, LGA 1200 oder LGA 1700 für Intel).</li>
+<li>PCIe 4.0-Unterstützung für schnelle Kommunikation mit der GPU.</li>
+</ul>
+<p><strong>3. Energieeffizienz und Kühlung:</strong></p>
+<ul>
+<li>Maximale Thermal Design Power (TDP) von 125 Watt.</li>
+<li>Unterstützung moderner Energiesparmodi (z.B. AMD Eco Mode oder Intel Speed Shift).</li>
+</ul>
+<p><strong>4. Besondere Anforderungen:</strong></p>
+<ul>
+<li>Virtualisierungsunterstützung für zukünftige Tests von virtuellen Maschinen.</li>
+<li>Optimale Single-Core-Leistung für CAD-Programme, die nicht vollständig multithreaded arbeiten.</li>
+</ul>
+<h3 id="informationsmaterial-m42-vergleichswebseite-zu-den-motherboards">Informationsmaterial M|4.2: Vergleichswebseite zu den Motherboards</h3>
+<p>https://versus.com/de/asus-tuf-gaming-b550-plus-vs-msi-mag-b550-tomahawk</p>
+<h3 id="informationsmaterial-m43-vergleichswebseite-zu-den-grafikkarten">Informationsmaterial M|4.3: Vergleichswebseite zu den Grafikkarten</h3>
+<p>https://versus.com/de/amd-radeon-rx-6750-xt-vs-nvidia-geforce-rtx-3060-ti</p>
+<h2 id="kompetenz-41-biosuefi-einstellen">Kompetenz 4.1: BIOS/UEFI einstellen</h2>
+<p>Die ChangeIT GmbH hat im Wareneingang die Komponenten des neuen CAD-PC erhalten und geprüft. Bevor das Betriebssystem installiert wird, müssen im BIOS/UEFI wichtige Einstellungen vorgenommen werden, um das System optimal für den geplanten Einsatz zu konfigurieren.</p>
+<p>Als IT-Spezialist der ChangeIT GmbH sind Sie dafür verantwortlich, das System für Virtualisierungsaufgaben, energieeffizienten Betrieb und höchste Sicherheit vorzubereiten. Der Kunde möchte später ggf. virtuelle Maschinen mit VirtualBox betreiben und wünscht sich außerdem, dass das System vor unbefugtem Zugriff geschützt ist.</p>
+<p>Der Computer befindet sich noch in der Montage in der Werkstatt. Da Sie aktuell nicht direkt auf das BIOS zugreifen können, sollen Sie die nötigen Einstellungen theoretisch erarbeiten und in einem Konfigurationsleitfaden dokumentieren. Dieser Leitfaden wird dem Kunden bei der Übergabe des Systems übergeben.</p>
+<h3 id="arbeitsauftrag-a41-biosuefi-einstellungen-fur-virtualisierung-energieeffizienz-und-sicherheit-vornehmen">Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen für Virtualisierung, Energieeffizienz und Sicherheit vornehmen</h3>
+<h4 id="aufgabenstellung_1">Aufgabenstellung</h4>
+<p>Sie erstellen Hinweise für den CAD-PC des Architekturbüros. Der Leitfaden soll bei der Einrichtung herangezogen werden, um das System optimal für Virtualisierung, Energieeffizienz und Sicherheit zu konfigurieren.</p>
+<p>Da Sie aktuell keinen Zugriff auf die Kundenhardware haben, nutzen Sie Ihr dienstliches Lenovo Yoga All-in-One Gerät, um sich einen Überblick im UEFI zu verschaffen (M|4.4: UEFI-Simulator des Lenovo YOGA AIO 7). Ein BIOS steht Ihnen an einem Workstation-Laptop der Abteilung zur Einsicht zur Verfügung (M|4.5: BIOS-Simulator des Lenovo P14).</p>
+<h4 id="arbeitsschritte_1">Arbeitsschritte</h4>
+<p><em>Hinweise zur Bearbeitung der Arbeitsschritte:</em></p>
+<ul>
+<li><em>Fertigen Sie ggf. zum Verständnis notwendige Screenshots an.</em></li>
+<li><em>Stellen die die Handlungsempfehlungen möglichst übersichtlich zusammen.</em></li>
+</ul>
+<p><strong>1. Recherche zu BIOS/UEFI-Grundlagen:</strong></p>
+<ul>
+<li>Welche Unterschiede bestehen zwischen BIOS und UEFI?</li>
+<li>Welche grundlegenden Menüpunkte finden sich in einem typischen BIOS/UEFI?</li>
+</ul>
+<p><strong>2. Einstellungen zur Virtualisierung:</strong></p>
+<ul>
+<li>Recherchieren Sie, wie die Virtualisierungstechnologie im BIOS/UEFI aktiviert wird.</li>
+<li>Erläutern Sie, warum diese Einstellung wichtig ist, um virtuelle Maschinen mit VirtualBox betreiben zu können.</li>
+<li>Erstellen Sie eine Schritt-für-Schritt-Anleitung mit Beispielscreenshots.</li>
+</ul>
+<p><strong>3. Einstellungen zur Energieeffizienz:</strong></p>
+<ul>
+<li>Recherchieren Sie BIOS/UEFI-Optionen, die den Energieverbrauch optimieren:</li>
+<li>Aktivierung von CPU Power Management-Funktionen</li>
+<li>Anpassen von C-States (Energiesparmodi) und Sleep-States</li>
+<li>ggf. Steuerung von Lüfterprofilen (z.B. Quiet Mode, Performance Mode).</li>
+<li>Beschreiben Sie, wie diese Einstellungen die Leistungsaufnahme und die Geräuschentwicklung des PCs beeinflussen.</li>
+</ul>
+<p><strong>4. Einstellungen zur Sicherheit:</strong></p>
+<ul>
+<li>Recherchieren Sie Sicherheitsfunktionen im BIOS/UEFI:</li>
+<li>Setzen eines Supervisor-Passworts (BIOS/UEFI-Passwort) zum Schutz der Systemeinstellungen.</li>
+<li>Aktivierung von Secure Boot zur Verhinderung von Malware beim Systemstart.</li>
+<li>Aktivierung von TPM 2.0 (Trusted Platform Module) für zusätzliche Sicherheit, z. B. für BitLocker-Verschlüsselung.</li>
+</ul>
+<h3 id="informationsmaterial-m44-uefi-simulator-des-lenovo-yoga-aio-7">Informationsmaterial M|4.4: UEFI-Simulator des Lenovo YOGA AIO 7</h3>
+<p>https://download.lenovo.com/bsco/index.html#/graphicalsimulator/Yoga%20AIO%207%2027ARH6%20(F0FN)</p>
+<h3 id="informationsmaterial-m45-bios-simulator-des-lenovo-p14">Informationsmaterial M|4.5: BIOS-Simulator des Lenovo P14</h3>
+<p>https://download.lenovo.com/bsco/index.html#/textsimulator/ThinkPad%20P14s%20Gen%203%20AMD%20(21J5,21J6)</p>
+<h3 id="informationsmaterial-m46-bios-und-uefi">Informationsmaterial M|4.6: BIOS und UEFI</h3>
+<h4 id="bios-und-uefi-die-steuerzentrale-des-computers"><strong>BIOS und UEFI – Die Steuerzentrale des Computers</strong></h4>
+<h5 id="1-was-ist-das-bios"><strong>1. Was ist das BIOS?</strong></h5>
+<p>Das <strong>BIOS</strong> (Basic Input/Output System) ist eine Firmware, die direkt auf dem <strong>Motherboard</strong> eines Computers gespeichert ist. Es stellt die grundlegenden Funktionen bereit, die notwendig sind, damit der Computer startet und das Betriebssystem geladen werden kann.</p>
+<h6 id="funktionen-des-bios"><strong>Funktionen des BIOS:</strong></h6>
+<ul>
+<li><strong>POST (Power-On Self Test):</strong> Beim Einschalten des Computers führt das BIOS einen Selbsttest durch, um sicherzustellen, dass die Hardware (z. B. RAM, Grafikkarte, Festplatte) ordnungsgemäß funktioniert.</li>
+<li><strong>Hardware-Initialisierung:</strong> Das BIOS erkennt und konfiguriert die angeschlossenen Hardwarekomponenten.</li>
+<li><strong>Bootloader:</strong> Das BIOS sucht nach einem <strong>Boot-Medium</strong> (z. B. Festplatte, USB-Stick) und startet das Betriebssystem.</li>
+<li><strong>Einstellungen:</strong> Über das BIOS können grundlegende Einstellungen wie die <strong>Boot-Reihenfolge</strong>, <strong>Datum und Uhrzeit</strong> sowie <strong>Sicherheitsoptionen</strong> (z. B. Passwortschutz) konfiguriert werden.</li>
+</ul>
+<h6 id="merkmale-des-klassischen-bios"><strong>Merkmale des klassischen BIOS:</strong></h6>
+<ul>
+<li><strong>Textbasierte Benutzeroberfläche</strong>: Navigation erfolgt über die Tastatur.</li>
+<li>Unterstützt <strong>MBR (Master Boot Record)</strong> als Partitionsschema, was die maximale Festplattengröße auf <strong>2 TB</strong> begrenzt.</li>
+<li>Beschränkter <strong>Adressraum</strong>: Kann nur <strong>16-Bit-Prozessorbefehle</strong> ausführen und maximal <strong>1 MB Speicher</strong> direkt ansprechen.</li>
+</ul>
+<h5 id="2-was-ist-uefi"><strong>2. Was ist UEFI?</strong></h5>
+<p>Das <strong>UEFI</strong> (Unified Extensible Firmware Interface) ist der <strong>moderne Nachfolger des BIOS</strong>. Es wurde entwickelt, um die Einschränkungen des klassischen BIOS zu überwinden und zusätzliche Funktionen bereitzustellen.</p>
+<h6 id="funktionen-des-uefi"><strong>Funktionen des UEFI:</strong></h6>
+<ul>
+<li><strong>Erweiterter POST und Hardware-Initialisierung:</strong> Schnellere Erkennung und Konfiguration von Hardware.</li>
+<li><strong>Grafische Benutzeroberfläche (GUI):</strong> UEFI bietet oft eine <strong>grafische Oberfläche</strong> mit Mausunterstützung und erweiterten Konfigurationsmöglichkeiten.</li>
+<li><strong>Unterstützung für große Festplatten:</strong> UEFI verwendet das <strong>GPT (GUID Partition Table)</strong>-Partitionsschema, das Festplatten <strong>größer als 2 TB</strong> unterstützt.</li>
+<li><strong>Sicherheitsfunktionen:</strong> UEFI bietet Funktionen wie <strong>Secure Boot</strong>, das verhindert, dass unsichere Betriebssysteme oder Malware beim Start geladen werden.</li>
+<li><strong>Netzwerk-Boot:</strong> UEFI ermöglicht den <strong>Start über das Netzwerk</strong> (z. B. für Remote-Installationen).</li>
+</ul>
+<h6 id="merkmale-von-uefi"><strong>Merkmale von UEFI:</strong></h6>
+<ul>
+<li><strong>Schnelleres Booten:</strong> Dank effizienterer Hardware-Initialisierung und Optimierungen.</li>
+<li><strong>Modular und erweiterbar:</strong> UEFI kann mit <strong>Plugins</strong> und <strong>Treibern</strong> erweitert werden.</li>
+<li><strong>Kompatibilität:</strong> Die meisten UEFI-Firmwares bieten einen <strong>Legacy BIOS-Kompatibilitätsmodus (CSM)</strong>, sodass ältere Betriebssysteme weiterhin unterstützt werden.</li>
+</ul>
+<h5 id="3-wichtige-unterschiede-zwischen-bios-und-uefi"><strong>3. Wichtige Unterschiede zwischen BIOS und UEFI:</strong></h5>
+<table>
+<thead>
+<tr>
+<th><strong>Eigenschaft</strong></th>
+<th><strong>BIOS</strong></th>
+<th><strong>UEFI</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Startdatum</strong></td>
+<td>1970er Jahre</td>
+<td>Mitte 2000er Jahre</td>
+</tr>
+<tr>
+<td><strong>Benutzeroberfläche</strong></td>
+<td>Textbasiert, nur Tastatursteuerung</td>
+<td>Grafisch, Maus- und Tastatursteuerung</td>
+</tr>
+<tr>
+<td><strong>Partitionsschema</strong></td>
+<td>MBR (max. 2 TB Festplatten)</td>
+<td>GPT (Unterstützung für &gt; 2 TB Festplatten)</td>
+</tr>
+<tr>
+<td><strong>Sicherheitsfunktionen</strong></td>
+<td>Keine speziellen Funktionen</td>
+<td>Secure Boot, TPM-Unterstützung</td>
+</tr>
+<tr>
+<td><strong>Bootgeschwindigkeit</strong></td>
+<td>Langsamer</td>
+<td>Schneller</td>
+</tr>
+<tr>
+<td><strong>Erweiterbarkeit</strong></td>
+<td>Eingeschränkt</td>
+<td>Modular, erweiterbar</td>
+</tr>
+<tr>
+<td><strong>Kompatibilität</strong></td>
+<td>Ältere Systeme und Betriebssysteme</td>
+<td>Neuere Systeme, aber mit BIOS-Kompatibilität</td>
+</tr>
+</tbody>
+</table>
+<h5 id="4-warum-ist-uefi-heute-standard"><strong>4. Warum ist UEFI heute Standard?</strong></h5>
+<p>Moderne Computer verwenden fast ausschließlich <strong>UEFI</strong>, da es leistungsfähiger und flexibler ist als das klassische BIOS. Vor allem für Aufgaben wie <strong>Virtualisierung</strong>, <strong>große Speicherlaufwerke</strong>, <strong>schnelle SSDs</strong> und <strong>moderne Sicherheitsanforderungen</strong> (z. B. Secure Boot für Windows 11) ist UEFI notwendig.</p>
+<p>Trotzdem bieten viele Systeme weiterhin die Möglichkeit, in den <strong>Legacy BIOS-Modus</strong> zu wechseln, um ältere Betriebssysteme zu unterstützen.</p>
+<h5 id="5-zugriff-auf-biosuefi"><strong>5. Zugriff auf BIOS/UEFI:</strong></h5>
+<p>Um ins BIOS oder UEFI zu gelangen, muss beim <strong>Start des Computers</strong> eine bestimmte <strong>Taste gedrückt</strong> werden. Die gängigsten Tasten sind:
+- <strong>Entf</strong> (Delete)
+- <strong>F2</strong>
+- <strong>Esc</strong></p>
+<p>Die genaue Taste wird beim Start kurz auf dem Bildschirm angezeigt oder kann im Handbuch des Motherboards nachgelesen werden.</p>
+<h5 id="6-bios-flash-firmware-update-fur-das-motherboard"><strong>6. BIOS Flash – Firmware-Update für das Motherboard</strong></h5>
+<p>Ein <strong>BIOS-Flash</strong> bezeichnet das <strong>Aktualisieren der BIOS- oder UEFI-Firmware</strong> auf dem Motherboard. Dieses Update kann notwendig sein, um <strong>Kompatibilitätsprobleme</strong> mit neuer Hardware (z. B. neuen CPUs oder RAM) zu beheben, <strong>Stabilitätsverbesserungen</strong> durchzuführen oder <strong>Sicherheitslücken</strong> zu schließen. Moderne Motherboards mit UEFI bieten oft eine einfache Möglichkeit zum Flashen der Firmware direkt aus dem UEFI-Menü heraus, häufig als <strong>"EZ Flash"</strong> oder <strong>"Q-Flash"</strong> bezeichnet. Dabei wird die neue Firmware von einem <strong>USB-Stick</strong> geladen und installiert. Vor dem Flashen sollte immer überprüft werden, ob das Update wirklich notwendig ist, da ein <strong>fehlerhaftes Update</strong> das Motherboard unbrauchbar machen kann. Daher sollte der <strong>Flash-Vorgang niemals unterbrochen</strong> werden (z. B. durch Stromausfall). Manche Motherboards bieten eine <strong>Dual-BIOS-Funktion</strong>, die ein Backup der alten Firmware speichert und im Notfall wiederherstellen kann.</p>
+<h4 id="quellen">Quellen:</h4>
+<ul>
+<li>https://learn.microsoft.com/de-de/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11</li>
+<li>https://comheld.de/bios-und-uefi-die-herzstuecke-ihres-computers-verstaendlich-erklaert/</li>
+<li>https://www.esm-computer.de/ratgeber-infos/lexikon/bios/</li>
+<li>https://wiki.inonet.com/uefi-vs-bios</li>
+<li>https://www.dell.com/support/contents/de-de/article/product-support/self-support-knowledgebase/fix-common-issues/bios-uefi</li>
+</ul>
+<h2 id="kompetenz-42-it-systeme-in-domanen-einbinden">Kompetenz 4.2: IT-Systeme in Domänen einbinden</h2>
+<p>Das neue IT-System soll in den Verzeichnisdienst bzw. die Domäne des Architekturbüros eingebettet werden. Es wird Microsoft Active Directory (AD) eingesetzt, um alle Mitarbeiterkonten, Computer und Ressourcen zentral zu verwalten.</p>
+<h3 id="arbeitsauftrag-a42-verzeichnisdienste-und-domanen-beschreiben">Arbeitsauftrag A|4.2: Verzeichnisdienste und Domänen beschreiben</h3>
+<h4 id="aufgabenstellung_2">Aufgabenstellung</h4>
+<p>Sie haben sich bisher nur wenig mit Verzeichnisdiensten und Domänen auseinandergesetzt. Für einen Überblick sollen Sie die folgenden Fragen in eigenen Worten beantworten und für den betriebsinternen Runden Tisch der Auszubildenden kurz präsentieren. Fertigen Sie daher ein ansprechendes Handout mit den wichtigsten Informationen an.</p>
+<h4 id="arbeitsschritte_2">Arbeitsschritte</h4>
+<ol>
+<li>Erklären Sie den Unterschied zwischen einer Domäne und einer Arbeitsgruppe.</li>
+<li>Was ist ein Verzeichnisdienst? Welche Aufgaben erfüllt er in einem Netzwerk?</li>
+<li>Beschreibe die Struktur von Active Directory. Was sind Domänencontroller, Benutzerobjekte und Gruppenrichtlinien?</li>
+<li>Warum ist der DNS-Server wichtig für die Domänenanmeldung?</li>
+<li>Was versteht man unter Kerberos und wie funktioniert die Authentifizierung in einer Domäne?</li>
+<li>Nennen Sie drei Sicherheitsmaßnahmen, die in einer Domänenumgebung angewendet werden sollten.</li>
+<li>Was ist der Vorteil von Gruppenrichtlinien (GPOs) in Bezug auf die Sicherheit?</li>
+</ol>
+<h3 id="informationsmaterial-m47-verzeichnisdienste-und-domanen">Informationsmaterial M|4.7: Verzeichnisdienste und Domänen</h3>
+<p><strong>Definitionen und Konzepte</strong></p>
+<ul>
+<li>Unterschied zwischen einer Domäne und einer ArbeitsgruppeEine Domäne ist ein zentral verwaltetes Netzwerk, in dem Benutzerkonten, Computer und Ressourcen von einem Domänencontroller (DC) gesteuert werden. Der DC authentifiziert Benutzer und kontrolliert den Zugriff auf Netzwerkressourcen. Benutzer können sich an jedem Rechner der Domäne mit denselben Anmeldedaten anmelden, und die Zugriffsrechte werden zentral verwaltet.</li>
+<li>Eine Arbeitsgruppe hingegen ist eine lose verbundene Gruppe von Computern, bei der jeder Rechner seine eigenen Benutzerkonten verwaltet. Es gibt keine zentrale Steuerung, und Benutzer müssen sich für jeden Computer einzeln anmelden. Diese Struktur ist weniger komplex, aber auch weniger sicher und schwierig zu verwalten, wenn das Netzwerk größer wird.</li>
+<li>
+<p>Was ist ein Verzeichnisdienst? Welche Aufgaben erfüllt er in einem Netzwerk? Ein Verzeichnisdienst ist eine spezialisierte Datenbank, die Informationen über Benutzer, Computer, Gruppen und andere Netzwerkressourcen speichert und organisiert. Der bekannteste Verzeichnisdienst ist Microsoft Active Directory (AD). Er ermöglicht die zentrale Verwaltung von:</p>
+</li>
+<li>
+<p>Benutzerkonten und Authentifizierung: Wer darf sich anmelden?</p>
+</li>
+<li>Ressourcenzugriff: Welche Dateien, Ordner oder Drucker sind verfügbar?</li>
+<li>Sicherheitsrichtlinien: Wie werden Passwörter und Rechte verwaltet?</li>
+<li>Andere Beispiele für Verzeichnisdienste sind LDAP (Lightweight Directory Access Protocol) und OpenLDAP.</li>
+</ul>
+<p><strong>Struktur von Active Directory</strong></p>
+<p>Active Directory ist hierarchisch aufgebaut und besteht aus verschiedenen Komponenten:
+  - Domänencontroller (DC): Der Server, der Active Directory ausführt und Benutzer authentifiziert sowie Sicherheitsrichtlinien durchsetzt.
+  - Benutzerobjekte: Jedes Benutzerkonto in der Domäne wird als Objekt gespeichert. Diese Objekte enthalten Informationen wie Benutzername, Passwort und Zugehörigkeit zu Gruppen.
+  - Gruppenrichtlinien (GPOs): Mit GPOs können Administratoren Sicherheits- und Konfigurationseinstellungen zentral verwalten und automatisch auf Benutzer und Computer anwenden.</p>
+<p><strong>DNS und Authentifizierung</strong></p>
+<ul>
+<li>Warum ist der DNS-Server wichtig für die Domänenanmeldung? Der DNS-Server (Domain Name System) ist entscheidend für die Domänenanmeldung, da er die Namen von Computern und Diensten in IP-Adressen übersetzt. Wenn ein Computer einer Domäne beitreten oder sich ein Benutzer anmelden möchte, muss der Computer den Domänencontroller finden. Dies geschieht über DNS. Ist der DNS-Server falsch konfiguriert, kann der Domänenbeitritt oder die Anmeldung fehlschlagen.</li>
+<li>Was versteht man unter Kerberos und wie funktioniert die Authentifizierung in einer Domäne? Kerberos ist ein Netzwerk-Authentifizierungsprotokoll, das in Windows-Domänen verwendet wird. Es basiert auf einem Ticket-System, das sichere und schnelle Anmeldungen ermöglicht. Der Ablauf:</li>
+<li>Anfrage an den Key Distribution Center (KDC): Der Benutzer sendet eine Anfrage zur Authentifizierung.</li>
+<li>Ticket Granting Ticket (TGT): Der KDC prüft die Anmeldedaten und stellt ein TGT aus.</li>
+<li>Zugriff auf Ressourcen: Mit dem TGT fordert der Benutzer Zugang zu spezifischen Ressourcen an. Der KDC stellt ein Service-Ticket aus, das dem Benutzer Zugang gewährt.</li>
+<li>Vorteil von Kerberos: Die Anmeldedaten werden nicht wiederholt über das Netzwerk gesendet, was die Sicherheit erhöht.</li>
+</ul>
+<p><strong>Sicherheitsaspekte</strong></p>
+<ul>
+<li>Drei Sicherheitsmaßnahmen in einer Domänenumgebung</li>
+<li>Starke Passwort-Richtlinien: Erzwingen komplexe Passwörter und regelmäßige Änderungen.</li>
+<li>Zwei-Faktor-Authentifizierung (2FA): Eine zusätzliche Sicherheitsebene neben dem Passwort.</li>
+<li>Regelbasierte Zugriffssteuerung: Benutzer erhalten nur Zugriff auf die Ressourcen, die sie wirklich benötigen (Prinzip der minimalen Rechte).</li>
+<li>Vorteil von Gruppenrichtlinien (GPOs) in Bezug auf die Sicherheit</li>
+<li>Gruppenrichtlinien (GPOs) ermöglichen die zentrale Verwaltung von Sicherheits- und Konfigurationseinstellungen.</li>
+<li>Automatisierung von Sicherheitsrichtlinien: Einstellungen wie Passwortregeln, Firewall-Konfigurationen und Software-Updates werden automatisch angewendet.</li>
+<li>Konsistenz: Alle Benutzer und Computer in der Domäne erhalten dieselben Sicherheitsrichtlinien, wodurch Fehler und Inkonsistenzen vermieden werden.</li>
+<li>Schnelle Anpassung: Änderungen an Sicherheitsrichtlinien können zentral vorgenommen und sofort auf alle Geräte übertragen werden.</li>
+</ul>
+<h2 id="kompetenz-43-videokonferenzssysteme-unterscheiden">Kompetenz 4.3: Videokonferenzssysteme unterscheiden</h2>
+<p>Das Architekturbüro expandiert und möchte seine Arbeitsprozesse durch den Einsatz moderner IT-Infrastruktur optimieren. Neben der Beschaffung des leistungsstarken Computers für CAD-Anwendungen und KI-gestützte Berechnungen soll auch ein effizientes Videokonferenzsystem integriert werden. Dieses System muss den Anforderungen an hochauflösende Bildübertragung, stabile Verbindungen sowie sichere Datenübertragung genügen, da regelmäßig virtuelle Meetings mit internationalen Geschäftspartnern und Bauherren stattfinden.</p>
+<p>Sie arbeiten im Vertrieb der ChangeIT GmbH und wurden beauftragt, ein  Konzept zu erstellen. Ihr Fokus liegt dabei auf der Auswahl eines geeigneten Videokonferenzsystems, das nahtlos in die bestehende IT-Infrastruktur des Architekturbüros integriert werden kann. Dabei sollen drei verschiedene Systeme aus dem Produktprogramm verglichen und bewertet werden, um die beste Lösung zu finden.</p>
+<h3 id="arbeitsauftrag-a43-auswahl-eines-videokonferenzsystems">Arbeitsauftrag A|4.3: Auswahl eines Videokonferenzsystems</h3>
+<p><strong>1. Analyse der Anforderungen</strong></p>
+<ul>
+<li>Ermitteln Sie die spezifischen Anforderungen des Architekturbüros an ein Videokonferenzsystem. Berücksichtigen Sie dabei Aspekte wie Bild- und Tonqualität, Teilnehmerzahl, Sicherheitsanforderungen sowie Integration in bestehende Softwarelösungen (z. B. Office 365, CAD-Software).</li>
+</ul>
+<p><strong>2. Produktkatalog berücksichtigen</strong></p>
+<ul>
+<li>Verschaffen Sie sich einen Überblick über die drei Konferzenzsysteme, die im Standard-Produktprogramm der ChangeIT GmbH angeboten werden.</li>
+<li>Wägen Sie ab, welche Vor- und Nachteile eine Einbinung des Videokonferenzsystems einerseits via USB (ohne Netzwerkanbinung) und andererseits via LAN/WLAN über das Netzwerk des Büros hat.</li>
+</ul>
+<p><strong>3. Entscheidungsempfehlung:</strong></p>
+<ul>
+<li>Erarbeiten Sie basierend auf Ihrem Vergleich eine fundierte Empfehlung für ein Videokonferenzsystem. Begründen Sie Ihre Entscheidung mit den Anforderungen des Architekturbüros und den Ergebnissen Ihrer Analyse.</li>
+</ul>
+<h3 id="informationsmaterial-m48-produktkatalog-videokonferenzsysteme">Informationsmaterial M|4.8: Produktkatalog Videokonferenzsysteme</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Kriterium</strong></th>
+<th><strong>Logitech Rally Plus</strong></th>
+<th><strong>Logitech Rally Bar Mini</strong></th>
+<th><strong>Logitech Connect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Einsatzbereich</strong></td>
+<td>Große Konferenzräume</td>
+<td>Kleine bis mittelgroße Räume</td>
+<td>Mobile Nutzung, kleine Besprechungsräume</td>
+</tr>
+<tr>
+<td><strong>Kameraauflösung</strong></td>
+<td>4K Ultra-HD</td>
+<td>4K Ultra-HD</td>
+<td>1080p Full HD</td>
+</tr>
+<tr>
+<td><strong>Zoom</strong></td>
+<td>15-facher HD-Zoom</td>
+<td>4-facher Digitalzoom</td>
+<td>4-facher Digitalzoom</td>
+</tr>
+<tr>
+<td><strong>Sichtfeld</strong></td>
+<td>90°</td>
+<td>120°</td>
+<td>90°</td>
+</tr>
+<tr>
+<td><strong>Audio</strong></td>
+<td>Separate Lautsprecher + Mikrofone (erweiterbar)</td>
+<td>Integrierte Lautsprecher + Beamforming-Mikrofone</td>
+<td>360° Mikrofonreichweite, integrierter Lautsprecher</td>
+</tr>
+<tr>
+<td><strong>Mikrofonreichweite</strong></td>
+<td>Erweiterbar bis 7 m</td>
+<td>Bis zu 4,5 m</td>
+<td>Bis zu 3,6 m</td>
+</tr>
+<tr>
+<td><strong>Anschlüsse</strong></td>
+<td>USB, HDMI, Ethernet, Erweiterungsanschlüsse</td>
+<td>USB, HDMI, Ethernet</td>
+<td>USB, Bluetooth</td>
+</tr>
+<tr>
+<td><strong>Kompatibilität</strong></td>
+<td>Plug-and-Play mit gängigen VC-Apps (Zoom, Teams, etc.)</td>
+<td>Plug-and-Play mit gängigen VC-Apps (Zoom, Teams, etc.)</td>
+<td>Plug-and-Play mit gängigen VC-Apps (Zoom, Teams, etc.)</td>
+</tr>
+<tr>
+<td><strong>Steuerung</strong></td>
+<td>Fernbedienung, App, Touch-Controller (optional)</td>
+<td>Fernbedienung, App</td>
+<td>Fernbedienung, mobile App</td>
+</tr>
+<tr>
+<td><strong>Besondere Features</strong></td>
+<td>Automatischer Kameraschwenk, erweiterbare Mikrofone</td>
+<td>KI-gestützte Bild- und Tonoptimierung</td>
+<td>Portables Design, Akku-Betrieb</td>
+</tr>
+<tr>
+<td><strong>Montagemöglichkeiten</strong></td>
+<td>Wand-, Tisch- oder Stativmontage</td>
+<td>Wand-, Tisch- oder Bildschirmmontage</td>
+<td>Tragbar, für mobilen Einsatz</td>
+</tr>
+<tr>
+<td><strong>Preis (ca.)</strong></td>
+<td>3.000 - 4.000 €</td>
+<td>2.500 - 3.000 €</td>
+<td>400 - 500 €</td>
+</tr>
+<tr>
+<td><strong>Stromversorgung</strong></td>
+<td>Netzbetrieb</td>
+<td>Netzbetrieb</td>
+<td>Netz- und Akkubetrieb (bis zu 3 Stunden)</td>
+</tr>
+<tr>
+<td><strong>Einsatzszenario</strong></td>
+<td>Große Unternehmen, Konferenzräume</td>
+<td>Huddle Rooms, mittelgroße Meetingräume</td>
+<td>Mobile Teams, spontane Meetings</td>
+</tr>
+<tr>
+<td><strong>Sicherheitsfeatures</strong></td>
+<td>Verschlüsselung der Audio-/Videoübertragung</td>
+<td>Verschlüsselung der Audio-/Videoübertragung</td>
+<td>Verschlüsselung der Audio-/Videoübertragung</td>
+</tr>
+</tbody>
+</table>
+<h3 id="informationsmaterial-m49-auszug-aus-dem-lastenheft-videokonferenzsysteme">Informationsmaterial M|4.9: Auszug aus dem Lastenheft Videokonferenzsysteme</h3>
+<p>Das System soll sowohl für regelmäßige Teammeetings als auch für Kundenpräsentationen und Bauabstimmungen mit internationalen Partnern genutzt werden. Ziel ist es, eine Lösung zu finden, die sich nahtlos in die bestehende IT-Infrastruktur einfügt, benutzerfreundlich ist und den hohen Anforderungen an Bild- und Tonqualität gerecht wird.</p>
+<h4 id="anforderungen-an-das-videokonferenzsystem">Anforderungen an das Videokonferenzsystem</h4>
+<h5 id="funktionale-anforderungen">Funktionale Anforderungen:</h5>
+<ul>
+<li>Unterstützung für bis zu 15 Teilnehmer in einem Raum mit der Möglichkeit, externe Teilnehmer problemlos einzubinden.</li>
+<li>4K-Kameraauflösung mit automatischer Anpassung des Bildausschnitts an die Anzahl der Teilnehmer.</li>
+<li>Integrierte Mikrofone mit Beamforming-Technologie, um klare Sprachaufnahmen aus verschiedenen Sitzpositionen im Raum zu gewährleisten.</li>
+<li>Integrierte Lautsprecher, die für einen mittelgroßen Konferenzraum (bis 5x7 m) ausreichend sind, ohne zusätzliche Hardware.</li>
+<li>Automatische Geräuschunterdrückung und Echounterdrückung für eine störungsfreie Kommunikation.</li>
+<li>ggf. KI-gestützte Bild- und Tonoptimierung, um die Qualität der Übertragung an unterschiedliche Licht- und Akustikverhältnisse anzupassen.</li>
+<li>Kompatibilität mit Mircosoft Teams &amp; Cisco WebEx</li>
+</ul>
+<h5 id="technische-anforderungen">Technische Anforderungen:</h5>
+<ul>
+<li>Plug-and-Play-Kompatibilität mit gängigen Videokonferenzplattformen wie Microsoft Teams, Zoom, und Google Meet.</li>
+<li>Anschlussmöglichkeiten über USB, HDMI und Ethernet, um Flexibilität in der Integration zu gewährleisten.</li>
+<li>Netzwerkfähig, um die direkte Integration in die bestehende Unternehmens-Domäne zu ermöglichen.</li>
+<li>Einfache Fernsteuerung über Fernbedienung oder mobile App.</li>
+<li>Unterstützung für Firmware-Updates zur Sicherstellung der langfristigen Nutzbarkeit.</li>
+</ul>
+<h5 id="sicherheitsanforderungen">Sicherheitsanforderungen:</h5>
+<ul>
+<li>Ende-zu-Ende-Verschlüsselung für Audio- und Videoübertragungen.</li>
+<li>Zugriffskontrolle für die Nutzung des Systems innerhalb des Firmennetzwerks.</li>
+<li>Automatische Abmeldung nach Inaktivität, um unbefugte Nutzung zu verhindern.</li>
+</ul>
+<h5 id="benutzerfreundlichkeit">Benutzerfreundlichkeit:</h5>
+<ul>
+<li>Einfache Bedienung ohne umfangreiche Schulung der Mitarbeiter.</li>
+<li>Automatische Erkennung und Anpassung an die Raumgröße und Teilnehmerzahl.</li>
+<li>Kompaktes Design, das sich harmonisch in die moderne Büroeinrichtung des Architekturbüros einfügt.</li>
+</ul>
+<h2 id="kompetenz-44-ki-anwendungen-betreiben">Kompetenz 4.4: KI-Anwendungen betreiben</h2>
+<p>Das Architekturbüro möchte seine Arbeitsprozesse durch den gezielten Einsatz von KI-Anwendungen optimieren. Die IT-Abteilung wurde beauftragt, verschiedene KI-Lösungen zu evaluieren, die sowohl die interne Effizienz steigern als auch die Kommunikation mit Kunden verbessern sollen. Die Integration dieser KI-Anwendungen soll nahtlos in die bestehende IT-Infrastruktur erfolgen und dabei höchste Sicherheits- und Datenschutzanforderungen erfüllen.</p>
+<h3 id="arbeitsauftrag-a44-einsatz-von-ki-anwendungen-planen">Arbeitsauftrag A|4.4: Einsatz von KI-Anwendungen planen</h3>
+<h4 id="aufgabenstellung_3">Aufgabenstellung</h4>
+<p>Die ChangeIT GmbH, bei der Sie im Vertrieb tätig sind, wurde beauftragt, ein umfassendes Konzept zur Einrichtung, Integration und Inbetriebnahme der KI-Lösungen zu entwickeln. Dabei sollen folgende Anwendungsbereiche unter Berücksichtigung von Datenschutz und dem Schutz von Firmengeheimnissen einerseits, aber auch andererseits der Wahrung des Urheberrechts anderer betrachtet werden:</p>
+<h4 id="arbeitsschritte_3">Arbeitsschritte</h4>
+<ol>
+<li>Fassen Sie die Anforderungen (M|4.10: Anforderungen an die KI-Anwendungen) des Kunden stichpunktartig zusammen.</li>
+<li>Informieren Sie sich darüber, wie eigene KI-Projekte entwickelt und umgesetzt werden können.</li>
+<li>Sehen Sie sich den Kurs in LinkedIn Learning an (M|4.11: Linkedin Learning - KI-Projekte planen und starten)</li>
+<li>Machen Sie sich parallel Notizen über die wichtigsten Aussagen des Kurses und absolvieren Sie die Kapiteltests</li>
+<li>Geben Sie in dieser Aufgabe auch das PDF-Zertifikat des Kurses als Tätigkeitsnachweis ab</li>
+</ol>
+<p>Für die folgenden Aufgaben können Sie eine Publikation des BSI als Handreichung nutzen (M|4.12: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden).</p>
+<ol>
+<li>Unterscheiden Sie den Einsatz von KI-Modellen anhand des Merkmals der Installation (Online-Dienst / API vs. lokal installiertes Modell)</li>
+<li>Welche Hardware- und Softwareanforderungen sind notwendig, um die KI-Anwendungen (lokale PDF-Analyse, Chatbot, CAD-Generierung) effizient in die bestehende IT-Infrastruktur des Architekturbüros zu integrieren?</li>
+<li>Welche Maßnahmen müssen ergriffen werden, um den Datenschutz und die Datensicherheit beim Einsatz der KI-Anwendungen, insbesondere des webbasierten Chatbots, zu gewährleisten?</li>
+<li>Welche Vorteile und möglichen Herausforderungen ergeben sich durch den Einsatz der KI-Assistenz zur automatisierten Generierung von CAD-Zeichnungen aus Skizzen?</li>
+</ol>
+<h3 id="informationsmaterial-m410-anforderungen-an-die-ki-anwendungen">Informationsmaterial M|4.10: Anforderungen an die KI-Anwendungen</h3>
+<p><strong>1. Ziel: Abfrage technischer Spezifikationen</strong></p>
+<p>Eine lokal installierte KI soll es den Mitarbeitern ermöglichen, technische Spezifikationen von Gebäuden schnell und effizient abzufragen. Die KI erhält vorab PDF-Dateien mit den relevanten Informationen, die sie für Suchanfragen analysiert und verarbeitet. Dies soll die Recherchezeit erheblich reduzieren und die Genauigkeit bei technischen Abfragen verbessern.</p>
+<p><strong>2. Ziel: Chatbot für die Unternehmenswebseite</strong></p>
+<p>Auf der Webseite des Architekturbüros soll ein KI-gestützter Chatbot integriert werden, der allgemeine Kundenanfragen sowie häufig gestellte Fragen (FAQ) automatisch beantwortet. Der Chatbot soll so konfiguriert sein, dass er tiefergehende oder komplexe Anfragen erkennt und diese an die zuständigen Mitarbeiter weiterleitet. Dadurch soll der Kundenservice effizienter gestaltet werden.</p>
+<p><strong>3. Ziel: KI-Assistenz zur Generierung von CAD-Zeichnungen</strong></p>
+<p>Für die Planungsphase soll eine KI-Assistenz mit einem vortrainierten Modell eingesetzt werden, das in der Lage ist, aus groben Skizzen der Architekten erste CAD-Entwürfe zu generieren. Diese Entwürfe dienen als Anschauungsmaterial für Kunden und sollen den kreativen Planungsprozess unterstützen, indem sie schnell visuelle Konzepte liefern.</p>
+<h3 id="informationsmaterial-m411-linkedin-learning-ki-projekte-planen-und-starten">Informationsmaterial M|4.11: Linkedin Learning - KI-Projekte planen und starten</h3>
+<p><img alt="LinkedIn Thumbnail" src="bilder/04_hs4.4_linkedin_ki.png" /></p>
+<p>https://www.linkedin.com/learning-login/share?account=68522354&amp;forceAccount=false&amp;redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fki-projekte-planen-und-starten%3Ftrk%3Dshare_ent_url%26shareId%3Dtswnj0qnQsmANa1hKQkBRA%253D%253D</p>
+<h3 id="informationsmaterial-m412-bsi-generative-ki-modelle-chancen-und-risiken-fur-industrie-und-behorden">Informationsmaterial M|4.12: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden</h3>
+<p><a href="material/05_Generative_KI-Modelle.pdf">BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden</a></p>
+<h2 id="kompetenz-45-it-systeme-an-kunden-ubergeben">Kompetenz 4.5: IT-Systeme an Kunden übergeben</h2>
+<p>Nach der erfolgreichen Beschaffung, Einrichtung und Integration in die IT-Infrastruktur des Architekturbüros steht nun die Übergabe des Computers zur CAD-Bearbeitung an den Kunden an. Sie sind als IT-Spezialist der ChangeIT GmbH verantwortlich für die Endabnahme des Systems.</p>
+<p>Um sicherzustellen, dass der CAD-PC den Anforderungen des Kunden entspricht und ordnungsgemäß funktioniert, müssen Sie eine Checkliste erstellen, die als Abnahmeprotokoll dient. Dieses Protokoll dokumentiert alle wichtigen Punkte der Inbetriebnahme und stellt sicher, dass der Kunde den PC in einwandfreiem Zustand übernimmt.</p>
+<h3 id="arbeitsauftrag-a45-erstellung-eines-abnahmeprotokolls">Arbeitsauftrag A|4.5: Erstellung eines Abnahmeprotokolls</h3>
+<ol>
+<li>Beschreiben Sie kurz, warum das Abnahmeprotokoll wichtig ist. Gehen Sie hierbei auf technische sowie kaufmännische/rechtliche Aspekte ein.</li>
+<li>Erstellen Sie auf einer DIN A4-Seite eine Checkliste, die beim Kunden vor Ort zum Einsatz kommen kann und die korrekte Funktion des IT-Systems abprüft. Gehen Sie dazu auf Hard- und Software sowie die Netzwerkanbindung ein. Auch der Bereich Sicherheit sollte erfasst sein.</li>
+<li>Was passiert, wenn im Rahmen der Abnahme Aspekte auffallen, die eine negative Abweichung zum Soll-Zustand haben?</li>
+</ol>
+<h3 id="informationsmaterial-m413-abnahmeprotokolle-erstellen">Informationsmaterial M|4.13: Abnahmeprotokolle erstellen</h3>
+<h4 id="1-bedeutung-des-abnahmeprotokolls">1. Bedeutung des Abnahmeprotokolls</h4>
+<p>Ein Abnahmeprotokoll ist ein unverzichtbares Dokument bei der Übergabe von IT-Systemen an den Kunden. Es dient sowohl technischen als auch kaufmännischen und rechtlichen Zwecken:</p>
+<p><strong>Technische Aspekte:</strong></p>
+<ul>
+<li>Qualitätssicherung: Die Abnahme dokumentiert, dass das System funktionsfähig ist und den vereinbarten Spezifikationen entspricht.</li>
+<li>Transparenz: Alle getesteten Komponenten werden festgehalten, um eine klare Nachvollziehbarkeit zu gewährleisten.</li>
+</ul>
+<p><strong>Kaufmännische und rechtliche Aspekte:</strong></p>
+<ul>
+<li>Vertragserfüllung: Mit der Unterschrift des Kunden wird die Lieferung als vertragsgemäß erfüllt betrachtet.</li>
+<li>Rechtliche Absicherung: Das Protokoll dient als Beleg, dass das System übergeben wurde. Eventuelle Mängel oder offene Punkte werden festgehalten, um spätere Streitigkeiten zu vermeiden.</li>
+<li>Garantiestart: Die Abnahme kann als Startzeitpunkt für Garantie- oder Gewährleistungsfristen dienen.</li>
+</ul>
+<h4 id="2-vorgehen-bei-festgestellten-mangeln">2. Vorgehen bei festgestellten Mängeln</h4>
+<p>Wenn während der Abnahme Abweichungen vom Soll-Zustand festgestellt werden, sind folgende Schritte notwendig:</p>
+<ol>
+<li><strong>Dokumentation der Mängel:</strong> Alle Probleme werden im Abnahmeprotokoll detailliert beschrieben. Dazu gehört, welche Komponente betroffen ist und wie der Fehler auftritt.</li>
+<li><strong>Festlegung von Fristen zur Nachbesserung:</strong> Ein Zeitplan für die Behebung der Mängel wird festgelegt. Dies kann Teil eines Teilabnahmeprotokolls sein, wenn der Rest des Systems funktionsfähig ist.</li>
+<li><strong>Kommunikation mit dem Kunden:</strong> Der Kunde wird über die weiteren Schritte informiert. Je nach Vertrag kann der Kunde eine Nachbesserung fordern oder in schwerwiegenden Fällen den Abnahmeprozess verweigern.</li>
+<li><strong>Wiederholte Abnahme:</strong> Nach der Behebung der Mängel erfolgt eine erneute Abnahme der betroffenen Punkte. Dies wird im Protokoll nachgetragen.</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Lizenz</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Der KIT LF02 Kurs</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://herr-nm.github.io/MMBbS_KIT_LF02/" property="cc:attributionName" rel="cc:attributionURL">André Neumann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Fragen, Hinweise etc. an neumann@mmbbs.de.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
+        
+          
+          <a href="kapitel_03.html" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Kapitel 03 - Netzwerkspeicher dimensionieren">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Zurück
+              </span>
+              <div class="md-ellipsis">
+                Kapitel 03 - Netzwerkspeicher dimensionieren
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="kapitel_05.html" class="md-footer__link md-footer__link--next" aria-label="Weiter: Kapitel 05 - Sensoren auslesen">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Weiter
+              </span>
+              <div class="md-ellipsis">
+                Kapitel 05 - Sensoren auslesen
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/herr-nm" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.footer"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>

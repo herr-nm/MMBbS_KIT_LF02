@@ -1,0 +1,125 @@
+@startmindmap "IT-Systeme"
++[#black] <color:white>IT-Systeme - Teil 1</color>
+++[#lightskyblue] Desktop-Computer
++++[#lightgrey] Charakteristika
+++++ Stationäres Endgerät
+++++ Komponenten
++++++ Tower
++++++ Tastatur & Maus
++++++ Display
++++[#yellowgreen] Vorteile
+++++ Preis-/Leistungsverhältnis
+++++ Vielseitige Nutzung
+++++ Performance
+++++ Erweiterbar / Modular
++++[#LightCoral] Nachteile
+++++ eingeschränkte Mobilität
+++++ Stromverbrauch
+++++ Verkabelung
+++[#lightskyblue] Laptop / Notebook
++++[#lightgrey] Charakteristika
+++++ mobiles Endgerät
+++++ Akkubetrieb
+++++ geringer Formfaktor
+++++ Display ca. 13-17 Zoll
+++++ integrierte Ein- und Ausgabegeräte
+++++ Auf- und Zuklappbar
++++[#yellowgreen] Vorteile
+++++ Zuklappen schützt Tastatur und Display
+++++ viele Schnittstellen
+++++ teil-modular
+++++ ggf. nachrüstbar / reparierbar
+++++ über Schnittstellen gut mit Peripherie Erweiterbar
+++++ gut auf den Einsatzzweck spezifizierbar
++++[#LightCoral] Nachteile
+++++ Akku oftmals nicht mehr tauschbar
+++++ ggf. schlechteres Preis-/Leistungsverhältnis
+++++ ggf. relativ hoher Stromverbrauch
+++++ oft Temperaturprobleme und damit Leistungseinbußen
+++[#lightskyblue] All-in-One-Computer
++++[#lightgrey] Charakteristika
+++++ kompakter IT-Arbeitsplatz
+++++ viele Komponenten in einem Gehäuse
+++++ stationäres Endgerät
++++[#yellowgreen] Vorteile
+++++ platzsparend am Arbeitsplatz
+++++ wenig Verkabelung notwendig
+++++ i.d.R. optisch ansprechend
++++[#LightCoral] Nachteile
+++++ schlecht nachzurüsten / zu reparieren
+++++ oft schlechteres Preis-/Leistungsverhältnis
+++++ oft Temperaturprobleme oder deshalb geringere Leistung
+--[#lightskyblue] Tablet-PC (kurz Tablet)
+---[#lightgrey] Charakteristika
+---- mobiles Endgerät
+---- Touchscreen
+---- Mobilgeräte-Betriebssystem
+---- tragbarer flacher Computer
+---- Akkubetrieb
+---- Display ca. 8-13 Zoll
+---[#yellowgreen] Vorteile
+---- handlich
+---- mobil
+---- Erweiterbar
+----- Display via Adapter
+----- ggf. Stifteingabe
+----- Ein- und Ausgabegeräte via Bluetooth
+---- Netzwerkschnittstellen
+----- ggf. mobil über SIM / eSIM
+----- WLAN
+----- Bluetooth
+---[#LightCoral] Nachteile
+---- Display ist empfindlich
+---- Akkulaufzeit nimmt mit der Zeit ab
+---- Wartung oder Reparatur schwierig
+---- wenige Schnittstellen zum Anschluss von Periperhie
+---- Softwareauswahl stark vom App-Store abhhänbgig
+---- ggf. wenig Performance
+--[#lightskyblue] Smartphone
+---[#lightgrey] Charakteristika
+---- mobiles Endgerät
+---- Touchscreen
+---- Mobilgeräte-Betriebssystem
+---- Akkubetrieben
+---- Display ca. 4-7 Zoll
+---- maßgeblich ein Kommunikationsmittel
+---- Telefonie als Kernfunktion
+---[#yellowgreen] Vorteile
+---- vereint viele Geräte
+----- Musik abspielen
+----- Fotos machen
+----- Texte schreiben
+----- Audio aufnehmen
+---- Mobilität aufgrund der Größe
+---- zunehmend Leistungsstark
+---- flexible Einsatzmöglichkeiten
+----- GPS / Navigation
+----- Multimediaanwendungen
+----- Office-Anwendungen
+----- AR / VR
+----- mobile Payment
+---- diverse Sensoren / Aktoren / Funktionen
+---[#LightCoral] Nachteile
+---- geringe Akkulaufzeit bei intensiver Nutzung
+---- kleines Display
+---- Display / Gehäuse ist empfindlich
+--[#lightskyblue] Peripherie
+---[#lightgrey] Charakteristika
+---- optionale Systemerweiterungen
+---- oftmals vom Verständnis externe Geräte
+---- Komponenten, die an die Zentraleinheit angeschlossen werden
+---- Ein- und Ausgabegeräte
+---[#yellowgreen] Vorteile
+---- komfortable Eingabemethoden
+----- Grafiktablets
+----- Maus / Tastatur
+----- Stifte
+---[#LightCoral] Nachteile
+---- von der Zentraleinheit abhängig
+---- verbrauchen Platz
+----- Räumlich
+----- Auslastung der Schnittstellen
+---- passende Treiber notwendig
+---- Unterstützung durch Betriebssysteme notwendig
+---- Schnittstellen verändern sich relativ schnell
+@endmindmap
