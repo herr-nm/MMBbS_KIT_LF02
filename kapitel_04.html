@@ -1,0 +1,1718 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_KIT_LF02/kapitel_04.html">
+      
+      
+        <link rel="prev" href="kapitel_03.html">
+      
+      
+        <link rel="next" href="kapitel_05.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Kapitel 04 - IT-Systeme in Betrieb nehmen - KIT Lernfeld 2 (technisch)</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kapitel-4-it-systeme-in-betrieb-nehmen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="index.html" title="KIT Lernfeld 2 (technisch)" class="md-header__button md-logo" aria-label="KIT Lernfeld 2 (technisch)" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KIT Lernfeld 2 (technisch)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Kapitel 04 - IT-Systeme in Betrieb nehmen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_KIT_LF02" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="KIT Lernfeld 2 (technisch)" class="md-nav__button md-logo" aria-label="KIT Lernfeld 2 (technisch)" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    KIT Lernfeld 2 (technisch)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_KIT_LF02" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einleitung zum LF2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_00.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 00 - Organisatorisches
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 01 - Propädeutikum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 02 - IT-Systeme auswählen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 03 - Netzwerkspeicher dimensionieren
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 04 - IT-Systeme in Betrieb nehmen
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kapitel_04.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 04 - IT-Systeme in Betrieb nehmen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handlungssituation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-40-hardwarekomponenten-auswahlen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 4.0: Hardwarekomponenten auswählen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.0: Hardwarekomponenten auswählen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a40-dimensionierung-und-absicherung-der-notstromversorgung-usv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-4a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 4a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-4b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 4b
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m400-arten-von-usv-in-a-nutshell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Informationsmaterial M|4.0.0: Arten von USV in a Nutshell
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.0.0: Arten von USV in a Nutshell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-usv-standby-klasse-3-vfd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline-USV / Standby (Klasse 3: VFD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-interactive-netzinteraktive-usv-klasse-2-vi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line-Interactive / Netzinteraktive USV (Klasse 2: VI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-usv-dauerwandler-klasse-1-vfi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Online-USV / Dauerwandler (Klasse 1: VFI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klassen-vergleich-auf-einen-blick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klassen-Vergleich auf einen Blick
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m401-elektrische-groen-und-formeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Informationsmaterial M|4.0.1: Elektrische Größen und Formeln
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-41-gerate-onboarding-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 4.1: Geräte-Onboarding durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.1: Geräte-Onboarding durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a41-biosuefi-einstellungen-vornehmen-und-informationen-erheben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabe 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1b
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1c
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1d
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m410-uefi-simulator-des-lenovo-yoga-aio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.0: UEFI-Simulator des Lenovo YOGA AIO 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m411-bios-simulator-des-lenovo-p14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.1: BIOS-Simulator des Lenovo P14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m412-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.2: BIOS und UEFI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 05 - Sensoren auslesen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kapitel_06.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 06 - Aktoren ansteuern
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handlungssituation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-40-hardwarekomponenten-auswahlen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 4.0: Hardwarekomponenten auswählen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.0: Hardwarekomponenten auswählen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a40-dimensionierung-und-absicherung-der-notstromversorgung-usv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-4a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 4a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-4b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 4b
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m400-arten-von-usv-in-a-nutshell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Informationsmaterial M|4.0.0: Arten von USV in a Nutshell
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsmaterial M|4.0.0: Arten von USV in a Nutshell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#offline-usv-standby-klasse-3-vfd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline-USV / Standby (Klasse 3: VFD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-interactive-netzinteraktive-usv-klasse-2-vi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line-Interactive / Netzinteraktive USV (Klasse 2: VI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-usv-dauerwandler-klasse-1-vfi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Online-USV / Dauerwandler (Klasse 1: VFI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klassen-vergleich-auf-einen-blick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klassen-Vergleich auf einen Blick
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informationsmaterial-m401-elektrische-groen-und-formeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Informationsmaterial M|4.0.1: Elektrische Größen und Formeln
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-41-gerate-onboarding-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 4.1: Geräte-Onboarding durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 4.1: Geräte-Onboarding durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a41-biosuefi-einstellungen-vornehmen-und-informationen-erheben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabe 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1b
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1c
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-1d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 1d
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m410-uefi-simulator-des-lenovo-yoga-aio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.0: UEFI-Simulator des Lenovo YOGA AIO 7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m411-bios-simulator-des-lenovo-p14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.1: BIOS-Simulator des Lenovo P14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m412-bios-und-uefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|4.1.2: BIOS und UEFI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="kapitel-4-it-systeme-in-betrieb-nehmen">Kapitel 4: IT-Systeme in Betrieb nehmen</h1>
+<p><img alt="Kapitelbild" src="bilder/04_kapitelbild.png" /></p>
+<p>In diesem Kapitel werden Sie ...</p>
+<ul>
+<li>... Hardwarekomponenten auswählen.</li>
+<li>... das BIOS und UEFI eines Neugerätes einstellen.</li>
+<li>... die Integration im Verzeichnisdienst analysieren.</li>
+<li>... das Geräte-Onboarding im Asset Management durchführen.</li>
+<li>... Chancen und Risiken des KI-Einsatzes abschätzen.</li>
+<li>... eine "User Policy" für den KI-Einsatz erstellen.</li>
+<li>... Abnahmeprotokolle planen.</li>
+</ul>
+<hr />
+<h2 id="handlungssituation">Handlungssituation</h2>
+<p>Die NordTech GmbH &amp; Co. KG expandiert und richtet eine neue, agile Zweigstelle für ein Team ein. NordTech ist ein Unternehmen, das sich im Katastropenschutz auf technische Lösungen spezialisiert hat. Kern des Produkt- und Dienstleistungsportfolios ist es, in unübersichtlichen Gebieten bspw. nach Hochwasser oder bei großflächigen Waldbränden eine Übersicht für die Rettungskräfte zu liefern. Hierzu werden Drohnen in der Luft und am Boden mit entsprechender Kameratechnik für Live-Feeds ausgestattet und via künstlicher Intelligenz ausgewertet.</p>
+<p>Sie haben den Auftrag erhalten, die IT-Arbeitsplätze und die dazugehörige Raum-Infrastruktur der neuen Niederlassung zu planen, zu konfigurieren und zu inventarisieren. Da das Team der NordTech GmbH &amp; Co. KG stark auf mobiles Arbeiten, Videokonferenzen und den Einsatz von künstlicher Intelligenz setzt, müssen spezielle Anforderungen erfüllt werden. Zudem soll die Niederlassung bei Stromausfällen abgesichert sein, um weiterhin handlungsfähig zu bleiben.</p>
+<p><img alt="Büro" src="bilder/04_handlungssituation.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h2 id="kompetenz-40-hardwarekomponenten-auswahlen">Kompetenz 4.0: Hardwarekomponenten auswählen</h2>
+<p>Die Auswahl und Beschaffung der benötigten Server, Switches und NAS wurde von einer anderen Mitarbeiterin der ChangeIT durchgeführt. Die Warenannahme erfolgte ohne Mängel, sodass die Hard- und Software für die nächsten Schritte zur Verfügung steht.</p>
+<p><img alt="USV" src="bilder/04_server-usv.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h3 id="arbeitsauftrag-a40-dimensionierung-und-absicherung-der-notstromversorgung-usv">Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV)</h3>
+<p>Für die neue Zweigstelle der NordTech GmbH wurde das zentrale Netzwerk- und Serverrack im Serverraum bestückt. Um Datenverlusten und Netzwerkausfällen vorzubeugen, muss dieses Rack über eine unterbrechungsfreie Stromversorgung (USV) abgesichert werden. Die Geschäftsleitung fordert eine Überbrückungszeit von exakt 2 Stunden, um bei einem Stromausfall entweder den Betrieb aufrechtzuerhalten oder Systeme kontrolliert herunterzufahren.</p>
+<p>Folgende Geräte und Leistungsdaten wurden für das Rack dokumentiert:</p>
+<ul>
+<li>1x Core-Switch: 120 W</li>
+<li>2x PoE-Switches für Access Points &amp; VoIP: je 180 W</li>
+<li>2x Virtualisierungsserver: je 350 W</li>
+<li>1x NAS-Speichersystem (Storage): 110 W</li>
+</ul>
+<h5 id="aufgabe-1">Aufgabe 1</h5>
+<p>Ermitteln Sie die Mindestkapazität der Akkus in Amperestunden (Ah). Gehen Sie von einem Wirkungsgrad von 90% aus.</p>
+<h5 id="aufgabe-2">Aufgabe 2</h5>
+<p>Der Techniker hat sich für die Topologie de Line-Interactive USV entschieden. Recherchieren Sie zwei konkrete Produkte unterschiedlicher Hersteller, welche die Anforderungen erfüllen (ggf. inkl. Zusatzbatterie). Sichern Sie sich die technischen Datenblätter.</p>
+<h5 id="aufgabe-3">Aufgabe 3</h5>
+<p>Treffen Sie eine Auswahlentscheidung. Machen Sie diese nachvollziehbar und transparent für andere Stakeholder des Projektes.</p>
+<h5 id="aufgabe-4">Aufgabe 4</h5>
+<p>Szenario: Zwei Stunden Überbrückungszeit sind vorbei, der Stromausfall im Stadtgebiet dauert jedoch an. Die Akkus der USV neigen sich dem Ende zu.</p>
+<h5 id="aufgabenteil-4a">Aufgabenteil 4a</h5>
+<p>Welche automatisierten Maßnahmen müssen auf den Servern greifen, bevor die USV komplett abschaltet? Nennen Sie das Fachwort für diesen Prozess und beschreiben Sie kurz den Ablauf.</p>
+<h5 id="aufgabenteil-4b">Aufgabenteil 4b</h5>
+<p>Die Geschäftsleitung entscheidet, dass die Zweigstelle auch bei tagelangem Blackout dauerhaft arbeitsfähig bleiben muss. Wie muss die Infrastruktur erweitert werden?</p>
+<hr />
+<h3 id="informationsmaterial-m400-arten-von-usv-in-a-nutshell">Informationsmaterial M|4.0.0: Arten von USV in a Nutshell</h3>
+<p>Eine unterbrechungsfreie Stromversorgung (USV) schützt empfindliche IT-Systeme vor Störungen im Stromnetz. Fällt der Netzstrom aus, übernehmen Akkumulatoren die Versorgung. Doch USV ist nicht gleich USV: Je nach Bauart bieten sie Schutz gegen unterschiedliche Störfaktoren wie Spannungsschwankungen, Frequenzfehler oder totalen Stromausfall.</p>
+<p>Die internationale Norm <strong>DIN EN 62040-3</strong> teilt USV-Anlagen in drei standardisierte Klassen ein:</p>
+<h4 id="offline-usv-standby-klasse-3-vfd">Offline-USV / Standby (Klasse 3: VFD)</h4>
+<ul>
+<li><strong>Bedeutung:</strong> <em>Voltage and Frequency Dependent</em> (Spannung und Frequenz abhängig vom Netz).</li>
+<li><strong>Funktionsweise:</strong> Im Normalbetrieb leitet die USV den Netzstrom direkt an die Verbraucher weiter. Der Wechselrichter und der Akku „schlafen“ (Standby). Erst bei einem Stromausfall oder starker Unter-/Oberspannung schaltet ein mechanisches Relais auf Batteriebetrieb um.</li>
+<li><strong>Umschaltzeit:</strong> ca. <strong>4 bis 10 Millisekunden</strong>. Für die meisten PC-Netzteile reicht das aus, hochempfindliche Geräte können in dieser Millisekunden-Lücke abstürzen.</li>
+<li><strong>In a Nutshell:</strong> Günstig, hoher Wirkungsgrad, schützt <em>nur</em> vor totalem Stromausfall und groben Spannungsspitzen. Perfekt für einzelne Office-Arbeitsplätze.</li>
+</ul>
+<h4 id="line-interactive-netzinteraktive-usv-klasse-2-vi">Line-Interactive / Netzinteraktive USV (Klasse 2: VI)</h4>
+<ul>
+<li><strong>Bedeutung:</strong> <em>Voltage Independent</em> (Spannung unabhängig vom Netz).</li>
+<li><strong>Funktionsweise:</strong> Ähnlich wie die Offline-USV, verfügt jedoch zusätzlich über einen eingebauten Regeltransformator (sog. <em>Spannungskonstanthalter</em> oder <em>AVR</em>). Schwankt die Netzspannung (z. B. durch Industrieanlagen in der Nachbarschaft), gleicht die USV dies aus, <strong>ohne</strong> den Akku zu belasten.</li>
+<li><strong>Umschaltzeit:</strong> ca. <strong>2 bis 4 Millisekunden</strong>.</li>
+<li><strong>In a Nutshell:</strong> Guter Kompromiss. Schützt vor Stromausfall und kleineren Spannungsschwankungen. Ideal für kleinere Abteilungs-Switches, NAS-Systeme und Server in KMUs.</li>
+</ul>
+<h4 id="online-usv-dauerwandler-klasse-1-vfi">Online-USV / Dauerwandler (Klasse 1: VFI)</h4>
+<ul>
+<li><strong>Bedeutung:</strong> <em>Voltage and Frequency Independent</em> (Spannung und Frequenz komplett unabhängig vom Netz).</li>
+<li><strong>Funktionsweise:</strong> Hier gibt es keinen direkten Weg vom Stromnetz zum Gerät. Der eingehende Wechselstrom ($\text{AC}$) wird permanent in Gleichstrom ($\text{DC}$) umgewandelt, speist den Akku und wird dahinter sofort wieder in perfekten, sauberen Wechselstrom gewandelt (<strong>Doppelwandler-Prinzip</strong>).</li>
+<li><strong>Umschaltzeit:</strong> <strong>0 Millisekunden</strong> (Unterbrechungsfrei). Da die Geräte ohnehin durchgehend aus dem Zwischenkreis versorgt werden, gibt es beim Netzausfall keine Umschaltzeit.</li>
+<li><strong>In a Nutshell:</strong> Maximaler Schutz gegen alle 9 bekannten Stromnetz-Probleme (inkl. Frequenzänderungen und Oberschwingungen). Nachteil: Geringerer Wirkungsgrad (Wärmeentwicklung) und höherer Preis. Pflicht für Serverräume und Core-Infrastruktur.</li>
+</ul>
+<h4 id="klassen-vergleich-auf-einen-blick">Klassen-Vergleich auf einen Blick</h4>
+<table>
+<thead>
+<tr>
+<th>USV-Typ (Klasse)</th>
+<th>Schutz vor...</th>
+<th>Umschaltzeit</th>
+<th>Typischer Einsatzbereich</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Offline / VFD</strong> (Klasse 3)</td>
+<td>Stromausfall, Kurzzeitige Spitzen</td>
+<td>4 – 10 ms</td>
+<td>Standard-PC, Home-Office, Monitore</td>
+</tr>
+<tr>
+<td><strong>Line-Interactive / VI</strong> (Klasse 2)</td>
+<td>+ Unter- / Überspannung</td>
+<td>2 – 4 ms</td>
+<td>NAS, kleine Server, Etagen-Switches</td>
+</tr>
+<tr>
+<td><strong>Online / VFI</strong> (Klasse 1)</td>
+<td>+ Frequenzfehlern, Rauschen, allen Störungen</td>
+<td>0 ms</td>
+<td>Core-Infrastruktur, Rechenzentren, Medizintechnik</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="informationsmaterial-m401-elektrische-groen-und-formeln">Informationsmaterial M|4.0.1: Elektrische Größen und Formeln</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Größe</th>
+<th style="text-align: left;">Formel(-zeichen)</th>
+<th style="text-align: left;">Maßeinheit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Ohmsches Gesetz</td>
+<td style="text-align: left;">R = U / I</td>
+<td style="text-align: left;">Ω → Ohm</td>
+</tr>
+<tr>
+<td style="text-align: left;">elektrische Spannung</td>
+<td style="text-align: left;">U = R * I</td>
+<td style="text-align: left;">V → Volt</td>
+</tr>
+<tr>
+<td style="text-align: left;">elektrischer Strom</td>
+<td style="text-align: left;">I = U / R</td>
+<td style="text-align: left;">A → Ampere</td>
+</tr>
+<tr>
+<td style="text-align: left;">elektrischer Widerstand</td>
+<td style="text-align: left;">R</td>
+<td style="text-align: left;">Ω → Ohm</td>
+</tr>
+<tr>
+<td style="text-align: left;">elektrische Leistung</td>
+<td style="text-align: left;">P = U * I</td>
+<td style="text-align: left;">W → Watt</td>
+</tr>
+<tr>
+<td style="text-align: left;">elektrische Energie</td>
+<td style="text-align: left;">E = P * t</td>
+<td style="text-align: left;">Wh → Wattstunden</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ladungsmenge (Akku-Kapazität)</td>
+<td style="text-align: left;">Q = I * t</td>
+<td style="text-align: left;">Ah → Amperestunden</td>
+</tr>
+<tr>
+<td style="text-align: left;">Kosten der Elektrischen Energie</td>
+<td style="text-align: left;">Preis</td>
+<td style="text-align: left;">oftmals als Preis in €/kWh oder Cent/kWh angegeben</td>
+</tr>
+<tr>
+<td style="text-align: left;">Zeit</td>
+<td style="text-align: left;">t</td>
+<td style="text-align: left;">je nach Anwendungsfall </br> s → Sekunden </br> h → Stunden </br> d → Tage</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="kompetenz-41-gerate-onboarding-durchfuhren">Kompetenz 4.1: Geräte-Onboarding durchführen</h2>
+<p>Auch die neuen Client-Notebooks für die Zweigstelle sind eingetroffen. Bevor die Geräte an die Mitarbeiter übergeben und ins Firmennetzwerk eingebunden werden, müssen sie hardwareseitig abgesichert ("gehärtet") und für den Software-Einsatz vorbereitet werden.</p>
+<p>Für das Entwickler-Team kommen ThinkPad P14s zum Einsatz, für die Arbeitsplätze in der Verwaltung die Yoga AIO 7 All-in-One-Systeme.</p>
+<p><img alt="Lager-Endgeräte" src="bilder/04_lager_endgeraete.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h3 id="arbeitsauftrag-a41-biosuefi-einstellungen-vornehmen-und-informationen-erheben">Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<p>Nutzen Sie die bereitgestellten Lenovo-Simulatoren für das ThinkPad P14 (M|4.1.1: BIOS-Simulator des Lenovo P14) und das Yoga AIO 7 (Material M|4.1.0: UEFI-Simulator des Lenovo YOGA AIO 7), um die Sicherheits- und Systemkonfigurationen vorzunehmen. Dokumentieren Sie mit Screenshots Ihre Schritte/Fundorte der Einstellungen. Berücksichtigen Sie das Material M|4.1.2: BIOS und UEFI zu allgemeinen Hinweisen rund um das BIOS / UEFI.</p>
+<h5 id="aufgabenteil-1a">Aufgabenteil 1a</h5>
+<p>Suchen Sie die Passwort-Einstellungen. Um unbefugte Änderungen an der Hardwarekonfiguration zu verhindern, muss ein Supervisor Password (beim Yoga: Administrator Password) gesetzt werden. Notieren Sie kurz den Unterschied zum klassischen Password zum Login in das Betriebssystem.</p>
+<h5 id="aufgabenteil-1b">Aufgabenteil 1b</h5>
+<p>Aktivieren Sie Secure Boot. Erklären Sie in einem Satz, vor welcher Art von Schadsoftware (z.B. beim Systemstart) diese Funktion das Betriebssystem schützt.</p>
+<h5 id="aufgabenteil-1c">Aufgabenteil 1c</h5>
+<p>Verhindern Sie, dass unbefugte Personen Schadsoftware oder fremde Betriebssysteme über USB-Sticks starten können. Passen Sie die Boot-Reihenfolge (Boot Priority Order) so an, dass die interne Festplatte/SSD an erster Stelle steht, und deaktivieren Sie den Boot von externen Medien (USB/CD), falls der Simulator dies zulässt.</p>
+<p>Warum ist das Sperren des USB-Boots eine so kritische Maßnahme beim Onboarding von Firmen-Geräten? Welches Angriffs-Szenario wird damit verhindert?</p>
+<h5 id="aufgabenteil-1d">Aufgabenteil 1d</h5>
+<p>Das Entwickler-Team benötigt später Docker-Container auf ihren Systemen. Aktivieren Sie die dafür notwendigen CPU-Features: Intel Virtualization Technology (VT-x) und Intel VT-d (bzw. die entsprechenden AMD-Pendanten SVM Mode).</p>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p>Bevor ein Gerät physisch im Lager verschwindet oder ausgegeben wird, müssen dessen eindeutige Hardware-Identifikationsmerkmale erfasst werden.</p>
+<ol>
+<li>Was ist eine UUID?</li>
+<li>Welche Werte werden Ihnen in den beiden Simulatoren für die System UUID sowie die System Serial Number angezeigt?</li>
+<li>Welche MAC-Adressen sind hinterlegt?</li>
+</ol>
+<hr />
+<h3 id="material-m410-uefi-simulator-des-lenovo-yoga-aio-7">Material M|4.1.0: UEFI-Simulator des Lenovo YOGA AIO 7</h3>
+<p>https://download.lenovo.com/bsco/index.html#/graphicalsimulator/Yoga%20AIO%207%2027ARH6%20(F0FN)</p>
+<hr />
+<h3 id="material-m411-bios-simulator-des-lenovo-p14">Material M|4.1.1: BIOS-Simulator des Lenovo P14</h3>
+<p>https://download.lenovo.com/bsco/index.html#/graphicalsimulator/Yoga%20AIO%207%2027ARH6%20(F0FN)</p>
+<hr />
+<h3 id="material-m412-bios-und-uefi">Material M|4.1.2: BIOS und UEFI</h3>
+<h1 id="bios-und-uefi-die-steuerzentrale-des-computers">BIOS und UEFI – Die Steuerzentrale des Computers</h1>
+<h2 id="1-was-ist-das-bios">1. Was ist das BIOS?</h2>
+<p>Das <strong>BIOS</strong> (Basic Input/Output System) ist eine Firmware, die direkt auf dem <strong>Motherboard</strong> eines Computers gespeichert ist. Es stellt die grundlegenden Funktionen bereit, die notwendig sind, damit der Computer startet und das Betriebssystem geladen werden kann.</p>
+<h3 id="funktionen-des-bios">Funktionen des BIOS:</h3>
+<ul>
+<li><strong>POST (Power-On Self Test):</strong> Beim Einschalten des Computers führt das BIOS einen Selbsttest durch, um sicherzustellen, dass die Hardware (z. B. RAM, Grafikkarte, Festplatte) ordnungsgemäß funktioniert.</li>
+<li><strong>Hardware-Initialisierung:</strong> Das BIOS erkennt und konfiguriert die angeschlossenen Hardwarekomponenten.</li>
+<li><strong>Bootloader:</strong> Das BIOS sucht nach einem <strong>Boot-Medium</strong> (z. B. Festplatte, USB-Stick) und startet das Betriebssystem.</li>
+<li><strong>Einstellungen:</strong> Über das BIOS können grundlegende Einstellungen wie die <strong>Boot-Reihenfolge</strong>, <strong>Datum und Uhrzeit</strong> sowie <strong>Sicherheitsoptionen</strong> (z. B. Passwortschutz) konfiguriert werden.</li>
+</ul>
+<h3 id="merkmale-des-klassischen-bios">Merkmale des klassischen BIOS:</h3>
+<ul>
+<li><strong>Textbasierte Benutzeroberfläche:</strong> Navigation erfolgt über die Tastatur.</li>
+<li>Unterstützt <strong>MBR (Master Boot Record)</strong> als Partitionsschema, was die maximale Festplattengröße auf <strong>2 TB</strong> begrenzt.</li>
+<li><strong>Beschränkter Adressraum:</strong> Kann nur <strong>16-Bit-Prozessorbefehle</strong> ausführen und maximal <strong>1 MB Speicher</strong> direkt ansprechen.</li>
+</ul>
+<h2 id="2-was-ist-uefi">2. Was ist UEFI?</h2>
+<p>Das <strong>UEFI</strong> (Unified Extensible Firmware Interface) ist der <strong>moderne Nachfolger des BIOS</strong>. Es wurde entwickelt, um die Einschränkungen des klassischen BIOS zu überwinden und zusätzliche Funktionen bereitzustellen.</p>
+<h3 id="funktionen-des-uefi">Funktionen des UEFI:</h3>
+<ul>
+<li><strong>Erweiterter POST und Hardware-Initialisierung:</strong> Schnellere Erkennung und Konfiguration von Hardware.</li>
+<li><strong>Grafische Benutzeroberfläche (GUI):</strong> UEFI bietet oft eine <strong>grafische Oberfläche</strong> mit Mausunterstützung und erweiterten Konfigurationsmöglichkeiten.</li>
+<li><strong>Unterstützung für große Festplatten:</strong> UEFI verwendet das <strong>GPT (GUID Partition Table)</strong>-Partitionsschema, das Festplatten <strong>größer als 2 TB</strong> unterstützt.</li>
+<li><strong>Sicherheitsfunktionen:</strong> UEFI bietet Funktionen wie <strong>Secure Boot</strong>, das verhindert, dass unsichere Betriebssysteme oder Malware beim Start geladen werden.</li>
+<li><strong>Netzwerk-Boot:</strong> UEFI ermöglicht den <strong>Start über das Netzwerk</strong> (z. B. für Remote-Installationen).</li>
+</ul>
+<h3 id="merkmale-von-uefi">Merkmale von UEFI:</h3>
+<ul>
+<li><strong>Schnelleres Booten:</strong> Dank effizienterer Hardware-Initialisierung und Optimierungen.</li>
+<li><strong>Modular und erweiterbar:</strong> UEFI kann mit <strong>Plugins</strong> und <strong>Treibern</strong> erweitert werden.</li>
+<li><strong>Kompatibilität:</strong> Die meisten UEFI-Firmwares bieten einen <strong>Legacy BIOS-Kompatibilitätsmodus (CSM)</strong>, sodass ältere Betriebssysteme weiterhin unterstützt werden.</li>
+</ul>
+<h2 id="3-wichtige-unterschiede-zwischen-bios-und-uefi">3. Wichtige Unterschiede zwischen BIOS und UEFI</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschaft</th>
+<th style="text-align: left;">BIOS</th>
+<th style="text-align: left;">UEFI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Startdatum</strong></td>
+<td style="text-align: left;">1970er Jahre</td>
+<td style="text-align: left;">Mitte 2000er Jahre</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Benutzeroberfläche</strong></td>
+<td style="text-align: left;">Textbasiert, nur Tastatursteuerung</td>
+<td style="text-align: left;">Grafisch, Maus- und Tastatursteuerung</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Partitionsschema</strong></td>
+<td style="text-align: left;">MBR (max. 2 TB Festplatten)</td>
+<td style="text-align: left;">GPT (Unterstützung für &gt; 2 TB Festplatten)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sicherheitsfunktionen</strong></td>
+<td style="text-align: left;">Keine speziellen Funktionen</td>
+<td style="text-align: left;">Secure Boot, TPM-Unterstützung</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Bootgeschwindigkeit</strong></td>
+<td style="text-align: left;">Langsamer</td>
+<td style="text-align: left;">Schneller</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Erweiterbarkeit</strong></td>
+<td style="text-align: left;">Eingeschränkt</td>
+<td style="text-align: left;">Modular, erweiterbar</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Kompatibilität</strong></td>
+<td style="text-align: left;">Ältere Systeme und Betriebssysteme</td>
+<td style="text-align: left;">Neuere Systeme, aber mit BIOS-Kompatibilität</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-warum-ist-uefi-heute-standard">4. Warum ist UEFI heute Standard?</h2>
+<p>Moderne Computer verwenden fast ausschließlich <strong>UEFI</strong>, da es leistungsfähiger und flexibler ist als das klassische BIOS. Vor allem für Aufgaben wie <strong>Virtualisierung</strong>, <strong>große Speicherlaufwerke</strong>, <strong>schnelle SSDs</strong> und <strong>moderne Sicherheitsanforderungen</strong> (z. B. Secure Boot für Windows 11) ist UEFI notwendig.</p>
+<p>Trotzdem bieten viele Systeme weiterhin die Möglichkeit, in den <strong>Legacy BIOS-Modus</strong> zu wechseln, um ältere Betriebssysteme zu unterstützen.</p>
+<h2 id="5-zugriff-auf-biosuefi">5. Zugriff auf BIOS/UEFI</h2>
+<p>Um ins BIOS oder UEFI zu gelangen, muss beim <strong>Start des Computers</strong> eine bestimmte <strong>Taste gedrückt</strong> werden. Die gängigsten Tasten sind:</p>
+<ul>
+<li><kbd>Entf</kbd> (Delete)</li>
+<li><kbd>F2</kbd></li>
+<li><kbd>Esc</kbd></li>
+</ul>
+<p>Die genaue Taste wird beim Start kurz auf dem Bildschirm angezeigt oder kann im Handbuch des Motherboards nachgelesen werden.</p>
+<h2 id="6-bios-flash-firmware-update-fur-das-motherboard">6. BIOS Flash – Firmware-Update für das Motherboard</h2>
+<p>Ein <strong>BIOS-Flash</strong> bezeichnet das <strong>Aktualisieren der BIOS- oder UEFI-Firmware</strong> auf dem Motherboard. Dieses Update kann notwendig sein, um <strong>Kompatibilitätsprobleme</strong> mit neuer Hardware (z. B. neuen CPUs oder RAM) zu beheben, <strong>Stabilitätsverbesserungen</strong> durchzuführen oder <strong>Sicherheitslücken</strong> zu schließen. </p>
+<p>Moderne Motherboards mit UEFI bieten oft eine einfache Möglichkeit zum Flashen der Firmware direkt aus dem UEFI-Menü heraus, häufig als <strong>"EZ Flash"</strong> oder <strong>"Q-Flash"</strong> bezeichnet. Dabei wird die neue Firmware von einem <strong>USB-Stick</strong> geladen und installiert. </p>
+<p>Vor dem Flashen sollte immer überprüft werden, ob das Update wirklich notwendig ist, da ein <strong>fehlerhaftes Update</strong> das Motherboard unbrauchbar machen kann. Daher sollte der <strong>Flash-Vorgang niemals unterbrochen</strong> werden (z. B. durch Stromausfall). Manche Motherboards bieten eine <strong>Dual-BIOS-Funktion</strong>, die ein Backup der alten Firmware speichert und im Notfall wiederherstellen kann.</p>
+<hr />
+<h2 id="weiterfuhrende-quellen">Weiterführende Quellen</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/de-de/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11">Microsoft Learn: Starten im UEFI-Modus oder im Legacy-BIOS-Modus</a></li>
+<li><a href="https://comheld.de/bios-und-uefi-die-herzstuecke-ihres-computers-verstaendlich-erklaert/">Comheld: BIOS und UEFI verständlich erklärt</a></li>
+<li><a href="https://www.esm-computer.de/ratgeber-infos/lexikon/bios/">ESM-Computer Ratgeber: BIOS-Lexikon</a></li>
+<li><a href="https://wiki.inonet.com/uefi-vs-bios">Inonet Wiki: UEFI vs. BIOS</a></li>
+<li><a href="https://www.dell.com/support/contents/de-de/article/product-support/self-support-knowledgebase/fix-common-issues/bios-uefi">Dell Support: Beheben gängiger BIOS-/UEFI-Probleme</a></li>
+</ul>
+<hr />
+<h3 id="arbeitsauftrag-a42-integration-in-den-verzeichnisdienst">Arbeitsauftrag A|4.2: Integration in den Verzeichnisdienst</h3>
+<p>Die Hardware der neuen Notebooks (ThinkPads) und PCs (Yoga AIO) ist nun im BIOS abgesichert. Jetzt müssen die Geräte in die zentrale Infrastruktur der NordTech GmbH integriert werden. Damit sich die Mitarbeiter mit ihren personalisierten Konten anmelden können und zentrale Gruppenrichtlinien (GPOs) greifen, müssen die Clients technisch sicher in den Verzeichnisdienst (Domain Controller) aufgenommen werden.</p>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p>Der häufigste Grund, warum die Aufnahme eines PCs in eine Domäne fehlschlägt, ist eine fehlerhafte DNS-Konfiguration. Ein Client kann den Domain Controller (DC) nur finden, wenn er den korrekten DNS-Server abfragt.</p>
+<p>Welcher DNS-Server muss zwingend in den Netzwerkeinstellungen des Clients eingetragen sein, damit der Domänenbeitritt funktioniert (der öffentliche DNS des Providers oder der interne DNS des Domain Controllers)? Begründen Sie kurz.</p>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p>Bevor Sie den Assistenten für den Domänenbeitritt starten, führen Sie an einem Windows-Client zwei Tests in der Eingabeaufforderung (cmd) durch. Notieren Sie die vollständigen Befehle für:</p>
+<ol>
+<li>Das Prüfen der grundlegenden Ping-Erreichbarkeit der IP-Adresse des DCs (10.20.30.10).</li>
+<li>Das gezielte Auflösen des vollqualifizierten Domatennamens (FQDN) intern.nordtech.de via DNS-Abfrage-Tool.</li>
+</ol>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p>Der eigentliche Beitritt verbindet das Betriebssystem des Clients mit dem Verzeichnisdienst. Diesen Prozess gilt es nun technisch sauber zu beschreiben.</p>
+<p>Welche administrativen Voraussetzungen müssen erfüllt sein, um ein Gerät in die Domäne aufzunehmen? Wer darf diesen Schritt typischerweise durchführen?</p>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p>Erstellen Sie eine Kurzanleitung (als Bulletpoint-Liste) für den technischen Ablauf unter Windows 11. Gehen Sie dabei auf folgende Punkte ein:</p>
+<ol>
+<li>Wo in den Systemeinstellungen wird der Domänenname (intern.nordtech.de) eingetragen?</li>
+<li>Was passiert im Moment des Klicks auf "OK" im Hintergrund?</li>
+<li>Welcher Schritt ist am Client zwingend erforderlich, damit der Beitritt final wirksam wird?</li>
+</ol>
+<h3 id="material-m420-verzeichnisdienste-und-domanenintegration">Material M|4.2.0: Verzeichnisdienste und Domänenintegration</h3>
+<p>In modernen Unternehmensnetzwerken wird die Verwaltung von Benutzern, Computern und Rechten ab einer gewissen Größe unübersichtlich. Anstatt jeden PC einzeln zu konfigurieren, setzen Administratoren auf <strong>Verzeichnisdienste</strong> (engl. <em>Directory Services</em>), wie beispielsweise <strong>Microsoft Active Directory (AD)</strong> oder plattformunabhängige Samba-Lösungen.</p>
+<h4 id="was-ist-ein-verzeichnisdienst">Was ist ein Verzeichnisdienst?</h4>
+<p>Ein Verzeichnisdienst ist eine zentrale Datenbank im Netzwerk, die alle Ressourcen einer IT-Infrastruktur logisch abbildet und verwaltet. Zu diesen Ressourcen (sogenannten <strong>Objekten</strong>) gehören:</p>
+<ul>
+<li><strong>Benutzerkonten</strong> (Logins, Passwörter, E-Mail-Adressen)</li>
+<li><strong>Computerobjekte</strong> (Notebooks, Server, Arbeitsplatz-PCs)</li>
+<li><strong>Gruppen</strong> (zur Steuerung von Zugriffsrechten auf Netzlaufwerke)</li>
+</ul>
+<p>Der Server, auf dem dieser Dienst aktiv ist und der die Datenbank verwaltet, wird als <strong>Domain Controller (DC)</strong> bezeichnet. Das logisch abgegrenzte Netzwerk, das durch diesen DC verwaltet wird, nennt man <strong>Domäne</strong> (häufig erkennbar an Endungen wie <code>.local</code> oder <code>.internal</code>).</p>
+<h4 id="das-fundament-ohne-dns-lauft-nichts">Das Fundament: Ohne DNS läuft nichts</h4>
+<p>Damit ein Client-PC überhaupt weiß, wohin er seine Daten schicken muss, wenn er mit der Domäne kommuniziert, benötigt er das <strong>Domain Name System (DNS)</strong>.</p>
+<p>Der Domain Controller trägt sich bei seiner Einrichtung mit speziellen Dienst-Einträgen (sogenannten <em>SRV-Records</em>) im lokalen DNS-Server ein. Wenn ein Client der Domäne beitreten möchte, fragt er seinen konfigurierten DNS-Server: <em>„Wo finde ich den Domain Controller für das Netzwerk firmennetz.de?“</em></p>
+<p><strong>Wichtiger Administrations-Hinweis:</strong> Zeigt der DNS-Eintrag eines Clients auf einen externen Server (z. B. den Router des Internetanbieters oder öffentliche Server wie <code>8.8.8.8</code>), kann die interne Domäne nicht aufgelöst werden. Der Domänenbeitritt schlägt mit einer Fehlermeldung fehl. Vor jedem Beitritt sollte die Namensauflösung daher mit Netzwerkkwerkzeugen wie <code>ping</code> oder <code>nslookup</code> geprüft werden.</p>
+<h4 id="wie-kommt-der-pc-in-die-domane">Wie kommt der PC in die Domäne?</h4>
+<p>Befindet sich ein neuer PC frisch aus der Verpackung im Netzwerk, arbeitet er zunächst isoliert in einer sogenannten <strong>Arbeitsgruppe</strong> (Workgroup). In diesem Zustand kennt der PC nur seine eigenen, lokalen Benutzerkonten.</p>
+<p>Der Übergang in die Domäne (der <strong>Domänenbeitritt</strong>) ist ein administrativer Akt:</p>
+<ol>
+<li><strong>Authentifizierung:</strong> Der IT-Administrator stößt den Beitritt in den Systemeinstellungen des Clients an. Da dieser Vorgang tief in die Sicherheitsstruktur des Netzwerks eingreift, verlangt das System zwingend die Eingabe von Zugangsdaten eines Kontos, welches das Recht besitzt, Computer zur Domäne hinzuzufügen.</li>
+<li><strong>Objekt-Erstellung:</strong> Bei einem erfolgreichen Beitritt wird in der zentralen Active Directory-Datenbank automatisch ein neues <strong>Computerobjekt</strong> angelegt. Ab diesem Moment vertrauen sich der Client-PC und der Domain Controller gegenseitig über ein verschlüsseltes Computerkonto-Passwort.</li>
+<li><strong>Der finale Neustart:</strong> Nach der Erfolgsmeldung muss das Client-Betriebssystem zwingend <strong>neu gestartet</strong> werden. Erst durch den Reboot werden die Sicherheits-Tokens (Kerberos-Tickets) initialisiert und der PC zieht sich beim Hochfahren die für ihn geltenden <strong>Gruppenrichtlinien (GPOs)</strong> vom Server. Nun können sich alle berechtigten Domänen-Benutzer an diesem PC anmelden.</li>
+</ol>
+<hr />
+<h3 id="arbeitsauftrag-a43-asset-management">Arbeitsauftrag A|4.3: Asset Management</h3>
+<p>Alle Hardware-Komponenten für die neue Zweigstelle sind nun technisch konfiguriert, gehärtet und im Netzwerk integriert. Damit die IT-Abteilung der NordTech GmbH im Supportfall den Überblick behält und Lizenz- sowie Garantieansprüche nachverfolgen kann, müssen alle Systeme im zentralen Asset-Management-System Snipe-IT erfasst werden.</p>
+<p>Ihr Ausbilder hat für Sie einen Docker-Server mit Snipe-IT aufgesetzt und Ihnen Ihre persönlichen Admin-Zugangsdaten bereitgestellt. Verschaffen Sie sich selbstständig einen Überblick über die Benutzeroberfläche von Snipe-IT und pflegen Sie die neue Infrastruktur sowie das Personal der Zweigstelle logisch in das System ein.</p>
+<p>Gehen Sie dabei nach folgenden strategischen Meilensteinen vor:</p>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p>Bevor konkrete Hardware erfasst werden kann, müssen die strukturellen Rahmenbedingungen im System existieren. Legen Sie die neue Zweigstelle Nord als Standort an und richten Sie für das dortige Entwickler-Team ein Benutzerkonto für einen fiktiven Mitarbeiter ein.</p>
+<ul>
+<li>Die Zweigstelle benennen Sie mit Nord-[Klasse]-[erste drei Buchstaben Ihres Nachnamens].</li>
+<li>Der Mitarbeiter erhält einen beliebigen schultauglichen Vornamen und als Nachnamen eine Konbination aus [Klasse]-[erste drei Buchstaben Ihres Nachnamens].</li>
+</ul>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<p>Inventarisieren Sie die Hardware aus den vorherigen Aufgaben. Wählen oder erstellen Sie dafür sinnvolle Gerätekategorien und -modelle. Erfassen Sie anschließend die folgenden zwei konkreten Gegenstände mit eindeutigen Firmen-Inventarnummern und den dazugehörigen Seriennummern:</p>
+<ul>
+<li>Die in Arbeitsauftrag A|4.0: Dimensionierung und Absicherung der Notstromversorgung (USV) berechnete Online-USV-Anlage (Nutzen Sie die genaue Modellbezeichnung Ihrer Marktrecherche).</li>
+<li>Das in Arbeitsauftrag A|4.1: BIOS/UEFI-Einstellungen vornehmen und Informationen erheben vorbereitete Entwickler-Notebook (Lenovo ThinkPad P14s).</li>
+</ul>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p>Schließen Sie das Onboarding ab, indem Sie die Assets in den Live-Betrieb übergeben (Check-Out).</p>
+<p>Logik-Prüfung: Berücksichtigen Sie beim Verleih-Prozess den Unterschied zwischen persönlicher Arbeitsplatzausstattung und ortsgebundener Serverraum-Infrastruktur. Nicht jedes Asset gehört in die digitale Akte eines Mitarbeiters.</p>
+<p>Dokumentieren Sie den Erfolg Ihrer Inventarisierung, indem Sie eine Übersicht aufrufen, die belegt, dass alle neu angelegten Assets dem richtigen Standort bzw. der richtigen Person zugewiesen sind.</p>
+<hr />
+<h2 id="kompetenz-42-ki-am-arbeitsplatz-einsetzen">Kompetenz 4.2: KI am Arbeitsplatz einsetzen</h2>
+<p>Die Geschäftsleitung der NordTech GmbH möchte die Effizienz der neuen Zweigstelle steigern und plant, den Entwicklern und Verwaltungsmitarbeitern generative KI-Tools (wie z. B. ChatGPT, DeepL oder lokal gehostete Large Language Models) zur Verfügung zu stellen.</p>
+<p>Bevor die Tools auf den frisch installierten und im Asset-Management erfassten Geräten freigegeben werden, fordert die Geschäftsführung eine fundierte Risikoanalyse sowie klare Spielregeln für die Belegschaft. Als IT-Spezialisten erhalten Sie den Auftrag, dieses Onboarding-Framework auf Basis der offiziellen Empfehlungen des Bundesamts für Sicherheit in der Informationstechnik (BSI) zu erarbeiten.</p>
+<p><img alt="KI-Einsatz" src="bilder/04_KI-Einsatz.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h3 id="arbeitsauftrag-a44-chancen-und-risiken-des-ki-einsatzes-abschatzen">Arbeitsauftrag A|4.4: Chancen und Risiken des KI-Einsatzes abschätzen</h3>
+<p>Analysieren Sie die Chancen und Risiken generativer KI-Systeme und erstellen Sie eine verbindliche Richtlinie für das Unternehmen. Nutzen Sie hierfür das bereitgestellte BSI-Dokument zu Generativen KI-Modellen (Chancen und Risiken) in M|4.4.0: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden</p>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Erstellen Sie eine strukturierte Matrix (Tabelle), in der Sie die Chancen des KI-Einsatzes den potenziellen Risiken für die NordTech GmbH gegenüberstellen.</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Die Geschäftsleitung schwankt zwischen der Nutzung von öffentlichen Cloud-Diensten (wie ChatGPT/Copilot im Standard-Abo) und dem Betrieb eines lokal gehosteten, Open-Source LLMs (z.B. via Docker auf einem eigenen Server in der Zweigstelle). Vergleichen Sie beide Ansätze kurz anhand von zwei entscheidenden Faktoren und geben Sie der Geschäftsführung eine begründete Empfehlung ab.</p>
+<hr />
+<h3 id="material-m440-bsi-generative-ki-modelle-chancen-und-risiken-fur-industrie-und-behorden">Material M|4.4.0: BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden</h3>
+<p><a href="material/05_Generative_KI-Modelle.pdf">BSI - Generative KI-Modelle - Chancen und Risiken für Industrie und Behörden</a></p>
+<hr />
+<h3 id="arbeitsauftrag-a45-entwurf-einer-user-policy">Arbeitsauftrag A|4.5: Entwurf einer "User Policy"</h3>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Formulieren Sie eine kurze, prägnante und für alle Mitarbeiter verständliche Nutzungsrichtlinie (User Policy). Diese Richtlinie soll als "Do's and Don'ts"-Katalog aufgebaut sein.</p>
+<ul>
+<li>Erlaubt (Do's): Definieren Sie mindestens drei Szenarien, in denen die Nutzung von KI ausdrücklich erwünscht ist (z. B. Refactoring von nicht-sensiblem Programmcode).</li>
+<li>Verboten (Don'ts): Definieren Sie mindestens drei strikte Verbote (z. B. das Hochladen von personenbezogenen Kundendaten oder internem Quellcode in öffentliche, unverschlüsselte KI-Modelle).</li>
+<li>Qualitätskontrolle: Integrieren Sie eine goldene Regel zum Umgang mit den KI-Ergebnissen (Stichwort: Überprüfungspflicht/Vier-Augen-Prinzip).</li>
+</ul>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Bewerten Sie kritisch die Einführung einer solchen "User Policy" in einem Unternehmen. Was muss seitens der Geschäftsführung unternommen werden, damit diese Akzeptanz bei den Mitarbeitern findet und auch eingehalten wird. Welche Konsequenzen kann ein Unternehmen bei Verstößen gegen die "User Policy" ziehen?</p>
+<hr />
+<h2 id="kompetenz-43-it-systeme-an-kunden-ubergeben">Kompetenz 4.3: IT-Systeme an Kunden übergeben</h2>
+<p>Nach der erfolgreichen Beschaffung, Einrichtung und Integration in die IT-Infrastruktur der Zweigstelle der NordTech GmbH steht nun die Übergabe eines Entwickler-Laptops an den Kunden an. Sie sind als IT-Spezialist der ChangeIT GmbH verantwortlich für die Endabnahme des Systems.</p>
+<p>Um sicherzustellen, dass der Laptop den Anforderungen des Kunden entspricht und ordnungsgemäß funktioniert, müssen Sie eine Checkliste erstellen, die als Abnahmeprotokoll dient. Dieses Protokoll dokumentiert alle wichtigen Punkte der Inbetriebnahme und stellt sicher, dass der Kunde den PC in einwandfreiem Zustand übernimmt.</p>
+<p><img alt="Übergabe" src="bilder/04_%C3%9Cbergabe.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h3 id="arbeitsauftrag-a46-erstellung-eines-abnahmeprotokolls">Arbeitsauftrag A|4.6: Erstellung eines Abnahmeprotokolls</h3>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>Beschreiben Sie kurz, warum das Abnahmeprotokoll wichtig ist. Gehen Sie hierbei auf technische sowie kaufmännische/rechtliche Aspekte ein.</p>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Erstellen Sie auf einer DIN A4-Seite eine Checkliste, die beim Kunden vor Ort zum Einsatz kommen kann und die korrekte Funktion des IT-Systems abprüft. Gehen Sie dazu auf Hard- und Software sowie die Netzwerkanbindung ein. Auch der Bereich Sicherheit sollte erfasst sein.</p>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p>Was passiert, wenn im Rahmen der Abnahme Aspekte auffallen, die eine negative Abweichung zum Soll-Zustand haben?</p>
+<hr />
+<h3 id="material-m460-abnahmeprotokolle-erstellen">Material M|4.6.0: Abnahmeprotokolle erstellen</h3>
+<h4 id="1-bedeutung-des-abnahmeprotokolls">1. Bedeutung des Abnahmeprotokolls</h4>
+<p>Ein Abnahmeprotokoll ist ein unverzichtbares Dokument bei der Übergabe von IT-Systemen an den Kunden. Es dient sowohl technischen als auch kaufmännischen und rechtlichen Zwecken:</p>
+<p><strong>Technische Aspekte:</strong></p>
+<ul>
+<li>Qualitätssicherung: Die Abnahme dokumentiert, dass das System funktionsfähig ist und den vereinbarten Spezifikationen entspricht.</li>
+<li>Transparenz: Alle getesteten Komponenten werden festgehalten, um eine klare Nachvollziehbarkeit zu gewährleisten.</li>
+</ul>
+<p><strong>Kaufmännische und rechtliche Aspekte:</strong></p>
+<ul>
+<li>Vertragserfüllung: Mit der Unterschrift des Kunden wird die Lieferung als vertragsgemäß erfüllt betrachtet.</li>
+<li>Rechtliche Absicherung: Das Protokoll dient als Beleg, dass das System übergeben wurde. Eventuelle Mängel oder offene Punkte werden festgehalten, um spätere Streitigkeiten zu vermeiden.</li>
+<li>Garantiestart: Die Abnahme kann als Startzeitpunkt für Garantie- oder Gewährleistungsfristen dienen.</li>
+</ul>
+<h4 id="2-vorgehen-bei-festgestellten-mangeln">2. Vorgehen bei festgestellten Mängeln</h4>
+<p>Wenn während der Abnahme Abweichungen vom Soll-Zustand festgestellt werden, sind folgende Schritte notwendig:</p>
+<ol>
+<li><strong>Dokumentation der Mängel:</strong> Alle Probleme werden im Abnahmeprotokoll detailliert beschrieben. Dazu gehört, welche Komponente betroffen ist und wie der Fehler auftritt.</li>
+<li><strong>Festlegung von Fristen zur Nachbesserung:</strong> Ein Zeitplan für die Behebung der Mängel wird festgelegt. Dies kann Teil eines Teilabnahmeprotokolls sein, wenn der Rest des Systems funktionsfähig ist.</li>
+<li><strong>Kommunikation mit dem Kunden:</strong> Der Kunde wird über die weiteren Schritte informiert. Je nach Vertrag kann der Kunde eine Nachbesserung fordern oder in schwerwiegenden Fällen den Abnahmeprozess verweigern.</li>
+<li><strong>Wiederholte Abnahme:</strong> Nach der Behebung der Mängel erfolgt eine erneute Abnahme der betroffenen Punkte. Dies wird im Protokoll nachgetragen.</li>
+</ol>
+<hr />
+<h2 id="handlungsergebnis">Handlungsergebnis</h2>
+<p>In diesem Kapitel haben Sie die Tätigkeiten rund um die Einführung eines IT-Systems bei einem Kunden kennengelernt. Von der Auswahl über die Integration in ein Unternehmen bishin zur ggf. notwendigen "User Policy" sowie letztendlich dem Abnahmeprotokoll.</p>
+<p><img alt="Reflexion" src="bilder/04_Reflexion.png" />
+<em>KI-Bild mit Gemini generiert</em></p>
+<hr />
+<h3 id="arbeitsauftrag-a47-zusammenfassende-ruckschau-auf-die-einfuhrung-eines-it-systems">Arbeitsauftrag A|4.7: Zusammenfassende Rückschau auf die Einführung eines IT-Systems</h3>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p>Welcher Einzelschritt war Ihrer Meinung nach der risikoreichste für das Gelingen des Gesamtprojekts? Begründen Sie, warum genau an dieser Stelle eine Verzögerung oder ein Fehler die nachfolgenden Schritte blockiert hätte.</p>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Welches Tool (z.B. der BIOS-Simulator, Snipe-IT oder das Arbeiten mit dem BSI-Leitfaden) hat Ihnen den größten Aha-Effekt bezüglich des realen Berufsalltags geliefert? Begründen Sie.</p>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Lizenz</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Der KIT LF02 Kurs</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://herr-nm.github.io/MMBbS_KIT_LF02/" property="cc:attributionName" rel="cc:attributionURL">André Neumann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Fragen, Hinweise etc. an neumann@mmbbs.de.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
+        
+          
+          <a href="kapitel_03.html" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Kapitel 03 - Netzwerkspeicher dimensionieren">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Zurück
+              </span>
+              <div class="md-ellipsis">
+                Kapitel 03 - Netzwerkspeicher dimensionieren
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="kapitel_05.html" class="md-footer__link md-footer__link--next" aria-label="Weiter: Kapitel 05 - Sensoren auslesen">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Weiter
+              </span>
+              <div class="md-ellipsis">
+                Kapitel 05 - Sensoren auslesen
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/herr-nm" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
