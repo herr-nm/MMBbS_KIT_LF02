@@ -1,6 +1,6 @@
 # Kapitel 2: IT-Systeme auswählen
 
-![Kapitelbild](bilder/kap_02_kapitelbild.jpg)
+![Kapitelbild](bilder/02_kapitelbild.png)
 
 In diesem Kapitel werden Sie ...
 
@@ -10,11 +10,19 @@ In diesem Kapitel werden Sie ...
 
 ---
 
+## Handlungssituation
+
+In Ihrer Ausbildung sind Sie aktuell im Vertriebsinnendienst der ChangeIT GmbH eingesetzt. Hier unterstützen Sie ein Team, welches die verschiedensten Kundenaufträge für Bestandskunden bearbeitet. Viele Anfragen gehen hier per E-Mail bzw. Kontaktformular ein. Sie sollen für einige der eingegangenen Anfragen Kriterien zusammenstellen und Ihren Kolleginnen und Kollegen einen ersten Vorschlag für IT-Systeme, die zur jeweiligen Kundenanfrage passen, vorlegen.
+
+![Vertriebsteam](bilder/02_Vertriebsteam.png)
+
+---
+
 ## Kompetenz 2.0: Entscheidungen verbal begründen
 
-In Ihrer Ausbildung sind Sie aktuell im Vertriebsinnendienst eingesetzt. Hier unterstützen Sie ein Team, welches die verschiedensten Kundenaufträge für Bestandskunden bearbeitet. Viele Anfragen gehen hier per E-Mail bzw. Kontaktformular ein. Sie sollen für einige der eingegangenen Anfragen Kriterien zusammenstellen und Ihren Kolleginnen und Kollegen einen ersten Vorschlag für IT-Systeme, die zur jeweiligen Kundenanfrage passen, vorlegen. Da Sie sich auch argumentativ zur Begründung Ihrer Auswahl vorbereiten wollen, machen Sie sich auch Gedanken, wie eine Auswahl verbal begründet werden kann.
+Da Sie sich auch argumentativ zur Begründung Ihrer Auswahl vorbereiten wollen, machen Sie sich auch Gedanken, wie eine Auswahl statt mit einer tabellarischen Nutzwertanalyse auch verbal begründet werden kann.
 
-![Auswahlentscheidung](bilder/kap_02_choice.jpg)
+![Auswahlentscheidung](bilder/02_Verbale_Begründung.png)
 
 ---
 
@@ -31,6 +39,8 @@ Nach welchem Schema könnten Sie hierfür **im Allgemeinen** vorgehen, um einer 
 ## Kompetenz 2.1: IT-Systeme unterscheiden
 
 Die ersten Kundenanfragen werden Ihnen zugewiesen. Dazu haben die Kolleginnen und Kollegen der Abteilung eine Vorauswahl der Anfragen getroffen, um komplexere Systemzusammenstellungen herauszufiltern. Sie nehmen sich nun den Aufträgen der Bestandskunden an, Ihr Ausbilder möchte hierfür Ihre Vorschläge zur Abstimmung vorab erhalten. Als erstes erscheint Ihnen im System die folgende Anfrage der Kaeks OHG.
+
+![Auftrag Kaeks OHG](bilder/02_Kaeks.png)
 
 ---
 
@@ -313,6 +323,8 @@ Treffen Sie eine Auswahl für ein IT-System, welches den Kundenauftrag am besten
 
 Bei der Auswahl des IT-Systems haben Sie zwar eine Kategorie an Geräten als Ergebnis erzielt, allerdings unterscheiden sich die Systeme hinsichtlich ihrer Software. Während von der Kaeks OHG diesbezüglich keine Vorgaben vorlagen, werden in der nächsten Kundenanfrage Wünsche hierzu geäußert.
 
+![Meeting](bilder/02_Schnitt-PC.png)
+
 ---
 
 ### Informationsmaterial M|2.4: Kundenanfrage - Schneidefuchs Werbeagentur GmbH
@@ -555,9 +567,9 @@ Sehr nerdig, aber immer noch gut. Es hat sich technisch aber einiges getan.
 
 | Was ist ein Computer? | Allgemeines zum Rechner 1 & 2 | Computeranatomie |
 | :--- | :--- | :--- |
-| ![Computer](bilder/kap_02_zusatzmaterial_computer.jpg) | ![Platine](bilder/kap_02_zusatzmaterial_platine.jpg) | ![CPU](bilder/kap_02_zusatzmaterial_cpu.jpg) |
-| In diesem LinkedIn-Learning-Kurs erhalten Sie einen Überblick über die Grundlagen von Hard- und Software bezüglich IT-Endgeräten. | Auf Studyflix finden Sie Lernvideos zum Thema "Computergrundlagen". Wenn Sie mehr über die Rechnerarchitekturen wissen wollen, ist dies auch eine gute Anlaufstelle. | Dieser Grundkurs klärt die Frage, wie es eigentlich in einem Computer aussieht. Welche Komponenten sind enthalten? Wie arbeiten die Komponenten zusammen? |
-| [zum LinkedIn-Learning-Kurs](https://www.linkedin.com/learning-login/share?account=68522354&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fmit-computern-und-mobilgeraten-arbeiten%3Ftrk%3Dshare_ent_url%26shareId%3DmMv7JqyfRxmQVdi%252BZFx62w%253D%253D) | [zu Studyflix](https://studyflix.de/informatik/allgemeines-zum-rechner-i-776) | [zur OpenHPI](https://open.hpi.de/courses/computeranatomie2021) |
+| ![Computer](bilder/02_buch.png) | ![Platine](bilder/kap_02_zusatzmaterial_platine.jpg) | ![CPU](bilder/kap_02_zusatzmaterial_cpu.jpg) |
+| Das Schulbuch für die technischen Inhalte des ersten Ausbildungsjahres aller IT-Berufe. | Auf Studyflix finden Sie Lernvideos zum Thema "Computergrundlagen". Wenn Sie mehr über die Rechnerarchitekturen wissen wollen, ist dies auch eine gute Anlaufstelle. | Dieser Grundkurs klärt die Frage, wie es eigentlich in einem Computer aussieht. Welche Komponenten sind enthalten? Wie arbeiten die Komponenten zusammen? |
+| [zum Buch](https://www.westermann.de/artikel/978-3-427-13907-2/Grundstufe-IT-Systeme-Schulbuch) | [zu Studyflix](https://studyflix.de/informatik/allgemeines-zum-rechner-i-776) | [zur OpenHPI](https://open.hpi.de/courses/computeranatomie2021) |
 
 ## Lernstrategien & Werkzeuge
 

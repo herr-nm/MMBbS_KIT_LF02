@@ -6,7 +6,7 @@ Willkommen im LF2-Kurs der MMBbS.
 
 Dieser Kurs wird unter Moodle abgebildet:
 
-- https://moodle.mm-bbs.de/moodle/course/view.php?id=3005 [Stand SJ 2023/2024]
+- KIT: https://moodle.mm-bbs.de/moodle/course/view.php?id=3889 [Stand SJ 2026/2027]
 
 ---
 

@@ -16,9 +16,31 @@ In diesem Kapitel werden Sie ...
 
 Das Unternehmen Yoel.de AG hat bei der Change IT GmbH einen Netzwerkspeicher angefragt. Der zuständige Außendienst hat nach dem Gespräch mit dem Kunden eine Gesprächsnotiz für die Vertriebsabteilung geschrieben, um alle Anforderungen zur Datensicherheit, den verwendeten Technologien, der Energieeffizienz und weiterer Bedingungen an das System zusammenzufassen. Sie sollen sich auf Basis einer Vorauswahl für ein passendes Gerät entscheiden.
 
-![NAS mit Notebook](bilder/kap_03_nasMitNotebook.jpg)
+![NAS mit Notebook](bilder/03_außendienst.png)
 
-### Informationsmaterial M|3.0: Gesprächsnotiz zu Yoel.de AG
+## Kompetenz 3.0: Speichertechnologien und -medien auswählen
+
+Auf Basis der Gesprächsnotiz und der durch den Kollegen Herrn Andersen getroffenen Vorauswahl ist ein IT-System zu dimensionieren. Im ersten Schritt sollen unterschiedliche Speichertechnologien beleuchtet werden, um ein passendes Medium für die vorliegende Kundenanfrage von Yoel.de AG zu erhalten.
+
+![Verschiedene Speichermedien](bilder/03_nas_show.png)
+
+### Arbeitsauftrag A|3.0: Auswahl eines Speichermediums
+
+Gehen Sie auf den Kundenauftrag ein:
+
+#### Aufgabe 1
+
+Was sind die Wünsche des Kunden Yoel.de AG bezüglich der Speichertechnologie?
+
+#### Aufgabe 2
+
+Erstellen Sie ein Schaubild zu den Eigenschaften und je zwei Vor- und Nachteilen der vier Arten der Speichertechnologien. Führen Sie außerdem beispielhaft den Technologien zuordenbare Speichermedien auf.
+
+#### Aufgabe 3
+
+Treffen Sie anhand Ihrer Zusammenstellung und auf Basis der NAS-Übersicht in der Vorauswahl eine sinnvolle und begründete Auswahl eines Speichermediums für die Kundenanfrage von Yoel.de AG.
+
+### Informationsmaterial M|3.0.0: Gesprächsnotiz zu Yoel.de AG
 
 **Betrifft:** Videokonferenz vom 01.10.  
 **Zu erledigen:** Auswahl für einen Netzwerkspeicher treffen
@@ -50,7 +72,7 @@ Danke und bis die Tage!
 
 Z. Andersen
 
-### Informationsmaterial M|3.1: Vorauswahl der Change IT-NAS-Systeme
+### Informationsmaterial M|3.0.1: Vorauswahl der Change IT-NAS-Systeme
 
 Auszug aus dem Produktkatalog der Change IT:
 
@@ -67,29 +89,8 @@ Auszug aus dem Produktkatalog der Change IT:
 | Energieverbrauch im Standby | 1 W | 1000 mW | 2 W | 5 W |
 | ... | ... | ... | ... | ... |
 
-## Kompetenz 3.0: Speichertechnologien und -medien auswählen
 
-Auf Basis der Gesprächsnotiz und der durch den Kollegen Herrn Andersen getroffenen Vorauswahl ist ein IT-System zu dimensionieren. Im ersten Schritt sollen unterschiedliche Speichertechnologien beleuchtet werden, um ein passendes Medium für die vorliegende Kundenanfrage von Yoel.de AG zu erhalten.
-
-![Verschiedene Speichermedien](bilder/kap_03_speichermedien.jpg)
-
-### Arbeitsauftrag A|3.0: Auswahl eines Speichermediums
-
-Gehen Sie auf den Kundenauftrag ein:
-
-#### Aufgabe 1
-
-Was sind die Wünsche des Kunden Yoel.de AG bezüglich der Speichertechnologie?
-
-#### Aufgabe 2
-
-Erstellen Sie ein Schaubild zu den Eigenschaften und je zwei Vor- und Nachteilen der vier Arten der Speichertechnologien. Führen Sie außerdem beispielhaft den Technologien zuordenbare Speichermedien auf.
-
-#### Aufgabe 3
-
-Treffen Sie anhand Ihrer Zusammenstellung und auf Basis der NAS-Übersicht in der Vorauswahl eine sinnvolle und begründete Auswahl eines Speichermediums für die Kundenanfrage von Yoel.de AG.
-
-### Informationsmaterial M|3.2: Speichertechnologien
+### Informationsmaterial M|3.0.2: Speichertechnologien
 
 TODO kürzen und SAS / SATA aufnehmen
 
@@ -250,7 +251,7 @@ Man unterscheidet bei Speichergeräten mit mechanischen Lesevorgängen zwischen 
 
 Bei der Auswahl eines geeigneten Speichermediums für einen Kunden fallen im Vergleich verschiedener Anbieter unterschiedliche Angaben zu den Größen auf. So werden einige Laufwerke mit der Einheit Gibibyte und andere mit der Einheit Gigabyte angeboten. Nach dem Einbau einer 1 TB Festplatte in einen Windows-PC für Testzwecke ist die Verwirrung groß: es werden nur 931 GB angezeigt. Wo ist der Rest? Etwas ähnliches ist Ihnen auch in der Vorauswahl unter der Angabe der maximalen Speichergröße je Laufwerk aufgefallen.
 
-![Cartoon WTF](bilder/kap_03_cartoon.PNG)
+![Speichermaßeinheiten](bilder/03_gb_vs_gib.png)
 
 !!! attention "Taschenrechner"
 
@@ -332,7 +333,7 @@ Rechnen Sie den Wert von 375 MiB in den für ein Umrechnungsprogramm benötigten
 
 Auf dem noch auszuwählenden Netzwerkspeicher für Yoel.de AG sollen Bilder und Videos für die Prozessdokumentation und als Tutorials gespeichert werden. Wenn von den 18 TB Nettokapazität des Netzwerkspeichers 2 TB für Videos und 1 TB für Bilder im Rahmen der ersten Tests mit einem Netzwerkspeicher bereitgestellt werden können, welche Menge an Videos und Bildern kann dann hierauf gespeichert werden?
 
-![Webinar am Notebook](bilder/kap_03_webinar.jpg)
+![Videozentrale](bilder/03_video.png)
 
 ---
 
@@ -441,7 +442,7 @@ Speicherbedarf gesamt = 4.500.000.000 Byte / 1024^3 = 4,19 GiB
 
 Die vorhandenen Videotutorials von Yoel.de AG sollen nach Einrichtung des Netzwerkspeichers auf diesen übertragen werden. Dazu ist für die Zeitplanung des Projektes die Dauer der Datentransfers zu planen.
 
-![Download-Pfeil](bilder/kap_03_download.png)
+![Traffic](bilder/03_traffic.png)
 
 ---
 
